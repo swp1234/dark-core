@@ -1,0 +1,158 @@
+{
+    "meta": {
+        "title": "Test de Personalidad Oscura | DopaBrain",
+        "description": "Descubre tu n\u00facleo oscuro. Mide tus rasgos de la tr\u00edada oscura: Narcisismo, Maquiavelismo, Psicopat\u00eda y Sadismo."
+    },
+    "a11y": {
+        "skip": "Saltar al contenido"
+    },
+    "app": {
+        "title": "Test del N\u00facleo Oscuro",
+        "subtitle": "\u00bfQu\u00e9 tan oscura es tu personalidad?",
+        "description": "Responde 12 escenarios oscuros para revelar tu N\u00facleo Oscuro. Mide tu Narcisismo, Maquiavelismo, Psicopat\u00eda y Sadismo.",
+        "start": "Revelar Mi N\u00facleo Oscuro"
+    },
+    "quiz": {
+        "currentDark": "Puntuaci\u00f3n Oscura:",
+        "progress": "{current} / {total}"
+    },
+    "traits": {
+        "narcissism": "Narcisismo",
+        "machiavellianism": "Maquiavelismo",
+        "psychopathy": "Psicopat\u00eda",
+        "sadism": "Sadismo"
+    },
+    "questions": {
+        "q1": {
+            "text": "Un amigo logra algo que siempre quisiste",
+            "a": "Celebrar genuinamente",
+            "b": "Felicitar pero sentir envidia",
+            "c": "Minimizar su logro",
+            "d": "Intentar superarlos de inmediato"
+        },
+        "q2": {
+            "text": "Notas tu reflejo en un escaparate",
+            "a": "Pasar sin notarlo",
+            "b": "Mirada r\u00e1pida y seguir",
+            "c": "Detenerte a admirarte",
+            "d": "Tomarte una selfie ah\u00ed mismo"
+        },
+        "q3": {
+            "text": "Alguien critica tu trabajo p\u00fablicamente",
+            "a": "Aceptar los comentarios con gracia",
+            "b": "Ponerse a la defensiva internamente",
+            "c": "Planear exponer sus defectos",
+            "d": "Humillarlos p\u00fablicamente"
+        },
+        "q4": {
+            "text": "Descubres el secreto de un compa\u00f1ero",
+            "a": "Mantenerlo confidencial",
+            "b": "Archivarlo mentalmente",
+            "c": "Usarlo sutilmente para ganar favor",
+            "d": "Aprovecharlo para un ascenso"
+        },
+        "q5": {
+            "text": "Un proyecto grupal necesita un l\u00edder",
+            "a": "Apoyar a quien se ofrezca",
+            "b": "Ofrecerse si nadie m\u00e1s lo hace",
+            "c": "Manipular la votaci\u00f3n a tu favor",
+            "d": "Sabotear a otros candidatos"
+        },
+        "q6": {
+            "text": "Puedes avanzar rompiendo las reglas",
+            "a": "Seguir las reglas estrictamente",
+            "b": "Doblarlas ligeramente si es inofensivo",
+            "c": "Doblarlas libremente si nadie mira",
+            "d": "Las reglas son solo sugerencias"
+        },
+        "q7": {
+            "text": "Alguien se cuela en la fila delante de ti",
+            "a": "Dejarlo pasar",
+            "b": "Se\u00f1alarlo educadamente",
+            "c": "Confrontarlos agresivamente",
+            "d": "Colarte delante de otra persona"
+        },
+        "q8": {
+            "text": "Encuentras una cartera con dinero e identificaci\u00f3n",
+            "a": "Devolverla con todo",
+            "b": "Devolverla, quedarte el dinero",
+            "c": "Tomar el dinero, tirar la cartera",
+            "d": "Tomar todo sin culpa"
+        },
+        "q9": {
+            "text": "Un desconocido lucha con bolsas pesadas",
+            "a": "Correr a ayudarle",
+            "b": "Ayudar si es conveniente",
+            "c": "Pasar de largo, no es tu problema",
+            "d": "Disfrutar vi\u00e9ndolo luchar"
+        },
+        "q10": {
+            "text": "Tu rival falla en algo importante",
+            "a": "Sentir simpat\u00eda",
+            "b": "Sentirse neutral",
+            "c": "Sentir una peque\u00f1a satisfacci\u00f3n",
+            "d": "Sentir genuino deleite"
+        },
+        "q11": {
+            "text": "Est\u00e1s jugando un juego competitivo",
+            "a": "Jugar limpio, la diversi\u00f3n importa",
+            "b": "Intentar ganar dentro de las reglas",
+            "c": "Provocar para desestabilizarlos",
+            "d": "Disfrutar aplastando su esp\u00edritu"
+        },
+        "q12": {
+            "text": "El villano de una pel\u00edcula explica su plan malvado",
+            "a": "Apoyar al h\u00e9roe",
+            "b": "Entender la l\u00f3gica del villano",
+            "c": "Admirar la inteligencia del villano",
+            "d": "Desear poder ejecutar ese plan"
+        }
+    },
+    "tiers": {
+        "light": {
+            "name": "Luz Pura",
+            "badge": "LUZ PURA",
+            "emoji": "\ud83d\udcab",
+            "desc": "Tu alma es notablemente pura. Te preocupas genuinamente por los dem\u00e1s y siempre eliges el camino \u00e9tico."
+        },
+        "grey": {
+            "name": "Zona Gris",
+            "badge": "ZONA GRIS",
+            "emoji": "\u2696\ufe0f",
+            "desc": "Un equilibrio saludable entre luz y sombra. Tienes impulsos oscuros pero los controlas. La mayor\u00eda de los humanos vive aqu\u00ed."
+        },
+        "shadow": {
+            "name": "Caminante de Sombras",
+            "badge": "CAMINANTE DE SOMBRAS",
+            "emoji": "\ud83c\udf11",
+            "desc": "Caminas entre la luz y la oscuridad. Tu lado oscuro est\u00e1 activo e influyente. Sabes c\u00f3mo usarlo cuando es necesario."
+        },
+        "dark": {
+            "name": "Arquitecto Oscuro",
+            "badge": "ARQUITECTO OSCURO",
+            "emoji": "\ud83d\udda4",
+            "desc": "Un poderoso n\u00facleo oscuro impulsa tus decisiones. Ves el mundo como un tablero de ajedrez y a las personas como piezas."
+        },
+        "abyss": {
+            "name": "Habitante del Abismo",
+            "badge": "HABITANTE DEL ABISMO",
+            "emoji": "\ud83d\udc41\ufe0f",
+            "desc": "Tu n\u00facleo oscuro est\u00e1 completamente despierto. Abrazas el vac\u00edo y el vac\u00edo te abraza de vuelta. El abismo no solo mira \u2014 sonr\u00ede."
+        }
+    },
+    "result": {
+        "title": "Tu N\u00facleo Oscuro",
+        "breakdown": "An\u00e1lisis de Rasgos",
+        "retake": "Repetir Test"
+    },
+    "share": {
+        "title": "Comparte Tu N\u00facleo Oscuro",
+        "text": "\u00a1Mi puntuaci\u00f3n de N\u00facleo Oscuro es {score}%! Soy '{tier}' \ud83d\udda4 Descubre la tuya:",
+        "twitter": "Compartir en X",
+        "copyUrl": "Copiar Enlace",
+        "copied": "\u00a1Copiado!"
+    },
+    "nav": {
+        "back": "Inicio DopaBrain"
+    }
+}

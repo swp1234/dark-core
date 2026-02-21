@@ -1,0 +1,158 @@
+{
+    "meta": {
+        "title": "Tes Kepribadian Dark Core | DopaBrain",
+        "description": "Temukan dark core kepribadianmu. Ukur sifat triad gelap: Narsisisme, Machiavellianisme, Psikopati, dan Sadisme."
+    },
+    "a11y": {
+        "skip": "Lewati ke konten"
+    },
+    "app": {
+        "title": "Tes Dark Core",
+        "subtitle": "Seberapa gelap kepribadianmu?",
+        "description": "Jawab 12 skenario gelap untuk mengungkap Dark Core-mu. Ukur Narsisisme, Machiavellianisme, Psikopati, dan Sadisme-mu.",
+        "start": "Ungkap Dark Core Saya"
+    },
+    "quiz": {
+        "currentDark": "Skor Gelap:",
+        "progress": "{current} / {total}"
+    },
+    "traits": {
+        "narcissism": "Narsisisme",
+        "machiavellianism": "Machiavellianisme",
+        "psychopathy": "Psikopati",
+        "sadism": "Sadisme"
+    },
+    "questions": {
+        "q1": {
+            "text": "Temanmu meraih sesuatu yang selalu kamu inginkan",
+            "a": "Merayakan dengan tulus",
+            "b": "Memberi selamat tapi merasa iri",
+            "c": "Meremehkan pencapaian mereka",
+            "d": "Mencoba mengalahkan mereka segera"
+        },
+        "q2": {
+            "text": "Kamu melihat pantulan dirimu di etalase toko",
+            "a": "Lewat tanpa memperhatikan",
+            "b": "Sekilas melihat lalu pergi",
+            "c": "Berhenti untuk mengagumi diri sendiri",
+            "d": "Ambil selfie di sana"
+        },
+        "q3": {
+            "text": "Seseorang mengkritik pekerjaanmu di depan umum",
+            "a": "Menerima masukan dengan baik",
+            "b": "Merasa defensif dalam hati",
+            "c": "Merencanakan mengekspos kelemahan mereka",
+            "d": "Mempermalukan mereka di depan umum"
+        },
+        "q4": {
+            "text": "Kamu mengetahui rahasia rekan kerja",
+            "a": "Menjaga kerahasiaannya",
+            "b": "Menyimpannya dalam pikiran",
+            "c": "Menggunakannya secara halus untuk mendapat simpati",
+            "d": "Memanfaatkannya untuk promosi"
+        },
+        "q5": {
+            "text": "Proyek kelompok butuh pemimpin",
+            "a": "Mendukung siapa pun yang sukarela",
+            "b": "Sukarela jika tidak ada yang mau",
+            "c": "Memanipulasi voting untuk keuntunganmu",
+            "d": "Menyabotase kandidat lain"
+        },
+        "q6": {
+            "text": "Kamu bisa maju dengan melanggar aturan",
+            "a": "Mengikuti aturan dengan ketat",
+            "b": "Sedikit membengkokkan jika tidak berbahaya",
+            "c": "Membengkokkan bebas jika tidak ada yang melihat",
+            "d": "Aturan hanya saran"
+        },
+        "q7": {
+            "text": "Seseorang menyerobot antrean di depanmu",
+            "a": "Biarkan saja",
+            "b": "Menunjukkan dengan sopan",
+            "c": "Mengonfrontasi secara agresif",
+            "d": "Menyerobot di depan orang lain"
+        },
+        "q8": {
+            "text": "Kamu menemukan dompet berisi uang dan KTP",
+            "a": "Mengembalikan semuanya",
+            "b": "Mengembalikan dompet, simpan uangnya",
+            "c": "Ambil uangnya, buang dompetnya",
+            "d": "Ambil semuanya tanpa rasa bersalah"
+        },
+        "q9": {
+            "text": "Orang asing kesulitan membawa tas berat",
+            "a": "Bergegas membantu",
+            "b": "Membantu jika nyaman",
+            "c": "Lewat saja, bukan urusanmu",
+            "d": "Menikmati melihat mereka kesulitan"
+        },
+        "q10": {
+            "text": "Rivalmu gagal dalam sesuatu yang penting",
+            "a": "Merasa simpati",
+            "b": "Merasa netral",
+            "c": "Merasa sedikit puas",
+            "d": "Merasa benar-benar senang"
+        },
+        "q11": {
+            "text": "Kamu bermain game kompetitif",
+            "a": "Bermain adil, kesenangan yang penting",
+            "b": "Mencoba menang dalam aturan",
+            "c": "Trash-talk untuk mengintimidasi",
+            "d": "Menikmati menghancurkan semangat lawan"
+        },
+        "q12": {
+            "text": "Penjahat film menjelaskan rencana jahatnya",
+            "a": "Mendukung sang pahlawan",
+            "b": "Memahami logika penjahat",
+            "c": "Mengagumi kecerdasan penjahat",
+            "d": "Berharap bisa menjalankan rencana itu"
+        }
+    },
+    "tiers": {
+        "light": {
+            "name": "Cahaya Murni",
+            "badge": "CAHAYA MURNI",
+            "emoji": "\ud83d\udcab",
+            "desc": "Jiwamu sangat murni. Kamu benar-benar peduli pada orang lain dan selalu memilih jalan etis."
+        },
+        "grey": {
+            "name": "Zona Abu-abu",
+            "badge": "ZONA ABU-ABU",
+            "emoji": "\u2696\ufe0f",
+            "desc": "Keseimbangan sehat antara terang dan gelap. Kamu punya dorongan gelap tapi mengendalikannya. Kebanyakan manusia ada di sini."
+        },
+        "shadow": {
+            "name": "Pejalan Bayangan",
+            "badge": "PEJALAN BAYANGAN",
+            "emoji": "\ud83c\udf11",
+            "desc": "Kamu berjalan di garis antara terang dan gelap. Sisi gelapmu aktif dan berpengaruh. Kamu tahu kapan menggunakannya."
+        },
+        "dark": {
+            "name": "Arsitek Gelap",
+            "badge": "ARSITEK GELAP",
+            "emoji": "\ud83d\udda4",
+            "desc": "Dark core yang kuat mendorong keputusanmu. Kamu melihat dunia sebagai papan catur dan orang-orang sebagai bidak."
+        },
+        "abyss": {
+            "name": "Penghuni Jurang",
+            "badge": "PENGHUNI JURANG",
+            "emoji": "\ud83d\udc41\ufe0f",
+            "desc": "Dark core-mu sepenuhnya terbangun. Kamu memeluk kekosongan dan kekosongan memelukmu kembali. Jurang tidak hanya menatap \u2014 ia tersenyum."
+        }
+    },
+    "result": {
+        "title": "Dark Core-mu",
+        "breakdown": "Analisis Sifat",
+        "retake": "Ulangi Tes"
+    },
+    "share": {
+        "title": "Bagikan Dark Core-mu",
+        "text": "Skor Dark Core saya {score}%! Saya '{tier}' \ud83d\udda4 Cari tahu punyamu:",
+        "twitter": "Bagikan di X",
+        "copyUrl": "Salin Link",
+        "copied": "Tersalin!"
+    },
+    "nav": {
+        "back": "Beranda DopaBrain"
+    }
+}

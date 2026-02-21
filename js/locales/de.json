@@ -1,0 +1,158 @@
+{
+    "meta": {
+        "title": "Dark Core Pers\u00f6nlichkeitstest | DopaBrain",
+        "description": "Entdecke deinen Dark Core. Miss deine Dunkle-Triade-Eigenschaften: Narzissmus, Machiavellismus, Psychopathie und Sadismus."
+    },
+    "a11y": {
+        "skip": "Zum Inhalt springen"
+    },
+    "app": {
+        "title": "Dark Core Test",
+        "subtitle": "Wie dunkel ist deine Pers\u00f6nlichkeit?",
+        "description": "Beantworte 12 dunkle Szenarien, um deinen Dark Core zu enth\u00fcllen. Miss deinen Narzissmus, Machiavellismus, Psychopathie und Sadismus.",
+        "start": "Meinen Dark Core enth\u00fcllen"
+    },
+    "quiz": {
+        "currentDark": "Dark Score:",
+        "progress": "{current} / {total}"
+    },
+    "traits": {
+        "narcissism": "Narzissmus",
+        "machiavellianism": "Machiavellismus",
+        "psychopathy": "Psychopathie",
+        "sadism": "Sadismus"
+    },
+    "questions": {
+        "q1": {
+            "text": "Ein Freund erreicht etwas, das du dir immer gew\u00fcnscht hast",
+            "a": "Aufrichtig feiern",
+            "b": "Gratulieren, aber Neid empfinden",
+            "c": "Ihre Leistung herunterspielen",
+            "d": "Sofort versuchen, sie zu \u00fcbertreffen"
+        },
+        "q2": {
+            "text": "Du bemerkst dein Spiegelbild in einem Schaufenster",
+            "a": "Ohne es zu bemerken vorbeigehen",
+            "b": "Kurz schauen und weitergehen",
+            "c": "Stehenbleiben und sich bewundern",
+            "d": "Direkt ein Selfie machen"
+        },
+        "q3": {
+            "text": "Jemand kritisiert deine Arbeit \u00f6ffentlich",
+            "a": "Das Feedback w\u00fcrdevoll annehmen",
+            "b": "Innerlich defensiv werden",
+            "c": "Planen, ihre Schw\u00e4chen aufzudecken",
+            "d": "\u00d6ffentlich zur\u00fcckdem\u00fctigen"
+        },
+        "q4": {
+            "text": "Du entdeckst das Geheimnis eines Kollegen",
+            "a": "Vertraulich behandeln",
+            "b": "Mental abspeichern",
+            "c": "Subtil nutzen, um Gunst zu gewinnen",
+            "d": "F\u00fcr eine Bef\u00f6rderung nutzen"
+        },
+        "q5": {
+            "text": "Ein Gruppenprojekt braucht einen Leiter",
+            "a": "Den Freiwilligen unterst\u00fctzen",
+            "b": "Sich melden, wenn niemand anders will",
+            "c": "Die Abstimmung zu eigenen Gunsten manipulieren",
+            "d": "Andere Kandidaten sabotieren"
+        },
+        "q6": {
+            "text": "Du kannst vorankommen, indem du die Regeln biegst",
+            "a": "Regeln strikt befolgen",
+            "b": "Leicht biegen, wenn harmlos",
+            "c": "Frei biegen, wenn niemand hinschaut",
+            "d": "Regeln sind nur Vorschl\u00e4ge"
+        },
+        "q7": {
+            "text": "Jemand dr\u00e4ngelt sich vor dir in der Schlange",
+            "a": "Es sein lassen",
+            "b": "H\u00f6flich darauf hinweisen",
+            "c": "Aggressiv konfrontieren",
+            "d": "Selbst vor jemand anderem dr\u00e4ngeln"
+        },
+        "q8": {
+            "text": "Du findest eine Brieftasche mit Bargeld und Ausweis",
+            "a": "Alles zur\u00fcckgeben",
+            "b": "Zur\u00fcckgeben, Bargeld behalten",
+            "c": "Bargeld nehmen, Brieftasche wegwerfen",
+            "d": "Alles ohne Schuldgef\u00fchle nehmen"
+        },
+        "q9": {
+            "text": "Ein Fremder k\u00e4mpft mit schweren Taschen",
+            "a": "Sofort helfen",
+            "b": "Helfen, wenn es passt",
+            "c": "Vorbeigehen, nicht dein Problem",
+            "d": "Genie\u00dfen, sie k\u00e4mpfen zu sehen"
+        },
+        "q10": {
+            "text": "Dein Rivale scheitert bei etwas Wichtigem",
+            "a": "Mitgef\u00fchl empfinden",
+            "b": "Neutral f\u00fchlen",
+            "c": "Kleine Befriedigung empfinden",
+            "d": "Echte Freude empfinden"
+        },
+        "q11": {
+            "text": "Du spielst ein Wettbewerbsspiel",
+            "a": "Fair spielen, Spa\u00df z\u00e4hlt",
+            "b": "Versuchen, regelkonform zu gewinnen",
+            "c": "Trash-Talk, um sie zu verunsichern",
+            "d": "Genie\u00dfen, den Geist der Gegner zu brechen"
+        },
+        "q12": {
+            "text": "Ein Filmb\u00f6sewicht erkl\u00e4rt seinen b\u00f6sen Plan",
+            "a": "F\u00fcr den Helden sein",
+            "b": "Die Logik des B\u00f6sewichts verstehen",
+            "c": "Die Intelligenz des B\u00f6sewichts bewundern",
+            "d": "W\u00fcnschen, diesen Plan ausf\u00fchren zu k\u00f6nnen"
+        }
+    },
+    "tiers": {
+        "light": {
+            "name": "Reines Licht",
+            "badge": "REINES LICHT",
+            "emoji": "\ud83d\udcab",
+            "desc": "Deine Seele ist bemerkenswert rein. Du k\u00fcmmerst dich aufrichtig um andere und w\u00e4hlst immer den ethischen Weg."
+        },
+        "grey": {
+            "name": "Grauzone",
+            "badge": "GRAUZONE",
+            "emoji": "\u2696\ufe0f",
+            "desc": "Ein gesundes Gleichgewicht aus Licht und Schatten. Du hast dunkle Impulse, h\u00e4ltst sie aber im Zaum. Die meisten Menschen sind hier."
+        },
+        "shadow": {
+            "name": "Schattenw\u00e4nderer",
+            "badge": "SCHATTENW\u00c4NDERER",
+            "emoji": "\ud83c\udf11",
+            "desc": "Du wandelst zwischen Licht und Dunkelheit. Deine Schattenseite ist aktiv und einflussreich. Du wei\u00dft, wann du sie einsetzen musst."
+        },
+        "dark": {
+            "name": "Dunkler Architekt",
+            "badge": "DUNKLER ARCHITEKT",
+            "emoji": "\ud83d\udda4",
+            "desc": "Ein m\u00e4chtiger dunkler Kern steuert deine Entscheidungen. Du siehst die Welt als Schachbrett und Menschen als Figuren."
+        },
+        "abyss": {
+            "name": "Abgrundbewohner",
+            "badge": "ABGRUNDBEWOHNER",
+            "emoji": "\ud83d\udc41\ufe0f",
+            "desc": "Dein dunkler Kern ist vollst\u00e4ndig erwacht. Du umarmst die Leere und die Leere umarmt dich zur\u00fcck. Der Abgrund schaut nicht nur \u2014 er l\u00e4chelt."
+        }
+    },
+    "result": {
+        "title": "Dein Dark Core",
+        "breakdown": "Eigenschaftsanalyse",
+        "retake": "Nochmal testen"
+    },
+    "share": {
+        "title": "Teile deinen Dark Core",
+        "text": "Mein Dark Core Score ist {score}%! Ich bin '{tier}' \ud83d\udda4 Finde deinen heraus:",
+        "twitter": "Auf X teilen",
+        "copyUrl": "Link kopieren",
+        "copied": "Kopiert!"
+    },
+    "nav": {
+        "back": "DopaBrain Startseite"
+    }
+}

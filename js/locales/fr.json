@@ -1,0 +1,158 @@
+{
+    "meta": {
+        "title": "Test de Personnalit\u00e9 Dark Core | DopaBrain",
+        "description": "D\u00e9couvrez votre noyau sombre. Mesurez vos traits de la triade sombre : Narcissisme, Machiav\u00e9lisme, Psychopathie et Sadisme."
+    },
+    "a11y": {
+        "skip": "Aller au contenu"
+    },
+    "app": {
+        "title": "Test du Noyau Sombre",
+        "subtitle": "\u00c0 quel point votre personnalit\u00e9 est-elle sombre ?",
+        "description": "R\u00e9pondez \u00e0 12 sc\u00e9narios sombres pour r\u00e9v\u00e9ler votre Noyau Sombre. Mesurez votre Narcissisme, Machiav\u00e9lisme, Psychopathie et Sadisme.",
+        "start": "R\u00e9v\u00e9ler Mon Noyau Sombre"
+    },
+    "quiz": {
+        "currentDark": "Score Sombre :",
+        "progress": "{current} / {total}"
+    },
+    "traits": {
+        "narcissism": "Narcissisme",
+        "machiavellianism": "Machiav\u00e9lisme",
+        "psychopathy": "Psychopathie",
+        "sadism": "Sadisme"
+    },
+    "questions": {
+        "q1": {
+            "text": "Un ami obtient quelque chose que vous avez toujours voulu",
+            "a": "C\u00e9l\u00e9brer sinc\u00e8rement",
+            "b": "F\u00e9liciter mais ressentir de la jalousie",
+            "c": "Minimiser leur r\u00e9ussite",
+            "d": "Essayer de les surpasser imm\u00e9diatement"
+        },
+        "q2": {
+            "text": "Vous remarquez votre reflet dans une vitrine",
+            "a": "Passer sans remarquer",
+            "b": "Coup d\u2019\u0153il rapide et continuer",
+            "c": "S\u2019arr\u00eater pour s\u2019admirer",
+            "d": "Prendre un selfie l\u00e0"
+        },
+        "q3": {
+            "text": "Quelqu\u2019un critique votre travail publiquement",
+            "a": "Accepter les retours avec gr\u00e2ce",
+            "b": "Devenir d\u00e9fensif int\u00e9rieurement",
+            "c": "Planifier d\u2019exposer leurs d\u00e9fauts",
+            "d": "Les humilier publiquement en retour"
+        },
+        "q4": {
+            "text": "Vous d\u00e9couvrez le secret d\u2019un coll\u00e8gue",
+            "a": "Le garder confidentiel",
+            "b": "Le noter mentalement",
+            "c": "L\u2019utiliser subtilement pour gagner des faveurs",
+            "d": "L\u2019utiliser pour une promotion"
+        },
+        "q5": {
+            "text": "Un projet de groupe a besoin d\u2019un leader",
+            "a": "Soutenir le volontaire",
+            "b": "Se porter volontaire si personne ne le fait",
+            "c": "Manipuler le vote en sa faveur",
+            "d": "Saboter les autres candidats"
+        },
+        "q6": {
+            "text": "Vous pouvez avancer en contournant les r\u00e8gles",
+            "a": "Suivre les r\u00e8gles strictement",
+            "b": "Les contourner l\u00e9g\u00e8rement si inoffensif",
+            "c": "Les contourner librement si personne ne regarde",
+            "d": "Les r\u00e8gles ne sont que des suggestions"
+        },
+        "q7": {
+            "text": "Quelqu\u2019un passe devant vous dans la file",
+            "a": "Laisser passer",
+            "b": "Le signaler poliment",
+            "c": "Les confronter agressivement",
+            "d": "Passer devant quelqu\u2019un d\u2019autre"
+        },
+        "q8": {
+            "text": "Vous trouvez un portefeuille avec de l\u2019argent et une pi\u00e8ce d\u2019identit\u00e9",
+            "a": "Tout rendre",
+            "b": "Rendre le portefeuille, garder l\u2019argent",
+            "c": "Prendre l\u2019argent, jeter le portefeuille",
+            "d": "Tout prendre sans culpabilit\u00e9"
+        },
+        "q9": {
+            "text": "Un inconnu a du mal avec des sacs lourds",
+            "a": "Se pr\u00e9cipiter pour aider",
+            "b": "Aider si c\u2019est pratique",
+            "c": "Passer, ce n\u2019est pas votre probl\u00e8me",
+            "d": "Profiter de les voir lutter"
+        },
+        "q10": {
+            "text": "Votre rival \u00e9choue dans quelque chose d\u2019important",
+            "a": "Ressentir de la sympathie",
+            "b": "Rester neutre",
+            "c": "Ressentir une petite satisfaction",
+            "d": "Ressentir une vraie joie"
+        },
+        "q11": {
+            "text": "Vous jouez \u00e0 un jeu comp\u00e9titif",
+            "a": "Jouer fair-play, le plaisir compte",
+            "b": "Essayer de gagner dans les r\u00e8gles",
+            "c": "Provoquer pour les d\u00e9stabiliser",
+            "d": "Prendre plaisir \u00e0 \u00e9craser leur moral"
+        },
+        "q12": {
+            "text": "Le m\u00e9chant d\u2019un film explique son plan diabolique",
+            "a": "Encourager le h\u00e9ros",
+            "b": "Comprendre la logique du m\u00e9chant",
+            "c": "Admirer l\u2019intelligence du m\u00e9chant",
+            "d": "Souhaiter pouvoir ex\u00e9cuter ce plan"
+        }
+    },
+    "tiers": {
+        "light": {
+            "name": "Lumi\u00e8re Pure",
+            "badge": "LUMI\u00c8RE PURE",
+            "emoji": "\ud83d\udcab",
+            "desc": "Votre \u00e2me est remarquablement pure. Vous vous souciez sinc\u00e8rement des autres et choisissez toujours le chemin \u00e9thique."
+        },
+        "grey": {
+            "name": "Zone Grise",
+            "badge": "ZONE GRISE",
+            "emoji": "\u2696\ufe0f",
+            "desc": "Un \u00e9quilibre sain de lumi\u00e8re et d\u2019ombre. Vous avez des impulsions sombres mais les contr\u00f4lez. La plupart des gens vivent ici."
+        },
+        "shadow": {
+            "name": "Marcheur d\u2019Ombres",
+            "badge": "MARCHEUR D\u2019OMBRES",
+            "emoji": "\ud83c\udf11",
+            "desc": "Vous marchez entre la lumi\u00e8re et l\u2019obscurit\u00e9. Votre c\u00f4t\u00e9 sombre est actif et influent. Vous savez quand l\u2019utiliser."
+        },
+        "dark": {
+            "name": "Architecte Sombre",
+            "badge": "ARCHITECTE SOMBRE",
+            "emoji": "\ud83d\udda4",
+            "desc": "Un puissant noyau sombre guide vos d\u00e9cisions. Vous voyez le monde comme un \u00e9chiquier et les gens comme des pi\u00e8ces."
+        },
+        "abyss": {
+            "name": "Habitant de l\u2019Ab\u00eeme",
+            "badge": "HABITANT DE L\u2019AB\u00ceME",
+            "emoji": "\ud83d\udc41\ufe0f",
+            "desc": "Votre noyau sombre est compl\u00e8tement \u00e9veill\u00e9. Vous embrassez le vide et le vide vous embrasse en retour. L\u2019ab\u00eeme ne fait pas que regarder \u2014 il sourit."
+        }
+    },
+    "result": {
+        "title": "Votre Noyau Sombre",
+        "breakdown": "Analyse des Traits",
+        "retake": "Refaire le Test"
+    },
+    "share": {
+        "title": "Partagez Votre Noyau Sombre",
+        "text": "Mon score Dark Core est de {score}% ! Je suis \u00ab {tier} \u00bb \ud83d\udda4 D\u00e9couvrez le v\u00f4tre :",
+        "twitter": "Partager sur X",
+        "copyUrl": "Copier le Lien",
+        "copied": "Copi\u00e9 !"
+    },
+    "nav": {
+        "back": "Accueil DopaBrain"
+    }
+}

@@ -1,7 +1,7 @@
 {
     "meta": {
         "title": "Dark Core Personality Test | DopaBrain",
-        "description": "Discover your dark core personality. Measure your dark triad traits: Narcissism, Machiavellianism, Psychopathy, and Sadism."
+        "description": "Face moral dilemmas to discover your dark core personality. Measure Narcissism, Machiavellianism, Psychopathy, and Sadism."
     },
     "a11y": {
         "skip": "Skip to content"
@@ -9,135 +9,101 @@
     "app": {
         "title": "Dark Core Test",
         "subtitle": "How dark is your personality?",
-        "description": "Answer 12 dark scenarios to reveal your Dark Core. Measure your Narcissism, Machiavellianism, Psychopathy, and Sadism. Are you Pure Light or an Abyss Dweller?",
+        "description": "Face 10 moral dilemmas and watch the scales of darkness tip. Each choice reveals your Narcissism, Machiavellianism, Psychopathy, and Sadism.",
         "start": "Reveal My Dark Core"
-    },
-    "quiz": {
-        "currentDark": "Dark Score:",
-        "progress": "{current} / {total}"
     },
     "traits": {
         "narcissism": "Narcissism",
         "machiavellianism": "Machiavellianism",
         "psychopathy": "Psychopathy",
-        "sadism": "Sadism"
+        "sadism": "Sadism",
+        "narcissism_short": "N",
+        "machiavellianism_short": "M",
+        "psychopathy_short": "P",
+        "sadism_short": "S"
     },
-    "questions": {
-        "q1": {
-            "text": "A friend achieves something you've always wanted",
-            "a": "Celebrate genuinely",
-            "b": "Congratulate but feel envious",
-            "c": "Downplay their achievement",
-            "d": "Try to one-up them immediately"
+    "dilemma": {
+        "number": "DILEMMA",
+        "lightSide": "Virtuous",
+        "darkSide": "Dark"
+    },
+    "dilemmas": {
+        "d1": {
+            "scenario": "You're on the hiring committee. A candidate is more talented than you, but hiring them could threaten your position.",
+            "left": "Evaluate fairly and recommend the talented candidate",
+            "right": "Exaggerate minor flaws to reject them and protect your status"
         },
-        "q2": {
-            "text": "You notice your reflection in a shop window",
-            "a": "Walk past without noticing",
-            "b": "Quick glance and move on",
-            "c": "Stop to admire yourself",
-            "d": "Take a selfie right there"
+        "d2": {
+            "scenario": "A close friend confides a major secret. You realize this information could help you get a promotion at work.",
+            "left": "Keep the secret and honor your friend's trust",
+            "right": "Subtly leverage the information to create an opportunity"
         },
-        "q3": {
-            "text": "Someone criticizes your work publicly",
-            "a": "Accept the feedback gracefully",
-            "b": "Get defensive internally",
-            "c": "Plot to expose their flaws",
-            "d": "Publicly humiliate them back"
+        "d3": {
+            "scenario": "A runaway autonomous car is heading toward 5 people. Pressing a button will divert it, but 1 person in the new path will be hit.",
+            "left": "Do nothing. Don't dirty your hands directly",
+            "right": "Press the button. Sacrifice 1 to save 5"
         },
-        "q4": {
-            "text": "You discover a coworker's secret",
-            "a": "Keep it confidential",
-            "b": "File it away mentally",
-            "c": "Use it subtly to gain favor",
-            "d": "Leverage it for a promotion"
+        "d4": {
+            "scenario": "Your team just completed a major project successfully. Your boss asks who contributed the most.",
+            "left": "Honestly credit everyone's contributions",
+            "right": "Frame it as your leadership and take the glory"
         },
-        "q5": {
-            "text": "A group project needs a leader",
-            "a": "Support whoever volunteers",
-            "b": "Volunteer if no one else does",
-            "c": "Manipulate the vote in your favor",
-            "d": "Sabotage other candidates"
+        "d5": {
+            "scenario": "In an online game, your opponent accidentally reveals a weakness. Exploiting it guarantees an easy win.",
+            "left": "Compete fairly and ignore their mistake",
+            "right": "Relentlessly exploit the weakness and enjoy their frustration"
         },
-        "q6": {
-            "text": "You can get ahead by bending the rules",
-            "a": "Follow the rules strictly",
-            "b": "Bend slightly if harmless",
-            "c": "Bend freely if no one's watching",
-            "d": "Rules are just suggestions"
+        "d6": {
+            "scenario": "Your social media post gets far less attention than expected. Your friend's post goes viral at the same time.",
+            "left": "Congratulate your friend and forget about your post",
+            "right": "Create content specifically to outshine your friend and reclaim attention"
         },
-        "q7": {
-            "text": "Someone cuts in line ahead of you",
-            "a": "Let it go",
-            "b": "Politely point it out",
-            "c": "Confront them aggressively",
-            "d": "Cut in front of someone else"
+        "d7": {
+            "scenario": "During an audit, you discover a colleague's financial fraud. Reporting them means they lose their job; staying silent carries risk for you.",
+            "left": "Report immediately. Rules come first",
+            "right": "Stay silent in exchange for favors from the colleague"
         },
-        "q8": {
-            "text": "You find a wallet with cash and ID",
-            "a": "Return it with everything",
-            "b": "Return it, keep the cash",
-            "c": "Take the cash, toss the wallet",
-            "d": "Take everything without guilt"
+        "d8": {
+            "scenario": "Your neighbor's noise has kept you awake for weeks. They're uncooperative, and management won't help.",
+            "left": "Patiently try more dialogue or consider moving",
+            "right": "Retaliate with louder noise at their most inconvenient hours"
         },
-        "q9": {
-            "text": "A stranger is struggling with heavy bags",
-            "a": "Rush to help them",
-            "b": "Help if it's convenient",
-            "c": "Walk past, not your problem",
-            "d": "Enjoy watching them struggle"
+        "d9": {
+            "scenario": "You're about to win a tournament final. Your opponent seems mentally unstable due to personal issues.",
+            "left": "Show empathy and compete with sportsmanship",
+            "right": "Provoke their emotional weakness and enjoy watching them crumble"
         },
-        "q10": {
-            "text": "Your rival fails at something important",
-            "a": "Feel sympathy for them",
-            "b": "Feel neutral",
-            "c": "Feel a small satisfaction",
-            "d": "Feel genuinely delighted"
-        },
-        "q11": {
-            "text": "You're playing a competitive game",
-            "a": "Play fair, fun is what matters",
-            "b": "Try to win within the rules",
-            "c": "Trash-talk to psych them out",
-            "d": "Enjoy crushing opponents' spirits"
-        },
-        "q12": {
-            "text": "A movie villain explains their evil plan",
-            "a": "Root for the hero",
-            "b": "Understand the villain's logic",
-            "c": "Admire the villain's intelligence",
-            "d": "Wish you could execute that plan"
+        "d10": {
+            "scenario": "You're on a city budget committee. You can funnel more funds to your district, but a poorer district will suffer.",
+            "left": "Distribute fairly based on greatest need",
+            "right": "Manipulate the budget in your favor and enjoy the influence"
         }
     },
     "tiers": {
         "light": {
             "name": "Pure Light",
             "badge": "PURE LIGHT",
-            "emoji": "\ud83d\udcab",
-            "desc": "Your soul is remarkably pure. You genuinely care about others and consistently choose the ethical path. The darkness has no hold on you."
+            "desc": "Your soul is remarkably pure. Even faced with moral dilemmas, you consistently choose the ethical path."
         },
         "grey": {
             "name": "Grey Zone",
             "badge": "GREY ZONE",
-            "emoji": "\u2696\ufe0f",
-            "desc": "A healthy balance of light and shadow. You have some darker impulses but keep them in check. Most humans live here \u2014 and that's perfectly normal."
+            "desc": "A healthy balance of light and shadow. You have darker impulses but keep them in check. Most humans live here."
         },
         "shadow": {
             "name": "Shadow Walker",
             "badge": "SHADOW WALKER",
-            "emoji": "\ud83c\udf11",
-            "desc": "You walk the line between light and dark. Your shadow side is active and influential. You know how to use it when needed."
+            "desc": "You walk the line between light and dark. You know how to use your shadow side when needed, and its influence is considerable."
         },
         "dark": {
             "name": "Dark Architect",
             "badge": "DARK ARCHITECT",
-            "emoji": "\ud83d\udda4",
-            "desc": "A powerful dark core drives your decisions. You see the world as a chessboard and people as pieces. Strategic, calculated, unapologetic."
+            "desc": "A powerful dark core drives your decisions. You see the world as a chessboard and people as pieces."
         },
         "abyss": {
             "name": "Abyss Dweller",
             "badge": "ABYSS DWELLER",
-            "emoji": "\ud83d\udc41\ufe0f",
-            "desc": "Your dark core is fully awakened. You embrace the void and the void embraces you back. The abyss doesn't just stare \u2014 it smiles."
+            "desc": "Your dark core is fully awakened. You embrace the void and the void embraces you back."
         }
     },
     "result": {
@@ -147,7 +113,7 @@
     },
     "share": {
         "title": "Share Your Dark Core",
-        "text": "My Dark Core score is {score}%! I'm a '{tier}' \ud83d\udda4 Find out yours:",
+        "text": "My Dark Core score is {score}%! I'm a '{tier}' Find out yours:",
         "twitter": "Share on X",
         "copyUrl": "Copy Link",
         "copied": "Copied!"

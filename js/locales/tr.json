@@ -1,158 +1,29 @@
 {
-    "meta": {
-        "title": "Karanl\u0131k \u00c7ekirdek Ki\u015filik Testi | DopaBrain",
-        "description": "Karanl\u0131k \u00e7ekirdek ki\u015fili\u011finizi ke\u015ffedin. Narsisizm, Makyavelizm, Psikopati ve Sadizm \u00f6zelliklerinizi \u00f6l\u00e7\u00fcn."
-    },
-    "a11y": {
-        "skip": "\u0130\u00e7eri\u011fe atla"
-    },
-    "app": {
-        "title": "Karanl\u0131k \u00c7ekirdek Testi",
-        "subtitle": "Ki\u015fili\u011finiz ne kadar karanl\u0131k?",
-        "description": "12 karanl\u0131k senaryoyu cevaplayarak Karanl\u0131k \u00c7ekirde\u011finizi ortaya \u00e7\u0131kar\u0131n. Narsisizm, Makyavelizm, Psikopati ve Sadizm \u00f6zelliklerinizi \u00f6l\u00e7\u00fcn.",
-        "start": "Karanl\u0131k \u00c7ekirde\u011fimi G\u00f6ster"
-    },
-    "quiz": {
-        "currentDark": "Karanl\u0131k Puan:",
-        "progress": "{current} / {total}"
-    },
-    "traits": {
-        "narcissism": "Narsisizm",
-        "machiavellianism": "Makyavelizm",
-        "psychopathy": "Psikopati",
-        "sadism": "Sadizm"
-    },
-    "questions": {
-        "q1": {
-            "text": "Bir arkada\u015f\u0131n\u0131z hep istedi\u011finiz bir \u015feyi ba\u015far\u0131yor",
-            "a": "Samimiyetle kutlamak",
-            "b": "Tebrik etmek ama k\u0131skan\u00e7l\u0131k duymak",
-            "c": "Ba\u015far\u0131lar\u0131n\u0131 k\u00fc\u00e7\u00fcmsemek",
-            "d": "Hemen onlar\u0131 ge\u00e7meye \u00e7al\u0131\u015fmak"
-        },
-        "q2": {
-            "text": "Ma\u011faza camunda yans\u0131man\u0131z\u0131 fark ediyorsunuz",
-            "a": "Fark etmeden ge\u00e7mek",
-            "b": "H\u0131zl\u0131ca bak\u0131p ge\u00e7mek",
-            "c": "Durup kendinize hayran kalmak",
-            "d": "Orada selfie \u00e7ekmek"
-        },
-        "q3": {
-            "text": "Biri i\u015finizi herkesin \u00f6n\u00fcnde ele\u015ftiriyor",
-            "a": "Geri bildirimi nazikle kabul etmek",
-            "b": "\u0130\u00e7ten i\u00e7e savunmac\u0131 olmak",
-            "c": "Onlar\u0131n kusurlar\u0131n\u0131 if\u015fa etmeyi planlamak",
-            "d": "Herkesin \u00f6n\u00fcnde onlar\u0131 a\u015fa\u011f\u0131lamak"
-        },
-        "q4": {
-            "text": "Bir i\u015f arkada\u015f\u0131n\u0131z\u0131n s\u0131rr\u0131n\u0131 ke\u015ffediyorsunuz",
-            "a": "Gizli tutmak",
-            "b": "Zihinsel olarak not almak",
-            "c": "Sempati kazanmak i\u00e7in incelikle kullanmak",
-            "d": "Terfi i\u00e7in kullanmak"
-        },
-        "q5": {
-            "text": "Grup projesinin bir lidere ihtiyac\u0131 var",
-            "a": "G\u00f6n\u00fcll\u00fc olan\u0131 desteklemek",
-            "b": "Kimse yoksa g\u00f6n\u00fcll\u00fc olmak",
-            "c": "Oylama\u0131 kendi lehine manipule etmek",
-            "d": "Di\u011fer adaylar\u0131 sabote etmek"
-        },
-        "q6": {
-            "text": "Kurallar\u0131 b\u00fckerek ilerleyebilirsiniz",
-            "a": "Kurallar\u0131 s\u0131k\u0131 takip etmek",
-            "b": "Zarars\u0131zsa biraz b\u00fckmek",
-            "c": "Kimse g\u00f6rm\u00fcyorsa rahat\u00e7a b\u00fckmek",
-            "d": "Kurallar sadece \u00f6neri"
-        },
-        "q7": {
-            "text": "Biri \u00f6n\u00fcn\u00fczde s\u0131raya giriyor",
-            "a": "Bo\u015f vermek",
-            "b": "Kibarca belirtmek",
-            "c": "Sald\u0131rgan \u015fekilde y\u00fczle\u015fmek",
-            "d": "Ba\u015fkas\u0131n\u0131n \u00f6n\u00fcne ge\u00e7mek"
-        },
-        "q8": {
-            "text": "Para ve kimlik dolu bir c\u00fczdan buluyorsunuz",
-            "a": "Her \u015feyiyle iade etmek",
-            "b": "\u0130ade etmek, paray\u0131 almak",
-            "c": "Paray\u0131 almak, c\u00fczdan\u0131 atmak",
-            "d": "Su\u00e7luluk duymadan her \u015feyi almak"
-        },
-        "q9": {
-            "text": "Bir yabanc\u0131 a\u011f\u0131r \u00e7antalarla zorlan\u0131yor",
-            "a": "Ko\u015fup yard\u0131m etmek",
-            "b": "Uygunsa yard\u0131m etmek",
-            "c": "Ge\u00e7ip gitmek, sizin sorununuz de\u011fil",
-            "d": "Onlar\u0131n zorlanmas\u0131n\u0131 izlemekten zevk almak"
-        },
-        "q10": {
-            "text": "Rakibiniz \u00f6nemli bir \u015feyde ba\u015far\u0131s\u0131z oluyor",
-            "a": "Sempati duymak",
-            "b": "N\u00f6tr hissetmek",
-            "c": "K\u00fc\u00e7\u00fck bir tatmin hissetmek",
-            "d": "Ger\u00e7ekten mutlu olmak"
-        },
-        "q11": {
-            "text": "Rekabet\u00e7i bir oyun oynuyorsunuz",
-            "a": "Adil oynamak, e\u011flence \u00f6nemli",
-            "b": "Kurallar i\u00e7inde kazanmaya \u00e7al\u0131\u015fmak",
-            "c": "Psikolojik olarak bask\u0131 yapmak",
-            "d": "Rakiplerin moralini bozmaktan zevk almak"
-        },
-        "q12": {
-            "text": "Film k\u00f6t\u00fc adam\u0131 k\u00f6t\u00fc plan\u0131n\u0131 a\u00e7\u0131kl\u0131yor",
-            "a": "Kahramana tezah\u00fcrat yapmak",
-            "b": "K\u00f6t\u00fc adam\u0131n mant\u0131\u011f\u0131n\u0131 anlamak",
-            "c": "K\u00f6t\u00fc adam\u0131n zekas\u0131na hayran kalmak",
-            "d": "O plan\u0131 ger\u00e7ekle\u015ftirmeyi istemek"
-        }
+    "meta": { "title": "Karanlik Cekirdek Kisilik Testi | DopaBrain", "description": "Ahlaki ikilemlere gogus gererek karanlik cekirdeginizi kesfedin. Narsisizm, Makyavelizm, Psikopati ve Sadizm olcun." },
+    "a11y": { "skip": "Icerige atla" },
+    "app": { "title": "Karanlik Cekirdek Testi", "subtitle": "Kisiliginiz ne kadar karanlik?", "description": "10 ahlaki ikilemle yuzlesin ve karanlik terazisinin nasil egrildigini izleyin. Her secim Narsisizm, Makyavelizm, Psikopati ve Sadizm'inizi ortaya cikarir.", "start": "Karanlik Cekirde\u011fimi Goster" },
+    "traits": { "narcissism": "Narsisizm", "machiavellianism": "Makyavelizm", "psychopathy": "Psikopati", "sadism": "Sadizm", "narcissism_short": "N", "machiavellianism_short": "M", "psychopathy_short": "P", "sadism_short": "S" },
+    "dilemma": { "number": "IKILEM", "lightSide": "Erdemli", "darkSide": "Karanlik" },
+    "dilemmas": {
+        "d1": { "scenario": "Ise alim komitesindesiniz. Bir aday sizden daha yetenekli, ama onu ise almak pozisyonunuzu tehdit edebilir.", "left": "Adil degerlendirip yetenekli adayi onermek", "right": "Kucuk kusurlari abartarak reddetmek ve statunuzu korumak" },
+        "d2": { "scenario": "Yakin bir arkadasiniz buyuk bir sir paylasti. Bu bilgi terfi etmenize yardimci olabilir.", "left": "Sirri saklamak ve guveni onurlandirmak", "right": "Bilgiyi ustaca kullanarak firsat yaratmak" },
+        "d3": { "scenario": "Kontrolden cikan otonom bir araba 5 kisiye dogru gidiyor. Bir dugmeye basmak yonunu degistirir ama 1 kisi carpilir.", "left": "Hicbir sey yapmamak. Elleri dogrudan kirletmemek", "right": "Dugmeye basmak. 5'i kurtarmak icin 1'i feda etmek" },
+        "d4": { "scenario": "Takiminiz buyuk bir projeyi basariyla tamamladi. Patronunuz en cok kimin katki sagladigini soruyor.", "left": "Durstce herkesin katkilarini kabul etmek", "right": "Kendi liderliginiz olarak cerceveleyip ovguyu almak" },
+        "d5": { "scenario": "Bir cevrimici oyunda rakibiniz yanlislikla bir zayifligini aciga cikariyor. Bunu kullanmak kolay zafer garantiler.", "left": "Adil rekabet edip hatayi gormezden gelmek", "right": "Zayifligi acimaszca kullanip hayal kiriklgini keyfini cikarmak" },
+        "d6": { "scenario": "Sosyal medya paylsiminiz az ilgi goruyor. Arkadasinizin paylasimi ayni anda viral oluyor.", "left": "Arkadasinizi tebrik edip paylasminizi unutmak", "right": "Arkadasinizi gecmek icin icerik uretip dikkati geri kazanmak" },
+        "d7": { "scenario": "Bir denetimde is arkadasinizin mali dolandiriciligini kesfediyorsunuz. Bildirmek kovulmasina neden olur; susmak risk tasir.", "left": "Hemen bildirmek. Kurallar oncelikli", "right": "Is arkadasindan iyilik karsiliginda susmak" },
+        "d8": { "scenario": "Komsnuzun gurultusu haftalardur uyumanizi engelliyor. Isbirligi yapmiyor ve yonetim yardimci olmuyor.", "left": "Sabrrla diyalogu tekrar denemek veya tasinmayi dusunmek", "right": "En uygunsuz saatlerde daha yuksek gurultuyle karsilik vermek" },
+        "d9": { "scenario": "Bir turnuva finalini kazanmak uzeresiniz. Rakibiniz kisisel sorunlardan dolayi zihinsel olarak istikrarsiz gorunuyor.", "left": "Empati gostermek ve sportmence rekabet etmek", "right": "Duygusal zayifligini provoke edip cokuunu izlemekten keyif almak" },
+        "d10": { "scenario": "Belediye butce komitesindesiniz. Daha fazla kaynak kendi bolgenize yonlendirebilirsiniz ama daha yoksul bir bolge zarar gorur.", "left": "En buyuk ihtiyaca gore adil dagitmak", "right": "Butceyi kendi lehinize manipule edip etkinin tadini cikarmak" }
     },
     "tiers": {
-        "light": {
-            "name": "Saf I\u015f\u0131k",
-            "badge": "SAF I\u015eIK",
-            "emoji": "\ud83d\udcab",
-            "desc": "Ruhunuz ola\u011fan\u00fcst\u00fc derecede saf. Ba\u015fkalar\u0131n\u0131 ger\u00e7ekten \u00f6nemsiyorsunuz ve her zaman etik yolu se\u00e7iyorsunuz."
-        },
-        "grey": {
-            "name": "Gri B\u00f6lge",
-            "badge": "GR\u0130 B\u00d6LGE",
-            "emoji": "\u2696\ufe0f",
-            "desc": "I\u015f\u0131k ve g\u00f6lgenin sa\u011fl\u0131kl\u0131 dengesi. Karanl\u0131k d\u00fcrt\u00fcleriniz var ama kontrol alt\u0131nda tutuyorsunuz. \u00c7o\u011fu insan burada."
-        },
-        "shadow": {
-            "name": "G\u00f6lge Y\u00fcr\u00fcy\u00fc\u015f\u00fc",
-            "badge": "G\u00d6LGE Y\u00dcR\u00dcY\u00dc\u015e\u00dc",
-            "emoji": "\ud83c\udf11",
-            "desc": "I\u015f\u0131k ve karanl\u0131k aras\u0131nda y\u00fcr\u00fcyorsunuz. G\u00f6lge taraf\u0131n\u0131z aktif ve etkili. Gerekti\u011finde nas\u0131l kullan\u0131laca\u011f\u0131n\u0131 biliyorsunuz."
-        },
-        "dark": {
-            "name": "Karanl\u0131k Mimar",
-            "badge": "KARANLIK M\u0130MAR",
-            "emoji": "\ud83d\udda4",
-            "desc": "G\u00fc\u00e7l\u00fc bir karanl\u0131k \u00e7ekirdek kararlar\u0131n\u0131z\u0131 y\u00f6nlendiriyor. D\u00fcnyay\u0131 satran\u00e7 tahtas\u0131, insanlar\u0131 ta\u015f olarak g\u00f6r\u00fcyorsunuz."
-        },
-        "abyss": {
-            "name": "U\u00e7urum Sakini",
-            "badge": "U\u00c7URUM SAK\u0130N\u0130",
-            "emoji": "\ud83d\udc41\ufe0f",
-            "desc": "Karanl\u0131k \u00e7ekirde\u011finiz tamamen uyand\u0131. Bo\u015flu\u011fu kucakl\u0131yorsunuz ve bo\u015fluk sizi kucakl\u0131yor. U\u00e7urum sadece bakm\u0131yor \u2014 g\u00fcl\u00fcmsedyor."
-        }
+        "light": { "name": "Saf Isik", "badge": "SAF ISIK", "desc": "Ruhunuz olaganustu derecede saf. Ahlaki ikilemlerde bile her zaman etik yolu seciyorsunuz." },
+        "grey": { "name": "Gri Bolge", "badge": "GRI BOLGE", "desc": "Isik ve golgenin saglikli dengesi. Karanlik durtuleriniz kontrol altinda." },
+        "shadow": { "name": "Golge Yuruyucusu", "badge": "GOLGE YURUYUCUSU", "desc": "Isik ve karanlik arasinda yuruyorsunuz. Golge tarafinizi ne zaman kullanacaginizi biliyorsunuz." },
+        "dark": { "name": "Karanlik Mimar", "badge": "KARANLIK MIMAR", "desc": "Guclu bir karanlik cekirdek kararlarinizi yonlendiriyor. Dunya bir satranc tahtasi." },
+        "abyss": { "name": "Ucurum Sakini", "badge": "UCURUM SAKINI", "desc": "Karanlik cekirdeginiz tamamen uyandi. Boslugu kucakliyorsunuz ve bosluk sizi kucakliyor." }
     },
-    "result": {
-        "title": "Karanl\u0131k \u00c7ekirde\u011finiz",
-        "breakdown": "\u00d6zellik Analizi",
-        "retake": "Tekrar Test Et"
-    },
-    "share": {
-        "title": "Karanl\u0131k \u00c7ekirde\u011finizi Payla\u015f\u0131n",
-        "text": "Karanl\u0131k \u00c7ekirdek puanm {score}%! Ben '{tier}' \ud83d\udda4 Seninkini \u00f6\u011fren:",
-        "twitter": "X'te Payla\u015f",
-        "copyUrl": "Linki Kopyala",
-        "copied": "Kopyaland\u0131!"
-    },
-    "nav": {
-        "back": "DopaBrain Ana Sayfa"
-    }
+    "result": { "title": "Karanlik Cekirdeginiz", "breakdown": "Ozellik Analizi", "retake": "Tekrar Test Et" },
+    "share": { "title": "Karanlik Cekirdeginizi Paylasin", "text": "Karanlik Cekirdek puanim {score}%! Ben '{tier}' Seninkini ogren:", "twitter": "X'te Paylas", "copyUrl": "Linki Kopyala", "copied": "Kopyalandi!" },
+    "nav": { "back": "DopaBrain Ana Sayfa" }
 }

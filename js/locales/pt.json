@@ -1,158 +1,29 @@
 {
-    "meta": {
-        "title": "Teste de Personalidade Sombria | DopaBrain",
-        "description": "Descubra seu n\u00facleo sombrio. Me\u00e7a seus tra\u00e7os da tr\u00edade sombria: Narcisismo, Maquiavelismo, Psicopatia e Sadismo."
-    },
-    "a11y": {
-        "skip": "Pular para o conte\u00fado"
-    },
-    "app": {
-        "title": "Teste do N\u00facleo Sombrio",
-        "subtitle": "Qu\u00e3o sombria \u00e9 sua personalidade?",
-        "description": "Responda 12 cen\u00e1rios sombrios para revelar seu N\u00facleo Sombrio. Me\u00e7a seu Narcisismo, Maquiavelismo, Psicopatia e Sadismo.",
-        "start": "Revelar Meu N\u00facleo Sombrio"
-    },
-    "quiz": {
-        "currentDark": "Pontua\u00e7\u00e3o Sombria:",
-        "progress": "{current} / {total}"
-    },
-    "traits": {
-        "narcissism": "Narcisismo",
-        "machiavellianism": "Maquiavelismo",
-        "psychopathy": "Psicopatia",
-        "sadism": "Sadismo"
-    },
-    "questions": {
-        "q1": {
-            "text": "Um amigo conquista algo que voc\u00ea sempre quis",
-            "a": "Comemorar genuinamente",
-            "b": "Parabenizar mas sentir inveja",
-            "c": "Minimizar a conquista",
-            "d": "Tentar super\u00e1-los imediatamente"
-        },
-        "q2": {
-            "text": "Voc\u00ea nota seu reflexo na vitrine de uma loja",
-            "a": "Passar sem notar",
-            "b": "Olhar r\u00e1pido e seguir",
-            "c": "Parar para se admirar",
-            "d": "Tirar uma selfie ali mesmo"
-        },
-        "q3": {
-            "text": "Algu\u00e9m critica seu trabalho publicamente",
-            "a": "Aceitar o feedback com gra\u00e7a",
-            "b": "Ficar defensivo internamente",
-            "c": "Planejar expor seus defeitos",
-            "d": "Humilh\u00e1-los publicamente"
-        },
-        "q4": {
-            "text": "Voc\u00ea descobre o segredo de um colega",
-            "a": "Manter confidencial",
-            "b": "Guardar mentalmente",
-            "c": "Usar sutilmente para ganhar favor",
-            "d": "Usar para uma promo\u00e7\u00e3o"
-        },
-        "q5": {
-            "text": "Um projeto em grupo precisa de um l\u00edder",
-            "a": "Apoiar quem se voluntariar",
-            "b": "Voluntariar-se se ningu\u00e9m o fizer",
-            "c": "Manipular a vota\u00e7\u00e3o a seu favor",
-            "d": "Sabotar outros candidatos"
-        },
-        "q6": {
-            "text": "Voc\u00ea pode avan\u00e7ar quebrando as regras",
-            "a": "Seguir as regras rigorosamente",
-            "b": "Flexibilizar se for inofensivo",
-            "c": "Flexibilizar se ningu\u00e9m estiver olhando",
-            "d": "Regras s\u00e3o apenas sugest\u00f5es"
-        },
-        "q7": {
-            "text": "Algu\u00e9m fura a fila na sua frente",
-            "a": "Deixar pra l\u00e1",
-            "b": "Apontar educadamente",
-            "c": "Confrontar agressivamente",
-            "d": "Furar na frente de outra pessoa"
-        },
-        "q8": {
-            "text": "Voc\u00ea encontra uma carteira com dinheiro e documentos",
-            "a": "Devolver com tudo",
-            "b": "Devolver, ficar com o dinheiro",
-            "c": "Pegar o dinheiro, jogar a carteira fora",
-            "d": "Ficar com tudo sem culpa"
-        },
-        "q9": {
-            "text": "Um estranho est\u00e1 lutando com sacolas pesadas",
-            "a": "Correr para ajudar",
-            "b": "Ajudar se for conveniente",
-            "c": "Passar direto, n\u00e3o \u00e9 seu problema",
-            "d": "Curtir v\u00ea-los lutar"
-        },
-        "q10": {
-            "text": "Seu rival falha em algo importante",
-            "a": "Sentir simpatia",
-            "b": "Sentir-se neutro",
-            "c": "Sentir uma pequena satisfa\u00e7\u00e3o",
-            "d": "Sentir prazer genu\u00edno"
-        },
-        "q11": {
-            "text": "Voc\u00ea est\u00e1 jogando um jogo competitivo",
-            "a": "Jogar limpo, divers\u00e3o importa",
-            "b": "Tentar vencer dentro das regras",
-            "c": "Provocar para desestabilizar",
-            "d": "Curtir esmagar o esp\u00edrito dos oponentes"
-        },
-        "q12": {
-            "text": "O vil\u00e3o de um filme explica seu plano maligno",
-            "a": "Torcer pelo her\u00f3i",
-            "b": "Entender a l\u00f3gica do vil\u00e3o",
-            "c": "Admirar a intelig\u00eancia do vil\u00e3o",
-            "d": "Querer executar aquele plano"
-        }
+    "meta": { "title": "Teste de Personalidade Sombria | DopaBrain", "description": "Enfrente dilemas morais para descobrir seu n\u00facleo sombrio. Me\u00e7a Narcisismo, Maquiavelismo, Psicopatia e Sadismo." },
+    "a11y": { "skip": "Pular para o conte\u00fado" },
+    "app": { "title": "Teste do N\u00facleo Sombrio", "subtitle": "Qu\u00e3o sombria \u00e9 sua personalidade?", "description": "Enfrente 10 dilemas morais e veja a balan\u00e7a da escurid\u00e3o pender. Cada escolha revela seu Narcisismo, Maquiavelismo, Psicopatia e Sadismo.", "start": "Revelar Meu N\u00facleo Sombrio" },
+    "traits": { "narcissism": "Narcisismo", "machiavellianism": "Maquiavelismo", "psychopathy": "Psicopatia", "sadism": "Sadismo", "narcissism_short": "N", "machiavellianism_short": "M", "psychopathy_short": "P", "sadism_short": "S" },
+    "dilemma": { "number": "DILEMA", "lightSide": "Virtuoso", "darkSide": "Sombrio" },
+    "dilemmas": {
+        "d1": { "scenario": "Voc\u00ea est\u00e1 no comit\u00ea de contrata\u00e7\u00e3o. Um candidato \u00e9 mais talentoso que voc\u00ea, mas contrat\u00e1-lo pode amea\u00e7ar sua posi\u00e7\u00e3o.", "left": "Avaliar justamente e recomendar o candidato talentoso", "right": "Exagerar falhas menores para rejeit\u00e1-lo e proteger seu status" },
+        "d2": { "scenario": "Um amigo pr\u00f3ximo confia um grande segredo. Essa informa\u00e7\u00e3o poderia ajud\u00e1-lo a ser promovido.", "left": "Guardar o segredo e respeitar a confian\u00e7a", "right": "Usar sutilmente a informa\u00e7\u00e3o para criar uma oportunidade" },
+        "d3": { "scenario": "Um carro aut\u00f4nomo descontrolado vai em dire\u00e7\u00e3o a 5 pessoas. Apertar um bot\u00e3o desvia, mas 1 pessoa ser\u00e1 atingida.", "left": "N\u00e3o fazer nada. N\u00e3o sujar as m\u00e3os diretamente", "right": "Apertar o bot\u00e3o. Sacrificar 1 para salvar 5" },
+        "d4": { "scenario": "Sua equipe completou um grande projeto. Seu chefe pergunta quem mais contribuiu.", "left": "Reconhecer honestamente as contribui\u00e7\u00f5es de todos", "right": "Apresentar como sua lideran\u00e7a e ficar com a gl\u00f3ria" },
+        "d5": { "scenario": "Em um jogo online, seu oponente revela acidentalmente uma fraqueza. Explor\u00e1-la garante vit\u00f3ria f\u00e1cil.", "left": "Competir justamente e ignorar o erro", "right": "Explorar a fraqueza sem piedade e curtir a frustra\u00e7\u00e3o" },
+        "d6": { "scenario": "Sua postagem nas redes recebeu pouca aten\u00e7\u00e3o. A do seu amigo viralizou ao mesmo tempo.", "left": "Parabenizar o amigo e esquecer sua postagem", "right": "Criar conte\u00fado para superar o amigo e retomar a aten\u00e7\u00e3o" },
+        "d7": { "scenario": "Em auditoria, voc\u00ea descobre fraude financeira de um colega. Reportar significa demiss\u00e3o; silenciar traz riscos.", "left": "Reportar imediatamente. Regras s\u00e3o prioridade", "right": "Silenciar em troca de favores do colega" },
+        "d8": { "scenario": "O barulho do vizinho tira seu sono h\u00e1 semanas. Ele n\u00e3o coopera e a administra\u00e7\u00e3o n\u00e3o ajuda.", "left": "Tentar di\u00e1logo pacientemente ou considerar mudar", "right": "Retaliar com barulho maior nos hor\u00e1rios mais inconvenientes" },
+        "d9": { "scenario": "Voc\u00ea est\u00e1 prestes a vencer uma final de torneio. Seu oponente parece mentalmente inst\u00e1vel por quest\u00f5es pessoais.", "left": "Mostrar empatia e competir com esportividade", "right": "Provocar a fraqueza emocional e curtir v\u00ea-lo desmoronar" },
+        "d10": { "scenario": "Voc\u00ea est\u00e1 em um comit\u00ea de or\u00e7amento da cidade. Pode direcionar mais fundos ao seu distrito, mas um distrito mais pobre sofrer\u00e1.", "left": "Distribuir justamente com base na maior necessidade", "right": "Manipular o or\u00e7amento a seu favor e curtir a influ\u00eancia" }
     },
     "tiers": {
-        "light": {
-            "name": "Luz Pura",
-            "badge": "LUZ PURA",
-            "emoji": "\ud83d\udcab",
-            "desc": "Sua alma \u00e9 notavelmente pura. Voc\u00ea se importa genuinamente com os outros e sempre escolhe o caminho \u00e9tico."
-        },
-        "grey": {
-            "name": "Zona Cinza",
-            "badge": "ZONA CINZA",
-            "emoji": "\u2696\ufe0f",
-            "desc": "Um equil\u00edbrio saud\u00e1vel de luz e sombra. Voc\u00ea tem impulsos sombrios mas os controla. A maioria das pessoas vive aqui."
-        },
-        "shadow": {
-            "name": "Caminhante das Sombras",
-            "badge": "CAMINHANTE DAS SOMBRAS",
-            "emoji": "\ud83c\udf11",
-            "desc": "Voc\u00ea caminha entre a luz e a escurid\u00e3o. Seu lado sombrio \u00e9 ativo e influente. Sabe como us\u00e1-lo quando necess\u00e1rio."
-        },
-        "dark": {
-            "name": "Arquiteto Sombrio",
-            "badge": "ARQUITETO SOMBRIO",
-            "emoji": "\ud83d\udda4",
-            "desc": "Um poderoso n\u00facleo sombrio guia suas decis\u00f5es. Voc\u00ea v\u00ea o mundo como um tabuleiro de xadrez e as pessoas como pe\u00e7as."
-        },
-        "abyss": {
-            "name": "Habitante do Abismo",
-            "badge": "HABITANTE DO ABISMO",
-            "emoji": "\ud83d\udc41\ufe0f",
-            "desc": "Seu n\u00facleo sombrio est\u00e1 completamente desperto. Voc\u00ea abra\u00e7a o vazio e o vazio abra\u00e7a voc\u00ea de volta. O abismo n\u00e3o apenas olha \u2014 sorri."
-        }
+        "light": { "name": "Luz Pura", "badge": "LUZ PURA", "desc": "Sua alma \u00e9 notavelmente pura. Mesmo diante de dilemas morais, voc\u00ea escolhe o caminho \u00e9tico." },
+        "grey": { "name": "Zona Cinza", "badge": "ZONA CINZA", "desc": "Equil\u00edbrio saud\u00e1vel de luz e sombra. Impulsos sombrios controlados." },
+        "shadow": { "name": "Caminhante das Sombras", "badge": "CAMINHANTE DAS SOMBRAS", "desc": "Voc\u00ea caminha entre luz e escurid\u00e3o. Sabe usar seu lado sombrio quando necess\u00e1rio." },
+        "dark": { "name": "Arquiteto Sombrio", "badge": "ARQUITETO SOMBRIO", "desc": "Um n\u00facleo sombrio poderoso guia suas decis\u00f5es. O mundo \u00e9 um tabuleiro de xadrez." },
+        "abyss": { "name": "Habitante do Abismo", "badge": "HABITANTE DO ABISMO", "desc": "Seu n\u00facleo sombrio est\u00e1 completamente desperto. Voc\u00ea abra\u00e7a o vazio e o vazio abra\u00e7a voc\u00ea." }
     },
-    "result": {
-        "title": "Seu N\u00facleo Sombrio",
-        "breakdown": "An\u00e1lise de Tra\u00e7os",
-        "retake": "Refazer Teste"
-    },
-    "share": {
-        "title": "Compartilhe Seu N\u00facleo Sombrio",
-        "text": "Minha pontua\u00e7\u00e3o de N\u00facleo Sombrio \u00e9 {score}%! Sou '{tier}' \ud83d\udda4 Descubra a sua:",
-        "twitter": "Compartilhar no X",
-        "copyUrl": "Copiar Link",
-        "copied": "Copiado!"
-    },
-    "nav": {
-        "back": "In\u00edcio DopaBrain"
-    }
+    "result": { "title": "Seu N\u00facleo Sombrio", "breakdown": "An\u00e1lise de Tra\u00e7os", "retake": "Refazer Teste" },
+    "share": { "title": "Compartilhe Seu N\u00facleo Sombrio", "text": "Minha pontua\u00e7\u00e3o de N\u00facleo Sombrio \u00e9 {score}%! Sou '{tier}' Descubra a sua:", "twitter": "Compartilhar no X", "copyUrl": "Copiar Link", "copied": "Copiado!" },
+    "nav": { "back": "In\u00edcio DopaBrain" }
 }

@@ -1,30 +1,140 @@
 {
-    "meta": { "title": "Teste de Personalidade Sombria | DopaBrain", "description": "Enfrente dilemas morais para descobrir seu n\u00facleo sombrio. Me\u00e7a Narcisismo, Maquiavelismo, Psicopatia e Sadismo." },
-    "a11y": { "skip": "Pular para o conte\u00fado" },
-    "app": { "title": "Teste do N\u00facleo Sombrio", "subtitle": "Qu\u00e3o sombria \u00e9 sua personalidade?", "description": "Enfrente 10 dilemas morais e veja a balan\u00e7a da escurid\u00e3o pender. Cada escolha revela seu Narcisismo, Maquiavelismo, Psicopatia e Sadismo.", "start": "Revelar Meu N\u00facleo Sombrio" },
-    "traits": { "narcissism": "Narcisismo", "machiavellianism": "Maquiavelismo", "psychopathy": "Psicopatia", "sadism": "Sadismo", "narcissism_short": "N", "machiavellianism_short": "M", "psychopathy_short": "P", "sadism_short": "S" },
-    "dilemma": { "number": "DILEMA", "lightSide": "Virtuoso", "darkSide": "Sombrio" },
-    "dilemmas": {
-        "d1": { "scenario": "Voc\u00ea est\u00e1 no comit\u00ea de contrata\u00e7\u00e3o. Um candidato \u00e9 mais talentoso que voc\u00ea, mas contrat\u00e1-lo pode amea\u00e7ar sua posi\u00e7\u00e3o.", "left": "Avaliar justamente e recomendar o candidato talentoso", "right": "Exagerar falhas menores para rejeit\u00e1-lo e proteger seu status" },
-        "d2": { "scenario": "Um amigo pr\u00f3ximo confia um grande segredo. Essa informa\u00e7\u00e3o poderia ajud\u00e1-lo a ser promovido.", "left": "Guardar o segredo e respeitar a confian\u00e7a", "right": "Usar sutilmente a informa\u00e7\u00e3o para criar uma oportunidade" },
-        "d3": { "scenario": "Um carro aut\u00f4nomo descontrolado vai em dire\u00e7\u00e3o a 5 pessoas. Apertar um bot\u00e3o desvia, mas 1 pessoa ser\u00e1 atingida.", "left": "N\u00e3o fazer nada. N\u00e3o sujar as m\u00e3os diretamente", "right": "Apertar o bot\u00e3o. Sacrificar 1 para salvar 5" },
-        "d4": { "scenario": "Sua equipe completou um grande projeto. Seu chefe pergunta quem mais contribuiu.", "left": "Reconhecer honestamente as contribui\u00e7\u00f5es de todos", "right": "Apresentar como sua lideran\u00e7a e ficar com a gl\u00f3ria" },
-        "d5": { "scenario": "Em um jogo online, seu oponente revela acidentalmente uma fraqueza. Explor\u00e1-la garante vit\u00f3ria f\u00e1cil.", "left": "Competir justamente e ignorar o erro", "right": "Explorar a fraqueza sem piedade e curtir a frustra\u00e7\u00e3o" },
-        "d6": { "scenario": "Sua postagem nas redes recebeu pouca aten\u00e7\u00e3o. A do seu amigo viralizou ao mesmo tempo.", "left": "Parabenizar o amigo e esquecer sua postagem", "right": "Criar conte\u00fado para superar o amigo e retomar a aten\u00e7\u00e3o" },
-        "d7": { "scenario": "Em auditoria, voc\u00ea descobre fraude financeira de um colega. Reportar significa demiss\u00e3o; silenciar traz riscos.", "left": "Reportar imediatamente. Regras s\u00e3o prioridade", "right": "Silenciar em troca de favores do colega" },
-        "d8": { "scenario": "O barulho do vizinho tira seu sono h\u00e1 semanas. Ele n\u00e3o coopera e a administra\u00e7\u00e3o n\u00e3o ajuda.", "left": "Tentar di\u00e1logo pacientemente ou considerar mudar", "right": "Retaliar com barulho maior nos hor\u00e1rios mais inconvenientes" },
-        "d9": { "scenario": "Voc\u00ea est\u00e1 prestes a vencer uma final de torneio. Seu oponente parece mentalmente inst\u00e1vel por quest\u00f5es pessoais.", "left": "Mostrar empatia e competir com esportividade", "right": "Provocar a fraqueza emocional e curtir v\u00ea-lo desmoronar" },
-        "d10": { "scenario": "Voc\u00ea est\u00e1 em um comit\u00ea de or\u00e7amento da cidade. Pode direcionar mais fundos ao seu distrito, mas um distrito mais pobre sofrer\u00e1.", "left": "Distribuir justamente com base na maior necessidade", "right": "Manipular o or\u00e7amento a seu favor e curtir a influ\u00eancia" }
+  "meta": {
+    "title": "Teste de Personalidade Sombria | DopaBrain",
+    "description": "Enfrente dilemas morais para descobrir seu núcleo sombrio. Meça Narcisismo, Maquiavelismo, Psicopatia e Sadismo."
+  },
+  "a11y": {
+    "skip": "Pular para o conteúdo"
+  },
+  "app": {
+    "title": "Teste do Núcleo Sombrio",
+    "subtitle": "Quão sombria é sua personalidade?",
+    "description": "Enfrente 10 dilemas morais e veja a balança da escuridão pender. Cada escolha revela seu Narcisismo, Maquiavelismo, Psicopatia e Sadismo.",
+    "start": "Revelar Meu Núcleo Sombrio"
+  },
+  "traits": {
+    "narcissism": "Narcisismo",
+    "machiavellianism": "Maquiavelismo",
+    "psychopathy": "Psicopatia",
+    "sadism": "Sadismo",
+    "narcissism_short": "N",
+    "machiavellianism_short": "M",
+    "psychopathy_short": "P",
+    "sadism_short": "S"
+  },
+  "dilemma": {
+    "number": "DILEMA",
+    "lightSide": "Virtuoso",
+    "darkSide": "Sombrio"
+  },
+  "dilemmas": {
+    "d1": {
+      "scenario": "Você está no comitê de contratação. Um candidato é mais talentoso que você, mas contratá-lo pode ameaçar sua posição.",
+      "left": "Avaliar justamente e recomendar o candidato talentoso",
+      "right": "Exagerar falhas menores para rejeitá-lo e proteger seu status"
     },
-    "tiers": {
-        "light": { "name": "Luz Pura", "badge": "LUZ PURA", "desc": "Sua alma \u00e9 notavelmente pura. Mesmo diante de dilemas morais, voc\u00ea escolhe o caminho \u00e9tico." },
-        "grey": { "name": "Zona Cinza", "badge": "ZONA CINZA", "desc": "Equil\u00edbrio saud\u00e1vel de luz e sombra. Impulsos sombrios controlados." },
-        "shadow": { "name": "Caminhante das Sombras", "badge": "CAMINHANTE DAS SOMBRAS", "desc": "Voc\u00ea caminha entre luz e escurid\u00e3o. Sabe usar seu lado sombrio quando necess\u00e1rio." },
-        "dark": { "name": "Arquiteto Sombrio", "badge": "ARQUITETO SOMBRIO", "desc": "Um n\u00facleo sombrio poderoso guia suas decis\u00f5es. O mundo \u00e9 um tabuleiro de xadrez." },
-        "abyss": { "name": "Habitante do Abismo", "badge": "HABITANTE DO ABISMO", "desc": "Seu n\u00facleo sombrio est\u00e1 completamente desperto. Voc\u00ea abra\u00e7a o vazio e o vazio abra\u00e7a voc\u00ea." }
+    "d2": {
+      "scenario": "Um amigo próximo confia um grande segredo. Essa informação poderia ajudá-lo a ser promovido.",
+      "left": "Guardar o segredo e respeitar a confiança",
+      "right": "Usar sutilmente a informação para criar uma oportunidade"
     },
-    "result": { "title": "Seu N\u00facleo Sombrio", "breakdown": "An\u00e1lise de Tra\u00e7os", "retake": "Refazer Teste", "moreTests": "Explorar mais", "percentileStat": "Apenas <strong>{percent}%</strong> compartilham seu perfil sombrio" },
-    "related": { "villainType": "Tipo de Vilão", "toxicTrait": "Traço Tóxico", "emotionIceberg": "Iceberg Emocional", "eqTest": "Teste de QE" },
-    "share": { "title": "Compartilhe Seu N\u00facleo Sombrio", "text": "Minha pontua\u00e7\u00e3o de N\u00facleo Sombrio \u00e9 {score}%! Sou '{tier}' Descubra a sua:", "twitter": "Compartilhar no X", "copyUrl": "Copiar Link", "copied": "Copiado!" },
-    "nav": { "back": "In\u00edcio DopaBrain" }
+    "d3": {
+      "scenario": "Um carro autônomo descontrolado vai em direção a 5 pessoas. Apertar um botão desvia, mas 1 pessoa será atingida.",
+      "left": "Não fazer nada. Não sujar as mãos diretamente",
+      "right": "Apertar o botão. Sacrificar 1 para salvar 5"
+    },
+    "d4": {
+      "scenario": "Sua equipe completou um grande projeto. Seu chefe pergunta quem mais contribuiu.",
+      "left": "Reconhecer honestamente as contribuições de todos",
+      "right": "Apresentar como sua liderança e ficar com a glória"
+    },
+    "d5": {
+      "scenario": "Em um jogo online, seu oponente revela acidentalmente uma fraqueza. Explorá-la garante vitória fácil.",
+      "left": "Competir justamente e ignorar o erro",
+      "right": "Explorar a fraqueza sem piedade e curtir a frustração"
+    },
+    "d6": {
+      "scenario": "Sua postagem nas redes recebeu pouca atenção. A do seu amigo viralizou ao mesmo tempo.",
+      "left": "Parabenizar o amigo e esquecer sua postagem",
+      "right": "Criar conteúdo para superar o amigo e retomar a atenção"
+    },
+    "d7": {
+      "scenario": "Em auditoria, você descobre fraude financeira de um colega. Reportar significa demissão; silenciar traz riscos.",
+      "left": "Reportar imediatamente. Regras são prioridade",
+      "right": "Silenciar em troca de favores do colega"
+    },
+    "d8": {
+      "scenario": "O barulho do vizinho tira seu sono há semanas. Ele não coopera e a administração não ajuda.",
+      "left": "Tentar diálogo pacientemente ou considerar mudar",
+      "right": "Retaliar com barulho maior nos horários mais inconvenientes"
+    },
+    "d9": {
+      "scenario": "Você está prestes a vencer uma final de torneio. Seu oponente parece mentalmente instável por questões pessoais.",
+      "left": "Mostrar empatia e competir com esportividade",
+      "right": "Provocar a fraqueza emocional e curtir vê-lo desmoronar"
+    },
+    "d10": {
+      "scenario": "Você está em um comitê de orçamento da cidade. Pode direcionar mais fundos ao seu distrito, mas um distrito mais pobre sofrerá.",
+      "left": "Distribuir justamente com base na maior necessidade",
+      "right": "Manipular o orçamento a seu favor e curtir a influência"
+    }
+  },
+  "tiers": {
+    "light": {
+      "name": "Luz Pura",
+      "badge": "LUZ PURA",
+      "desc": "Sua alma é notavelmente pura. Mesmo diante de dilemas morais, você escolhe o caminho ético."
+    },
+    "grey": {
+      "name": "Zona Cinza",
+      "badge": "ZONA CINZA",
+      "desc": "Equilíbrio saudável de luz e sombra. Impulsos sombrios controlados."
+    },
+    "shadow": {
+      "name": "Caminhante das Sombras",
+      "badge": "CAMINHANTE DAS SOMBRAS",
+      "desc": "Você caminha entre luz e escuridão. Sabe usar seu lado sombrio quando necessário."
+    },
+    "dark": {
+      "name": "Arquiteto Sombrio",
+      "badge": "ARQUITETO SOMBRIO",
+      "desc": "Um núcleo sombrio poderoso guia suas decisões. O mundo é um tabuleiro de xadrez."
+    },
+    "abyss": {
+      "name": "Habitante do Abismo",
+      "badge": "HABITANTE DO ABISMO",
+      "desc": "Seu núcleo sombrio está completamente desperto. Você abraça o vazio e o vazio abraça você."
+    }
+  },
+  "result": {
+    "title": "Seu Núcleo Sombrio",
+    "breakdown": "Análise de Traços",
+    "retake": "Refazer Teste",
+    "moreTests": "Explorar mais",
+    "percentileStat": "Apenas <strong>{percent}%</strong> compartilham seu perfil sombrio"
+  },
+  "related": {
+    "villainType": "Tipo de Vilão",
+    "toxicTrait": "Traço Tóxico",
+    "emotionIceberg": "Iceberg Emocional",
+    "eqTest": "Teste de QE"
+  },
+  "share": {
+    "title": "Compartilhe Seu Núcleo Sombrio",
+    "text": "Minha pontuação de Núcleo Sombrio é {score}%! Sou '{tier}' Descubra a sua:",
+    "twitter": "Compartilhar no X",
+    "copyUrl": "Copiar Link",
+    "copied": "Copiado!"
+  },
+  "nav": {
+    "back": "Início DopaBrain"
+  },
+  "engage": {
+    "cta": "Enfrente seu lado sombrio",
+    "proof": "almas foram testadas",
+    "result1": "Maquiavélico -- Estratégico e Calculista",
+    "result2": "Narcisista -- Carismático e Autoconfiante",
+    "result3": "Caminhante das Sombras -- Equilibrado e Autoconsciente",
+    "result4": "Empata Sombrio -- Perceptivo e Complexo"
+  }
 }

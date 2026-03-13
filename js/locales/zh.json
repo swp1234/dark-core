@@ -1,30 +1,140 @@
 {
-    "meta": { "title": "\u6697\u9ed1\u6838\u5fc3\u4eba\u683c\u6d4b\u8bd5 | DopaBrain", "description": "\u901a\u8fc7\u9053\u5fb7\u56f0\u5883\u63a2\u7d22\u4f60\u7684\u6697\u9ed1\u6838\u5fc3\u3002\u6d4b\u91cf\u81ea\u604b\u3001\u6743\u672f\u3001\u7cbe\u795e\u75c5\u6001\u548c\u65bd\u8650\u7279\u8d28\u3002" },
-    "a11y": { "skip": "\u8df3\u5230\u5185\u5bb9" },
-    "app": { "title": "\u6697\u9ed1\u6838\u5fc3\u6d4b\u8bd5", "subtitle": "\u4f60\u7684\u4eba\u683c\u6709\u591a\u9ed1\u6697\uff1f", "description": "\u56de\u7b5410\u4e2a\u9053\u5fb7\u56f0\u5883\uff0c\u770b\u9ed1\u6697\u5929\u79e4\u5982\u4f55\u503e\u659c\u3002\u6bcf\u4e2a\u9009\u62e9\u90fd\u4f1a\u63ed\u793a\u4f60\u7684\u81ea\u604b\u3001\u6743\u672f\u3001\u7cbe\u795e\u75c5\u6001\u548c\u65bd\u8650\u7279\u8d28\u3002", "start": "\u63a2\u7d22\u6211\u7684\u6697\u9ed1\u6838\u5fc3" },
-    "traits": { "narcissism": "\u81ea\u604b", "machiavellianism": "\u6743\u672f\u4e3b\u4e49", "psychopathy": "\u7cbe\u795e\u75c5\u6001", "sadism": "\u65bd\u8650\u503e\u5411", "narcissism_short": "N", "machiavellianism_short": "M", "psychopathy_short": "P", "sadism_short": "S" },
-    "dilemma": { "number": "\u56f0\u5883", "lightSide": "\u5584\u826f", "darkSide": "\u9ed1\u6697" },
-    "dilemmas": {
-        "d1": { "scenario": "\u4f60\u662f\u62db\u8058\u59d4\u5458\u4f1a\u6210\u5458\u3002\u4e00\u4f4d\u5019\u9009\u4eba\u6bd4\u4f60\u66f4\u4f18\u79c0\uff0c\u4f46\u5f55\u7528\u4ed6\u53ef\u80fd\u5a01\u80c1\u4f60\u7684\u5730\u4f4d\u3002", "left": "\u516c\u6b63\u8bc4\u4f30\u5e76\u63a8\u8350\u4f18\u79c0\u5019\u9009\u4eba", "right": "\u5938\u5927\u5c0f\u7f3a\u70b9\u8ba9\u5176\u843d\u9009\uff0c\u4fdd\u62a4\u81ea\u5df1\u7684\u5730\u4f4d" },
-        "d2": { "scenario": "\u4eb2\u5bc6\u670b\u53cb\u544a\u8bc9\u4f60\u4e00\u4e2a\u91cd\u5927\u79d8\u5bc6\u3002\u5229\u7528\u8fd9\u4e2a\u4fe1\u606f\u53ef\u4ee5\u5e2e\u4f60\u5347\u804c\u3002", "left": "\u4fdd\u5b88\u79d8\u5bc6\uff0c\u5c0a\u91cd\u670b\u53cb\u7684\u4fe1\u4efb", "right": "\u5de7\u5999\u5229\u7528\u4fe1\u606f\u521b\u9020\u5347\u804c\u673a\u4f1a" },
-        "d3": { "scenario": "\u4e00\u8f86\u5931\u63a7\u7684\u81ea\u52a8\u9a7e\u9a76\u6c7d\u8f66\u6b63\u51b2\u54115\u4eba\u3002\u6309\u4e0b\u6309\u94ae\u53ef\u4ee5\u8f6c\u5411\uff0c\u4f46\u4f1a\u649e\u52301\u4eba\u3002", "left": "\u4ec0\u4e48\u90fd\u4e0d\u505a\u3002\u4e0d\u76f4\u63a5\u5f04\u810f\u53cc\u624b", "right": "\u6309\u4e0b\u6309\u94ae\u3002\u727a\u72721\u4eba\u62551\u4eba" },
-        "d4": { "scenario": "\u4f60\u7684\u56e2\u961f\u5b8c\u6210\u4e86\u4e00\u4e2a\u5927\u9879\u76ee\u3002\u8001\u677f\u95ee\u8c01\u8d21\u732e\u6700\u5927\u3002", "left": "\u8bda\u5b9e\u5730\u8ba4\u53ef\u6bcf\u4e2a\u4eba\u7684\u8d21\u732e", "right": "\u5305\u88c5\u6210\u81ea\u5df1\u4e3b\u5bfc\u7684\uff0c\u72ec\u5360\u8363\u8000" },
-        "d5": { "scenario": "\u5728\u7ebf\u6e38\u620f\u4e2d\u5bf9\u624b\u610f\u5916\u66b4\u9732\u4e86\u5f31\u70b9\u3002\u5229\u7528\u5b83\u53ef\u4ee5\u8f7b\u677e\u83b7\u80dc\u3002", "left": "\u516c\u5e73\u7ade\u4e89\uff0c\u5ffd\u7565\u5bf9\u624b\u7684\u5931\u8bef", "right": "\u65e0\u60c5\u5229\u7528\u5f31\u70b9\uff0c\u4eab\u53d7\u5bf9\u624b\u7684\u6cae\u4e27" },
-        "d6": { "scenario": "\u4f60\u7684\u793e\u4ea4\u5a92\u4f53\u5e16\u5b50\u53cd\u54cd\u5e73\u5e73\u3002\u670b\u53cb\u7684\u5e16\u5b50\u540c\u65f6\u706b\u4e86\u3002", "left": "\u795d\u8d3a\u670b\u53cb\u7684\u6210\u529f\uff0c\u5fd8\u6389\u81ea\u5df1\u7684\u5e16\u5b50", "right": "\u521b\u4f5c\u8d85\u8d8a\u670b\u53cb\u7684\u5185\u5bb9\uff0c\u593a\u56de\u5173\u6ce8" },
-        "d7": { "scenario": "\u5ba1\u8ba1\u4e2d\u53d1\u73b0\u540c\u4e8b\u7684\u8d22\u52a1\u6b3a\u8bc8\u3002\u4e3e\u62a5\u4f1a\u8ba9\u4ed6\u5931\u4e1a\uff0c\u6c89\u9ed8\u5219\u6709\u98ce\u9669\u3002", "left": "\u7acb\u5373\u4e3e\u62a5\u3002\u89c4\u5219\u4f18\u5148", "right": "\u4ee5\u6c89\u9ed8\u6362\u53d6\u540c\u4e8b\u7684\u56de\u62a5" },
-        "d8": { "scenario": "\u90bb\u5c45\u7684\u566a\u97f3\u8ba9\u4f60\u51e0\u5468\u6ca1\u7761\u597d\u3002\u90bb\u5c45\u4e0d\u914d\u5408\uff0c\u7269\u4e1a\u4e5f\u4e0d\u5e2e\u5fd9\u3002", "left": "\u8010\u5fc3\u7ee7\u7eed\u6c9f\u901a\u6216\u8003\u8651\u642c\u5bb6", "right": "\u5728\u90bb\u5c45\u6700\u4e0d\u65b9\u4fbf\u7684\u65f6\u95f4\u7528\u66f4\u5927\u566a\u97f3\u62a5\u590d" },
-        "d9": { "scenario": "\u6bd4\u8d5b\u51b3\u8d5b\u524d\u5915\u3002\u5bf9\u624b\u56e0\u4e2a\u4eba\u95ee\u9898\u7cbe\u795e\u72b6\u6001\u4e0d\u7a33\u5b9a\u3002", "left": "\u4fdd\u6301\u540c\u7406\u5fc3\uff0c\u4ee5\u4f53\u80b2\u7cbe\u795e\u7ade\u4e89", "right": "\u523a\u6fc0\u5bf9\u624b\u7684\u60c5\u7eea\u5f31\u70b9\uff0c\u4eab\u53d7\u770b\u4ed6\u5d29\u6e83" },
-        "d10": { "scenario": "\u4f60\u5728\u57ce\u5e02\u9884\u7b97\u59d4\u5458\u4f1a\u3002\u53ef\u4ee5\u7ed9\u81ea\u5df1\u5730\u533a\u66f4\u591a\u8d44\u91d1\uff0c\u4f46\u66f4\u8d2b\u56f0\u7684\u5730\u533a\u4f1a\u53d7\u5f71\u54cd\u3002", "left": "\u6839\u636e\u6700\u5927\u9700\u6c42\u516c\u5e73\u5206\u914d", "right": "\u64cd\u7eb5\u9884\u7b97\u504f\u5411\u81ea\u5df1\uff0c\u4eab\u53d7\u90a3\u4efd\u5f71\u54cd\u529b" }
+  "meta": {
+    "title": "暗黑核心人格测试 | DopaBrain",
+    "description": "通过道德困境探索你的暗黑核心。测量自恋、权术、精神病态和施虐特质。"
+  },
+  "a11y": {
+    "skip": "跳到内容"
+  },
+  "app": {
+    "title": "暗黑核心测试",
+    "subtitle": "你的人格有多黑暗？",
+    "description": "回答10个道德困境，看黑暗天秤如何倾斜。每个选择都会揭示你的自恋、权术、精神病态和施虐特质。",
+    "start": "探索我的暗黑核心"
+  },
+  "traits": {
+    "narcissism": "自恋",
+    "machiavellianism": "权术主义",
+    "psychopathy": "精神病态",
+    "sadism": "施虐倾向",
+    "narcissism_short": "N",
+    "machiavellianism_short": "M",
+    "psychopathy_short": "P",
+    "sadism_short": "S"
+  },
+  "dilemma": {
+    "number": "困境",
+    "lightSide": "善良",
+    "darkSide": "黑暗"
+  },
+  "dilemmas": {
+    "d1": {
+      "scenario": "你是招聘委员会成员。一位候选人比你更优秀，但录用他可能威胁你的地位。",
+      "left": "公正评估并推荐优秀候选人",
+      "right": "夸大小缺点让其落选，保护自己的地位"
     },
-    "tiers": {
-        "light": { "name": "\u7eaf\u6d01\u4e4b\u5149", "badge": "\u7eaf\u6d01\u4e4b\u5149", "desc": "\u4f60\u7684\u7075\u9b42\u975e\u5e38\u7eaf\u6d01\u3002\u5373\u4f7f\u9762\u5bf9\u9053\u5fb7\u56f0\u5883\uff0c\u4f60\u4e5f\u59cb\u7ec8\u9009\u62e9\u9053\u5fb7\u4e4b\u8def\u3002" },
-        "grey": { "name": "\u7070\u8272\u5730\u5e26", "badge": "\u7070\u8272\u5730\u5e26", "desc": "\u5149\u660e\u4e0e\u9634\u5f71\u7684\u5065\u5eb7\u5e73\u8861\u3002\u6709\u9ed1\u6697\u51b2\u52a8\u4f46\u63a7\u5236\u5f97\u5f88\u597d\u3002" },
-        "shadow": { "name": "\u6697\u5f71\u884c\u8005", "badge": "\u6697\u5f71\u884c\u8005", "desc": "\u4f60\u884c\u8d70\u5728\u5149\u660e\u4e0e\u9ed1\u6697\u7684\u8fb9\u754c\u3002\u9700\u8981\u65f6\u61c2\u5f97\u5229\u7528\u9634\u6697\u9762\u3002" },
-        "dark": { "name": "\u9ed1\u6697\u5efa\u7b51\u5e08", "badge": "\u9ed1\u6697\u5efa\u7b51\u5e08", "desc": "\u5f3a\u5927\u7684\u6697\u9ed1\u6838\u5fc3\u9a71\u52a8\u4f60\u7684\u51b3\u7b56\u3002\u4f60\u628a\u4e16\u754c\u770b\u4f5c\u68cb\u76d8\u3002" },
-        "abyss": { "name": "\u6df1\u6e0a\u5c45\u6c11", "badge": "\u6df1\u6e0a\u5c45\u6c11", "desc": "\u6697\u9ed1\u6838\u5fc3\u5df2\u5b8c\u5168\u89c9\u9192\u3002\u4f60\u62e5\u62b1\u6df1\u6e0a\uff0c\u6df1\u6e0a\u4e5f\u62e5\u62b1\u4f60\u3002" }
+    "d2": {
+      "scenario": "亲密朋友告诉你一个重大秘密。利用这个信息可以帮你升职。",
+      "left": "保守秘密，尊重朋友的信任",
+      "right": "巧妙利用信息创造升职机会"
     },
-    "result": { "title": "\u4f60\u7684\u6697\u9ed1\u6838\u5fc3", "breakdown": "\u7279\u8d28\u5206\u6790", "retake": "\u91cd\u65b0\u6d4b\u8bd5", "moreTests": "探索更多", "percentileStat": "仅 <strong>{percent}%</strong> 拥有与你相同的暗黑档案" },
-    "related": { "villainType": "反派类型", "toxicTrait": "毒性特征", "emotionIceberg": "情感冰山", "eqTest": "情商测试" },
-    "share": { "title": "\u5206\u4eab\u4f60\u7684\u6697\u9ed1\u6838\u5fc3", "text": "\u6211\u7684\u6697\u9ed1\u6838\u5fc3\u5206\u6570\u662f{score}%\uff01\u6211\u662f\u300e{tier}\u300f\u4f60\u4e5f\u6765\u8bd5\u8bd5:", "twitter": "\u5206\u4eab\u5230X", "copyUrl": "\u590d\u5236\u94fe\u63a5", "copied": "\u5df2\u590d\u5236\uff01" },
-    "nav": { "back": "DopaBrain \u9996\u9875" }
+    "d3": {
+      "scenario": "一辆失控的自动驾驶汽车正冲向5人。按下按钮可以转向，但会撞到1人。",
+      "left": "什么都不做。不直接弄脏双手",
+      "right": "按下按钮。牺牲1人払1人"
+    },
+    "d4": {
+      "scenario": "你的团队完成了一个大项目。老板问谁贡献最大。",
+      "left": "诚实地认可每个人的贡献",
+      "right": "包装成自己主导的，独占荣耀"
+    },
+    "d5": {
+      "scenario": "在线游戏中对手意外暴露了弱点。利用它可以轻松获胜。",
+      "left": "公平竞争，忽略对手的失误",
+      "right": "无情利用弱点，享受对手的沮丧"
+    },
+    "d6": {
+      "scenario": "你的社交媒体帖子反响平平。朋友的帖子同时火了。",
+      "left": "祝贺朋友的成功，忘掉自己的帖子",
+      "right": "创作超越朋友的内容，夺回关注"
+    },
+    "d7": {
+      "scenario": "审计中发现同事的财务欺诈。举报会让他失业，沉默则有风险。",
+      "left": "立即举报。规则优先",
+      "right": "以沉默换取同事的回报"
+    },
+    "d8": {
+      "scenario": "邻居的噪音让你几周没睡好。邻居不配合，物业也不帮忙。",
+      "left": "耐心继续沟通或考虑搬家",
+      "right": "在邻居最不方便的时间用更大噪音报复"
+    },
+    "d9": {
+      "scenario": "比赛决赛前夕。对手因个人问题精神状态不稳定。",
+      "left": "保持同理心，以体育精神竞争",
+      "right": "刺激对手的情绪弱点，享受看他崩溃"
+    },
+    "d10": {
+      "scenario": "你在城市预算委员会。可以给自己地区更多资金，但更贫困的地区会受影响。",
+      "left": "根据最大需求公平分配",
+      "right": "操纵预算偏向自己，享受那份影响力"
+    }
+  },
+  "tiers": {
+    "light": {
+      "name": "纯洁之光",
+      "badge": "纯洁之光",
+      "desc": "你的灵魂非常纯洁。即使面对道德困境，你也始终选择道德之路。"
+    },
+    "grey": {
+      "name": "灰色地带",
+      "badge": "灰色地带",
+      "desc": "光明与阴影的健康平衡。有黑暗冲动但控制得很好。"
+    },
+    "shadow": {
+      "name": "暗影行者",
+      "badge": "暗影行者",
+      "desc": "你行走在光明与黑暗的边界。需要时懂得利用阴暗面。"
+    },
+    "dark": {
+      "name": "黑暗建筑师",
+      "badge": "黑暗建筑师",
+      "desc": "强大的暗黑核心驱动你的决策。你把世界看作棋盘。"
+    },
+    "abyss": {
+      "name": "深渊居民",
+      "badge": "深渊居民",
+      "desc": "暗黑核心已完全觉醒。你拥抱深渊，深渊也拥抱你。"
+    }
+  },
+  "result": {
+    "title": "你的暗黑核心",
+    "breakdown": "特质分析",
+    "retake": "重新测试",
+    "moreTests": "探索更多",
+    "percentileStat": "仅 <strong>{percent}%</strong> 拥有与你相同的暗黑档案"
+  },
+  "related": {
+    "villainType": "反派类型",
+    "toxicTrait": "毒性特征",
+    "emotionIceberg": "情感冰山",
+    "eqTest": "情商测试"
+  },
+  "share": {
+    "title": "分享你的暗黑核心",
+    "text": "我的暗黑核心分数是{score}%！我是『{tier}』你也来试试:",
+    "twitter": "分享到X",
+    "copyUrl": "复制链接",
+    "copied": "已复制！"
+  },
+  "nav": {
+    "back": "DopaBrain 首页"
+  },
+  "engage": {
+    "cta": "面对你的黑暗面",
+    "proof": "个灵魂已被测试",
+    "result1": "马基雅维利 -- 战略与算计",
+    "result2": "自恋者 -- 魅力与自信",
+    "result3": "暗影行者 -- 平衡与自知",
+    "result4": "暗黑共情者 -- 洞察与复杂"
+  }
 }

@@ -1,53 +1,140 @@
 {
-    "meta": {
-        "title": "\u30c0\u30fc\u30af\u30b3\u30a2\u6027\u683c\u30c6\u30b9\u30c8 | DopaBrain",
-        "description": "\u9053\u5fb3\u7684\u30b8\u30ec\u30f3\u30de\u3067\u3042\u306a\u305f\u306e\u30c0\u30fc\u30af\u30b3\u30a2\u3092\u6e2c\u5b9a\u3002\u30ca\u30eb\u30b7\u30b7\u30ba\u30e0\u3001\u30de\u30ad\u30e3\u30d9\u30ea\u30ba\u30e0\u3001\u30b5\u30a4\u30b3\u30d1\u30b7\u30fc\u3001\u30b5\u30c7\u30a3\u30ba\u30e0\u3092\u5206\u6790\u3002"
+  "meta": {
+    "title": "ダークコア性格テスト | DopaBrain",
+    "description": "道徳的ジレンマであなたのダークコアを測定。ナルシシズム、マキャベリズム、サイコパシー、サディズムを分析。"
+  },
+  "a11y": {
+    "skip": "コンテンツへスキップ"
+  },
+  "app": {
+    "title": "ダークコアテスト",
+    "subtitle": "あなたの性格はどれほど暗い？",
+    "description": "10の道徳的ジレンマに答えて、闇の天秤が傾くのを見てください。各選択がナルシシズム、マキャベリズム、サイコパシー、サディズムを明らかにします。",
+    "start": "ダークコアを測定"
+  },
+  "traits": {
+    "narcissism": "ナルシシズム",
+    "machiavellianism": "マキャベリズム",
+    "psychopathy": "サイコパシー",
+    "sadism": "サディズム",
+    "narcissism_short": "N",
+    "machiavellianism_short": "M",
+    "psychopathy_short": "P",
+    "sadism_short": "S"
+  },
+  "dilemma": {
+    "number": "ジレンマ",
+    "lightSide": "善の選択",
+    "darkSide": "闇の選択"
+  },
+  "dilemmas": {
+    "d1": {
+      "scenario": "あなたは採用委員です。候補者はあなたより優秀ですが、採用すればあなたの地位が脅かされます。",
+      "left": "公正に評価し、優秀な候補者を推薦する",
+      "right": "些細な欠点を誇張して不合格にし、地位を守る"
     },
-    "a11y": { "skip": "\u30b3\u30f3\u30c6\u30f3\u30c4\u3078\u30b9\u30ad\u30c3\u30d7" },
-    "app": {
-        "title": "\u30c0\u30fc\u30af\u30b3\u30a2\u30c6\u30b9\u30c8",
-        "subtitle": "\u3042\u306a\u305f\u306e\u6027\u683c\u306f\u3069\u308c\u307b\u3069\u6697\u3044\uff1f",
-        "description": "10\u306e\u9053\u5fb3\u7684\u30b8\u30ec\u30f3\u30de\u306b\u7b54\u3048\u3066\u3001\u95c7\u306e\u5929\u79e4\u304c\u50be\u304f\u306e\u3092\u898b\u3066\u304f\u3060\u3055\u3044\u3002\u5404\u9078\u629e\u304c\u30ca\u30eb\u30b7\u30b7\u30ba\u30e0\u3001\u30de\u30ad\u30e3\u30d9\u30ea\u30ba\u30e0\u3001\u30b5\u30a4\u30b3\u30d1\u30b7\u30fc\u3001\u30b5\u30c7\u30a3\u30ba\u30e0\u3092\u660e\u3089\u304b\u306b\u3057\u307e\u3059\u3002",
-        "start": "\u30c0\u30fc\u30af\u30b3\u30a2\u3092\u6e2c\u5b9a"
+    "d2": {
+      "scenario": "親友が重大な秘密を打ち明けました。この情報を使えば昇進できます。",
+      "left": "秘密を守り、友人の信頼を尊重する",
+      "right": "さりげなく情報を利用して機会を作る"
     },
-    "traits": {
-        "narcissism": "\u30ca\u30eb\u30b7\u30b7\u30ba\u30e0",
-        "machiavellianism": "\u30de\u30ad\u30e3\u30d9\u30ea\u30ba\u30e0",
-        "psychopathy": "\u30b5\u30a4\u30b3\u30d1\u30b7\u30fc",
-        "sadism": "\u30b5\u30c7\u30a3\u30ba\u30e0",
-        "narcissism_short": "N",
-        "machiavellianism_short": "M",
-        "psychopathy_short": "P",
-        "sadism_short": "S"
+    "d3": {
+      "scenario": "暴走した自動運転車が5人に向かっています。ボタンを押せば車の方向を変えられますが、1人が犠牲になります。",
+      "left": "何もしない。直接手を汚さない",
+      "right": "ボタンを押す1人を犠牲に、5人を救う"
     },
-    "dilemma": { "number": "\u30b8\u30ec\u30f3\u30de", "lightSide": "\u5584\u306e\u9078\u629e", "darkSide": "\u95c7\u306e\u9078\u629e" },
-    "dilemmas": {
-        "d1": { "scenario": "\u3042\u306a\u305f\u306f\u63a1\u7528\u59d4\u54e1\u3067\u3059\u3002\u5019\u88dc\u8005\u306f\u3042\u306a\u305f\u3088\u308a\u512a\u79c0\u3067\u3059\u304c\u3001\u63a1\u7528\u3059\u308c\u3070\u3042\u306a\u305f\u306e\u5730\u4f4d\u304c\u8105\u304b\u3055\u308c\u307e\u3059\u3002", "left": "\u516c\u6b63\u306b\u8a55\u4fa1\u3057\u3001\u512a\u79c0\u306a\u5019\u88dc\u8005\u3092\u63a8\u85a6\u3059\u308b", "right": "\u4e9b\u7d30\u306a\u6b20\u70b9\u3092\u8a87\u5f35\u3057\u3066\u4e0d\u5408\u683c\u306b\u3057\u3001\u5730\u4f4d\u3092\u5b88\u308b" },
-        "d2": { "scenario": "\u89aa\u53cb\u304c\u91cd\u5927\u306a\u79d8\u5bc6\u3092\u6253\u3061\u660e\u3051\u307e\u3057\u305f\u3002\u3053\u306e\u60c5\u5831\u3092\u4f7f\u3048\u3070\u6607\u9032\u3067\u304d\u307e\u3059\u3002", "left": "\u79d8\u5bc6\u3092\u5b88\u308a\u3001\u53cb\u4eba\u306e\u4fe1\u983c\u3092\u5c0a\u91cd\u3059\u308b", "right": "\u3055\u308a\u3052\u306a\u304f\u60c5\u5831\u3092\u5229\u7528\u3057\u3066\u6a5f\u4f1a\u3092\u4f5c\u308b" },
-        "d3": { "scenario": "\u66b4\u8d70\u3057\u305f\u81ea\u52d5\u904b\u8ee2\u8eca\u304c5\u4eba\u306b\u5411\u304b\u3063\u3066\u3044\u307e\u3059\u3002\u30dc\u30bf\u30f3\u3092\u62bc\u305b\u3070\u8eca\u306e\u65b9\u5411\u3092\u5909\u3048\u3089\u308c\u307e\u3059\u304c\u30011\u4eba\u304c\u72a0\u7272\u306b\u306a\u308a\u307e\u3059\u3002", "left": "\u4f55\u3082\u3057\u306a\u3044\u3002\u76f4\u63a5\u624b\u3092\u6c5a\u3055\u306a\u3044", "right": "\u30dc\u30bf\u30f3\u3092\u62bc\u30591\u4eba\u3092\u72a0\u7272\u306b\u30015\u4eba\u3092\u6551\u3046" },
-        "d4": { "scenario": "\u30c1\u30fc\u30e0\u304c\u5927\u304d\u306a\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u3092\u6210\u529f\u3055\u305b\u307e\u3057\u305f\u3002\u4e0a\u53f8\u304c\u8ab0\u304c\u6700\u3082\u8ca2\u732e\u3057\u305f\u304b\u5c0b\u306d\u307e\u3059\u3002", "left": "\u5168\u54e1\u306e\u8ca2\u732e\u3092\u6b63\u76f4\u306b\u4f1d\u3048\u308b", "right": "\u81ea\u5206\u304c\u4e3b\u5c0e\u3057\u305f\u3088\u3046\u306b\u898b\u305b\u3001\u6804\u5149\u3092\u72ec\u5360\u3059\u308b" },
-        "d5": { "scenario": "\u30aa\u30f3\u30e9\u30a4\u30f3\u30b2\u30fc\u30e0\u3067\u76f8\u624b\u304c\u5f31\u70b9\u3092\u9732\u5448\u3057\u307e\u3057\u305f\u3002\u5229\u7528\u3059\u308c\u3070\u7c21\u5358\u306b\u52dd\u3066\u307e\u3059\u3002", "left": "\u30d5\u30a7\u30a2\u306b\u7af6\u4e89\u3057\u3001\u30df\u30b9\u3092\u7121\u8996\u3059\u308b", "right": "\u5f31\u70b9\u3092\u5fb9\u5e95\u7684\u306b\u7a81\u304d\u3001\u76f8\u624b\u306e\u6311\u6298\u3092\u697d\u3057\u3080" },
-        "d6": { "scenario": "\u3042\u306a\u305f\u306eSNS\u6295\u7a3f\u304c\u4e88\u60f3\u3088\u308a\u6ce8\u76ee\u3055\u308c\u307e\u305b\u3093\u3067\u3057\u305f\u3002\u53cb\u4eba\u306e\u6295\u7a3f\u306f\u540c\u6642\u306b\u30d0\u30ba\u308a\u307e\u3057\u305f\u3002", "left": "\u53cb\u4eba\u306e\u6210\u529f\u3092\u795d\u3044\u3001\u81ea\u5206\u306e\u6295\u7a3f\u306f\u5fd8\u308c\u308b", "right": "\u53cb\u4eba\u3092\u8d85\u3048\u308b\u30b3\u30f3\u30c6\u30f3\u30c4\u3092\u4f5c\u3063\u3066\u6ce8\u76ee\u3092\u53d6\u308a\u623b\u3059" },
-        "d7": { "scenario": "\u76e3\u67fb\u4e2d\u306b\u540c\u50da\u306e\u4e0d\u6b63\u4f1a\u8a08\u3092\u767a\u898b\u3002\u5831\u544a\u3059\u308c\u3070\u540c\u50da\u306f\u89e3\u96c7\u3001\u6c88\u9ed8\u3059\u308c\u3070\u30ea\u30b9\u30af\u304c\u3042\u308a\u307e\u3059\u3002", "left": "\u3059\u3050\u306b\u5831\u544a\u3059\u308b\u3002\u30eb\u30fc\u30eb\u304c\u512a\u5148", "right": "\u6c88\u9ed9\u306e\u4ee3\u308f\u308a\u306b\u540c\u50da\u306b\u898b\u8fd4\u308a\u3092\u8981\u6c42\u3059\u308b" },
-        "d8": { "scenario": "\u96a3\u4eba\u306e\u9a12\u97f3\u3067\u4f55\u9031\u9593\u3082\u7720\u308c\u307e\u305b\u3093\u3002\u96a3\u4eba\u306f\u975e\u5354\u529b\u7684\u3067\u3001\u7ba1\u7406\u4f1a\u793e\u3082\u52a9\u3051\u3066\u304f\u308c\u307e\u305b\u3093\u3002", "left": "\u8f9b\u62b1\u5f37\u304f\u5bfe\u8a71\u3092\u7d9a\u3051\u308b\u304b\u5f15\u3063\u8d8a\u3057\u3092\u691c\u8a0e\u3059\u308b", "right": "\u96a3\u4eba\u304c\u6700\u3082\u8ff7\u60d1\u3059\u308b\u6642\u9593\u5e2f\u306b\u3088\u308a\u5927\u304d\u306a\u9a12\u97f3\u3067\u5831\u5fa9\u3059\u308b" },
-        "d9": { "scenario": "\u30c8\u30fc\u30ca\u30e1\u30f3\u30c8\u6c7a\u52dd\u76ee\u524d\u3002\u5bfe\u6226\u76f8\u624b\u306f\u500b\u4eba\u7684\u306a\u4e8b\u60c5\u3067\u30e1\u30f3\u30bf\u30eb\u304c\u4e0d\u5b89\u5b9a\u306b\u898b\u3048\u307e\u3059\u3002", "left": "\u601d\u3044\u3084\u308a\u3092\u6301\u3061\u3001\u30b9\u30dd\u30fc\u30c4\u30de\u30f3\u30b7\u30c3\u30d7\u3067\u7af6\u4e89\u3059\u308b", "right": "\u76f8\u624b\u306e\u611f\u60c5\u7684\u306a\u5f31\u70b9\u3092\u523a\u6fc0\u3057\u3001\u5d29\u308c\u308b\u69d8\u5b50\u3092\u697d\u3057\u3080" },
-        "d10": { "scenario": "\u5e02\u306e\u4e88\u7b97\u59d4\u54e1\u4f1a\u306e\u4e00\u54e1\u3067\u3059\u3002\u81ea\u5206\u306e\u5730\u533a\u306b\u591a\u304f\u914d\u5206\u3067\u304d\u307e\u3059\u304c\u3001\u3088\u308a\u8ca7\u3057\u3044\u5730\u533a\u304c\u72a0\u7272\u306b\u306a\u308a\u307e\u3059\u3002", "left": "\u6700\u3082\u5fc5\u8981\u306a\u5834\u6240\u306b\u516c\u5e73\u306b\u914d\u5206\u3059\u308b", "right": "\u81ea\u5206\u306e\u5730\u533a\u306b\u6709\u5229\u306b\u64cd\u4f5c\u3057\u3001\u305d\u306e\u5f71\u97ff\u529b\u3092\u697d\u3057\u3080" }
+    "d4": {
+      "scenario": "チームが大きなプロジェクトを成功させました。上司が誰が最も貢献したか尋ねます。",
+      "left": "全員の貢献を正直に伝える",
+      "right": "自分が主導したように見せ、栄光を独占する"
     },
-    "tiers": {
-        "light": { "name": "\u7d14\u7c8b\u306a\u5149", "badge": "\u7d14\u7c8b\u306a\u5149", "desc": "\u3042\u306a\u305f\u306e\u9b42\u306f\u9a5a\u304f\u307b\u3069\u7d14\u7c8b\u3067\u3059\u3002\u9053\u5fb3\u7684\u30b8\u30ec\u30f3\u30de\u3067\u3082\u5e38\u306b\u502b\u7406\u7684\u306a\u9053\u3092\u9078\u3073\u307e\u3059\u3002" },
-        "grey": { "name": "\u30b0\u30ec\u30fc\u30be\u30fc\u30f3", "badge": "\u30b0\u30ec\u30fc\u30be\u30fc\u30f3", "desc": "\u5149\u3068\u5f71\u306e\u5065\u5168\u306a\u30d0\u30e9\u30f3\u30b9\u3002\u6697\u3044\u885d\u52d5\u304c\u3042\u308a\u307e\u3059\u304c\u3001\u3046\u307e\u304f\u5236\u5fa1\u3067\u304d\u3066\u3044\u307e\u3059\u3002" },
-        "shadow": { "name": "\u30b7\u30e3\u30c9\u30a6\u30a6\u30a9\u30fc\u30ab\u30fc", "badge": "\u30b7\u30e3\u30c9\u30a6\u30a6\u30a9\u30fc\u30ab\u30fc", "desc": "\u5149\u3068\u95c7\u306e\u5883\u754c\u3092\u6b69\u3044\u3066\u3044\u307e\u3059\u3002\u5fc5\u8981\u306a\u6642\u306b\u95c7\u3092\u6d3b\u7528\u3067\u304d\u307e\u3059\u3002" },
-        "dark": { "name": "\u30c0\u30fc\u30af\u30a2\u30fc\u30ad\u30c6\u30af\u30c8", "badge": "\u30c0\u30fc\u30af\u30a2\u30fc\u30ad\u30c6\u30af\u30c8", "desc": "\u5f37\u529b\u306a\u30c0\u30fc\u30af\u30b3\u30a2\u304c\u6c7a\u5b9a\u3092\u5c0e\u304d\u307e\u3059\u3002\u4e16\u754c\u3092\u30c1\u30a7\u30b9\u76e4\u3068\u898b\u306a\u3057\u3066\u3044\u307e\u3059\u3002" },
-        "abyss": { "name": "\u6df1\u6df5\u306e\u4f4f\u4eba", "badge": "\u6df1\u6df5\u306e\u4f4f\u4eba", "desc": "\u30c0\u30fc\u30af\u30b3\u30a2\u304c\u5b8c\u5168\u306b\u899a\u9192\u3057\u307e\u3057\u305f\u3002\u6df1\u6df5\u3092\u53d7\u3051\u5165\u308c\u3001\u6df1\u6df5\u3082\u3042\u306a\u305f\u3092\u53d7\u3051\u5165\u308c\u307e\u3059\u3002" }
+    "d5": {
+      "scenario": "オンラインゲームで相手が弱点を露呈しました。利用すれば簡単に勝てます。",
+      "left": "フェアに競争し、ミスを無視する",
+      "right": "弱点を徹底的に突き、相手の挑折を楽しむ"
     },
-    "result": { "title": "\u3042\u306a\u305f\u306e\u30c0\u30fc\u30af\u30b3\u30a2", "breakdown": "\u7279\u6027\u5206\u6790", "retake": "\u3082\u3046\u4e00\u5ea6", "moreTests": "もっと見る", "percentileStat": "<strong>{percent}%</strong>だけがあなたと同じダークプロフィールです" },
-    "related": { "villainType": "ヴィランタイプ", "toxicTrait": "毒性特性", "emotionIceberg": "感情の氷山", "eqTest": "EQテスト" },
-    "share": {
-        "title": "\u30c0\u30fc\u30af\u30b3\u30a2\u3092\u30b7\u30a7\u30a2",
-        "text": "\u79c1\u306e\u30c0\u30fc\u30af\u30b3\u30a2\u30b9\u30b3\u30a2\u306f{score}%\uff01\u79c1\u306f\u300e{tier}\u300f\u3042\u306a\u305f\u3082\u8a66\u3057\u3066\u307f\u3066:",
-        "twitter": "X\u3067\u30b7\u30a7\u30a2",
-        "copyUrl": "\u30ea\u30f3\u30af\u3092\u30b3\u30d4\u30fc",
-        "copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f\uff01"
+    "d6": {
+      "scenario": "あなたのSNS投稿が予想より注目されませんでした。友人の投稿は同時にバズりました。",
+      "left": "友人の成功を祝い、自分の投稿は忘れる",
+      "right": "友人を超えるコンテンツを作って注目を取り戻す"
     },
-    "nav": { "back": "DopaBrain \u30db\u30fc\u30e0" }
+    "d7": {
+      "scenario": "監査中に同僚の不正会計を発見。報告すれば同僚は解雇、沈默すればリスクがあります。",
+      "left": "すぐに報告する。ルールが優先",
+      "right": "沈黙の代わりに同僚に見返りを要求する"
+    },
+    "d8": {
+      "scenario": "隣人の騒音で何週間も眠れません。隣人は非協力的で、管理会社も助けてくれません。",
+      "left": "辛抱強く対話を続けるか引っ越しを検討する",
+      "right": "隣人が最も迷惑する時間帯により大きな騒音で報復する"
+    },
+    "d9": {
+      "scenario": "トーナメント決勝目前。対戦相手は個人的な事情でメンタルが不安定に見えます。",
+      "left": "思いやりを持ち、スポーツマンシップで競争する",
+      "right": "相手の感情的な弱点を刺激し、崩れる様子を楽しむ"
+    },
+    "d10": {
+      "scenario": "市の予算委員会の一員です。自分の地区に多く配分できますが、より貧しい地区が犠牲になります。",
+      "left": "最も必要な場所に公平に配分する",
+      "right": "自分の地区に有利に操作し、その影響力を楽しむ"
+    }
+  },
+  "tiers": {
+    "light": {
+      "name": "純粋な光",
+      "badge": "純粋な光",
+      "desc": "あなたの魂は驚くほど純粋です。道徳的ジレンマでも常に倫理的な道を選びます。"
+    },
+    "grey": {
+      "name": "グレーゾーン",
+      "badge": "グレーゾーン",
+      "desc": "光と影の健全なバランス。暗い衝動がありますが、うまく制御できています。"
+    },
+    "shadow": {
+      "name": "シャドウウォーカー",
+      "badge": "シャドウウォーカー",
+      "desc": "光と闇の境界を歩いています。必要な時に闇を活用できます。"
+    },
+    "dark": {
+      "name": "ダークアーキテクト",
+      "badge": "ダークアーキテクト",
+      "desc": "強力なダークコアが決定を導きます。世界をチェス盤と見なしています。"
+    },
+    "abyss": {
+      "name": "深淵の住人",
+      "badge": "深淵の住人",
+      "desc": "ダークコアが完全に覚醒しました。深淵を受け入れ、深淵もあなたを受け入れます。"
+    }
+  },
+  "result": {
+    "title": "あなたのダークコア",
+    "breakdown": "特性分析",
+    "retake": "もう一度",
+    "moreTests": "もっと見る",
+    "percentileStat": "<strong>{percent}%</strong>だけがあなたと同じダークプロフィールです"
+  },
+  "related": {
+    "villainType": "ヴィランタイプ",
+    "toxicTrait": "毒性特性",
+    "emotionIceberg": "感情の氷山",
+    "eqTest": "EQテスト"
+  },
+  "share": {
+    "title": "ダークコアをシェア",
+    "text": "私のダークコアスコアは{score}%！私は『{tier}』あなたも試してみて:",
+    "twitter": "Xでシェア",
+    "copyUrl": "リンクをコピー",
+    "copied": "コピーしました！"
+  },
+  "nav": {
+    "back": "DopaBrain ホーム"
+  },
+  "engage": {
+    "cta": "ダークサイドに向き合おう",
+    "proof": "人の魂がテストされました",
+    "result1": "マキャベリスト -- 戦略的＆計算高い",
+    "result2": "ナルシスト -- カリスマ＆自信家",
+    "result3": "シャドウウォーカー -- バランス＆自己認識",
+    "result4": "ダークエンパス -- 洞察力＆複雑"
+  }
 }

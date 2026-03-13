@@ -1,30 +1,140 @@
 {
-    "meta": { "title": "Test de Personalidad Oscura | DopaBrain", "description": "Enfrenta dilemas morales para descubrir tu n\u00facleo oscuro. Mide Narcisismo, Maquiavelismo, Psicopat\u00eda y Sadismo." },
-    "a11y": { "skip": "Saltar al contenido" },
-    "app": { "title": "Test del N\u00facleo Oscuro", "subtitle": "\u00bfQu\u00e9 tan oscura es tu personalidad?", "description": "Enfrenta 10 dilemas morales y observa c\u00f3mo se inclina la balanza de la oscuridad. Cada elecci\u00f3n revela tu Narcisismo, Maquiavelismo, Psicopat\u00eda y Sadismo.", "start": "Revelar Mi N\u00facleo Oscuro" },
-    "traits": { "narcissism": "Narcisismo", "machiavellianism": "Maquiavelismo", "psychopathy": "Psicopat\u00eda", "sadism": "Sadismo", "narcissism_short": "N", "machiavellianism_short": "M", "psychopathy_short": "P", "sadism_short": "S" },
-    "dilemma": { "number": "DILEMA", "lightSide": "Virtuoso", "darkSide": "Oscuro" },
-    "dilemmas": {
-        "d1": { "scenario": "Est\u00e1s en el comit\u00e9 de contrataci\u00f3n. Un candidato es m\u00e1s talentoso que t\u00fa, pero contratarlo podr\u00eda amenazar tu posici\u00f3n.", "left": "Evaluar justamente y recomendar al candidato talentoso", "right": "Exagerar defectos menores para rechazarlo y proteger tu estatus" },
-        "d2": { "scenario": "Un amigo cercano te conf\u00eda un gran secreto. Esta informaci\u00f3n podr\u00eda ayudarte a conseguir un ascenso.", "left": "Guardar el secreto y respetar la confianza", "right": "Usar sutilmente la informaci\u00f3n para crear una oportunidad" },
-        "d3": { "scenario": "Un coche aut\u00f3nomo descontrolado se dirige hacia 5 personas. Presionar un bot\u00f3n lo desv\u00eda, pero 1 persona ser\u00e1 golpeada.", "left": "No hacer nada. No ensuciarse las manos directamente", "right": "Presionar el bot\u00f3n. Sacrificar 1 para salvar 5" },
-        "d4": { "scenario": "Tu equipo complet\u00f3 un gran proyecto. Tu jefe pregunta qui\u00e9n contribuy\u00f3 m\u00e1s.", "left": "Reconocer honestamente las contribuciones de todos", "right": "Presentarlo como tu liderazgo y llevarte la gloria" },
-        "d5": { "scenario": "En un juego online, tu oponente revela accidentalmente una debilidad. Explotarla garantiza una victoria f\u00e1cil.", "left": "Competir limpiamente e ignorar su error", "right": "Explotar la debilidad sin piedad y disfrutar su frustraci\u00f3n" },
-        "d6": { "scenario": "Tu publicaci\u00f3n en redes recibe poca atenci\u00f3n. La de tu amigo se vuelve viral al mismo tiempo.", "left": "Felicitar a tu amigo y olvidar tu publicaci\u00f3n", "right": "Crear contenido para superar a tu amigo y recuperar atenci\u00f3n" },
-        "d7": { "scenario": "En una auditor\u00eda descubres fraude financiero de un colega. Reportarlo significa que pierde su trabajo; callar conlleva riesgos.", "left": "Reportar inmediatamente. Las reglas son primero", "right": "Callar a cambio de favores del colega" },
-        "d8": { "scenario": "El ruido de tu vecino te ha quitado el sue\u00f1o por semanas. No coopera y la administraci\u00f3n no ayuda.", "left": "Intentar di\u00e1logo pacientemente o considerar mudarse", "right": "Vengarse con ruido m\u00e1s fuerte en sus horas m\u00e1s inc\u00f3modas" },
-        "d9": { "scenario": "Est\u00e1s por ganar una final de torneo. Tu oponente parece mentalmente inestable por problemas personales.", "left": "Mostrar empat\u00eda y competir con deportividad", "right": "Provocar su debilidad emocional y disfrutar vi\u00e9ndolo derrumbarse" },
-        "d10": { "scenario": "Est\u00e1s en un comit\u00e9 de presupuesto de la ciudad. Puedes desviar m\u00e1s fondos a tu distrito, pero un distrito m\u00e1s pobre sufrir\u00e1.", "left": "Distribuir justamente seg\u00fan la mayor necesidad", "right": "Manipular el presupuesto a tu favor y disfrutar la influencia" }
+  "meta": {
+    "title": "Test de Personalidad Oscura | DopaBrain",
+    "description": "Enfrenta dilemas morales para descubrir tu núcleo oscuro. Mide Narcisismo, Maquiavelismo, Psicopatía y Sadismo."
+  },
+  "a11y": {
+    "skip": "Saltar al contenido"
+  },
+  "app": {
+    "title": "Test del Núcleo Oscuro",
+    "subtitle": "¿Qué tan oscura es tu personalidad?",
+    "description": "Enfrenta 10 dilemas morales y observa cómo se inclina la balanza de la oscuridad. Cada elección revela tu Narcisismo, Maquiavelismo, Psicopatía y Sadismo.",
+    "start": "Revelar Mi Núcleo Oscuro"
+  },
+  "traits": {
+    "narcissism": "Narcisismo",
+    "machiavellianism": "Maquiavelismo",
+    "psychopathy": "Psicopatía",
+    "sadism": "Sadismo",
+    "narcissism_short": "N",
+    "machiavellianism_short": "M",
+    "psychopathy_short": "P",
+    "sadism_short": "S"
+  },
+  "dilemma": {
+    "number": "DILEMA",
+    "lightSide": "Virtuoso",
+    "darkSide": "Oscuro"
+  },
+  "dilemmas": {
+    "d1": {
+      "scenario": "Estás en el comité de contratación. Un candidato es más talentoso que tú, pero contratarlo podría amenazar tu posición.",
+      "left": "Evaluar justamente y recomendar al candidato talentoso",
+      "right": "Exagerar defectos menores para rechazarlo y proteger tu estatus"
     },
-    "tiers": {
-        "light": { "name": "Luz Pura", "badge": "LUZ PURA", "desc": "Tu alma es notablemente pura. Incluso ante dilemas morales, siempre eliges el camino \u00e9tico." },
-        "grey": { "name": "Zona Gris", "badge": "ZONA GRIS", "desc": "Un equilibrio saludable entre luz y sombra. Tienes impulsos oscuros pero los controlas." },
-        "shadow": { "name": "Caminante de Sombras", "badge": "CAMINANTE DE SOMBRAS", "desc": "Caminas entre la luz y la oscuridad. Sabes c\u00f3mo usar tu lado oscuro cuando es necesario." },
-        "dark": { "name": "Arquitecto Oscuro", "badge": "ARQUITECTO OSCURO", "desc": "Un poderoso n\u00facleo oscuro impulsa tus decisiones. Ves el mundo como un tablero de ajedrez." },
-        "abyss": { "name": "Habitante del Abismo", "badge": "HABITANTE DEL ABISMO", "desc": "Tu n\u00facleo oscuro est\u00e1 completamente despierto. Abrazas el vac\u00edo y el vac\u00edo te abraza." }
+    "d2": {
+      "scenario": "Un amigo cercano te confía un gran secreto. Esta información podría ayudarte a conseguir un ascenso.",
+      "left": "Guardar el secreto y respetar la confianza",
+      "right": "Usar sutilmente la información para crear una oportunidad"
     },
-    "result": { "title": "Tu N\u00facleo Oscuro", "breakdown": "An\u00e1lisis de Rasgos", "retake": "Repetir Test", "moreTests": "Explorar más", "percentileStat": "Solo el <strong>{percent}%</strong> comparten tu perfil oscuro" },
-    "related": { "villainType": "Tipo de Villano", "toxicTrait": "Rasgo Tóxico", "emotionIceberg": "Iceberg Emocional", "eqTest": "Test de EQ" },
-    "share": { "title": "Comparte Tu N\u00facleo Oscuro", "text": "\u00a1Mi puntuaci\u00f3n de N\u00facleo Oscuro es {score}%! Soy '{tier}' Descubre la tuya:", "twitter": "Compartir en X", "copyUrl": "Copiar Enlace", "copied": "\u00a1Copiado!" },
-    "nav": { "back": "Inicio DopaBrain" }
+    "d3": {
+      "scenario": "Un coche autónomo descontrolado se dirige hacia 5 personas. Presionar un botón lo desvía, pero 1 persona será golpeada.",
+      "left": "No hacer nada. No ensuciarse las manos directamente",
+      "right": "Presionar el botón. Sacrificar 1 para salvar 5"
+    },
+    "d4": {
+      "scenario": "Tu equipo completó un gran proyecto. Tu jefe pregunta quién contribuyó más.",
+      "left": "Reconocer honestamente las contribuciones de todos",
+      "right": "Presentarlo como tu liderazgo y llevarte la gloria"
+    },
+    "d5": {
+      "scenario": "En un juego online, tu oponente revela accidentalmente una debilidad. Explotarla garantiza una victoria fácil.",
+      "left": "Competir limpiamente e ignorar su error",
+      "right": "Explotar la debilidad sin piedad y disfrutar su frustración"
+    },
+    "d6": {
+      "scenario": "Tu publicación en redes recibe poca atención. La de tu amigo se vuelve viral al mismo tiempo.",
+      "left": "Felicitar a tu amigo y olvidar tu publicación",
+      "right": "Crear contenido para superar a tu amigo y recuperar atención"
+    },
+    "d7": {
+      "scenario": "En una auditoría descubres fraude financiero de un colega. Reportarlo significa que pierde su trabajo; callar conlleva riesgos.",
+      "left": "Reportar inmediatamente. Las reglas son primero",
+      "right": "Callar a cambio de favores del colega"
+    },
+    "d8": {
+      "scenario": "El ruido de tu vecino te ha quitado el sueño por semanas. No coopera y la administración no ayuda.",
+      "left": "Intentar diálogo pacientemente o considerar mudarse",
+      "right": "Vengarse con ruido más fuerte en sus horas más incómodas"
+    },
+    "d9": {
+      "scenario": "Estás por ganar una final de torneo. Tu oponente parece mentalmente inestable por problemas personales.",
+      "left": "Mostrar empatía y competir con deportividad",
+      "right": "Provocar su debilidad emocional y disfrutar viéndolo derrumbarse"
+    },
+    "d10": {
+      "scenario": "Estás en un comité de presupuesto de la ciudad. Puedes desviar más fondos a tu distrito, pero un distrito más pobre sufrirá.",
+      "left": "Distribuir justamente según la mayor necesidad",
+      "right": "Manipular el presupuesto a tu favor y disfrutar la influencia"
+    }
+  },
+  "tiers": {
+    "light": {
+      "name": "Luz Pura",
+      "badge": "LUZ PURA",
+      "desc": "Tu alma es notablemente pura. Incluso ante dilemas morales, siempre eliges el camino ético."
+    },
+    "grey": {
+      "name": "Zona Gris",
+      "badge": "ZONA GRIS",
+      "desc": "Un equilibrio saludable entre luz y sombra. Tienes impulsos oscuros pero los controlas."
+    },
+    "shadow": {
+      "name": "Caminante de Sombras",
+      "badge": "CAMINANTE DE SOMBRAS",
+      "desc": "Caminas entre la luz y la oscuridad. Sabes cómo usar tu lado oscuro cuando es necesario."
+    },
+    "dark": {
+      "name": "Arquitecto Oscuro",
+      "badge": "ARQUITECTO OSCURO",
+      "desc": "Un poderoso núcleo oscuro impulsa tus decisiones. Ves el mundo como un tablero de ajedrez."
+    },
+    "abyss": {
+      "name": "Habitante del Abismo",
+      "badge": "HABITANTE DEL ABISMO",
+      "desc": "Tu núcleo oscuro está completamente despierto. Abrazas el vacío y el vacío te abraza."
+    }
+  },
+  "result": {
+    "title": "Tu Núcleo Oscuro",
+    "breakdown": "Análisis de Rasgos",
+    "retake": "Repetir Test",
+    "moreTests": "Explorar más",
+    "percentileStat": "Solo el <strong>{percent}%</strong> comparten tu perfil oscuro"
+  },
+  "related": {
+    "villainType": "Tipo de Villano",
+    "toxicTrait": "Rasgo Tóxico",
+    "emotionIceberg": "Iceberg Emocional",
+    "eqTest": "Test de EQ"
+  },
+  "share": {
+    "title": "Comparte Tu Núcleo Oscuro",
+    "text": "¡Mi puntuación de Núcleo Oscuro es {score}%! Soy '{tier}' Descubre la tuya:",
+    "twitter": "Compartir en X",
+    "copyUrl": "Copiar Enlace",
+    "copied": "¡Copiado!"
+  },
+  "nav": {
+    "back": "Inicio DopaBrain"
+  },
+  "engage": {
+    "cta": "Enfrenta tu lado oscuro",
+    "proof": "almas han sido probadas",
+    "result1": "Maquiavélico -- Estratégico y Calculador",
+    "result2": "Narcisista -- Carismático y Seguro",
+    "result3": "Caminante de Sombras -- Equilibrado y Consciente",
+    "result4": "Empático Oscuro -- Perceptivo y Complejo"
+  }
 }

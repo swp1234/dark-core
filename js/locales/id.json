@@ -1,30 +1,140 @@
 {
-    "meta": { "title": "Tes Kepribadian Dark Core | DopaBrain", "description": "Hadapi dilema moral untuk menemukan dark core-mu. Ukur Narsisisme, Machiavellianisme, Psikopati, dan Sadisme." },
-    "a11y": { "skip": "Lewati ke konten" },
-    "app": { "title": "Tes Dark Core", "subtitle": "Seberapa gelap kepribadianmu?", "description": "Hadapi 10 dilema moral dan saksikan timbangan kegelapan bergerak. Setiap pilihan mengungkap Narsisisme, Machiavellianisme, Psikopati, dan Sadisme-mu.", "start": "Ungkap Dark Core Saya" },
-    "traits": { "narcissism": "Narsisisme", "machiavellianism": "Machiavellianisme", "psychopathy": "Psikopati", "sadism": "Sadisme", "narcissism_short": "N", "machiavellianism_short": "M", "psychopathy_short": "P", "sadism_short": "S" },
-    "dilemma": { "number": "DILEMA", "lightSide": "Bajik", "darkSide": "Gelap" },
-    "dilemmas": {
-        "d1": { "scenario": "Kamu di komite perekrutan. Seorang kandidat lebih berbakat dari kamu, tapi merekrutnya bisa mengancam posisimu.", "left": "Evaluasi secara adil dan rekomendasikan kandidat berbakat", "right": "Besarkan kekurangan kecil untuk menolaknya dan lindungi statusmu" },
-        "d2": { "scenario": "Teman dekat menceritakan rahasia besar. Informasi ini bisa membantumu naik jabatan.", "left": "Jaga rahasianya dan hormati kepercayaan", "right": "Manfaatkan informasi secara halus untuk menciptakan peluang" },
-        "d3": { "scenario": "Mobil otonom tak terkendali menuju 5 orang. Menekan tombol mengalihkannya, tapi 1 orang akan tertabrak.", "left": "Tidak melakukan apa-apa. Tidak mengotori tangan langsung", "right": "Tekan tombol. Korbankan 1 untuk menyelamatkan 5" },
-        "d4": { "scenario": "Timmu berhasil menyelesaikan proyek besar. Bos bertanya siapa yang paling berkontribusi.", "left": "Dengan jujur mengakui kontribusi semua orang", "right": "Bingkai sebagai kepemimpinanmu dan ambil kemuliaan" },
-        "d5": { "scenario": "Dalam game online, lawanmu tak sengaja mengungkap kelemahan. Memanfaatkannya menjamin kemenangan mudah.", "left": "Bersaing secara adil dan abaikan kesalahannya", "right": "Eksploitasi kelemahan tanpa ampun dan nikmati frustrasinya" },
-        "d6": { "scenario": "Postingan media sosialmu sepi. Postingan temanmu viral bersamaan.", "left": "Ucapkan selamat pada temanmu dan lupakan postinganmu", "right": "Buat konten untuk mengalahkan temanmu dan rebut kembali perhatian" },
-        "d7": { "scenario": "Dalam audit, kamu menemukan penipuan keuangan rekan kerja. Melaporkan berarti dia dipecat; diam membawa risiko.", "left": "Laporkan segera. Aturan yang utama", "right": "Diam sebagai imbalan dari rekan kerja" },
-        "d8": { "scenario": "Kebisingan tetangga membuatmu tak bisa tidur berminggu-minggu. Dia tidak kooperatif dan manajemen tidak membantu.", "left": "Dengan sabar coba dialog lagi atau pertimbangkan pindah", "right": "Balas dengan kebisingan lebih keras di jam paling tidak nyaman" },
-        "d9": { "scenario": "Kamu hampir memenangkan final turnamen. Lawanmu tampak tidak stabil secara mental karena masalah pribadi.", "left": "Tunjukkan empati dan bersaing dengan sportif", "right": "Provokasi kelemahan emosionalnya dan nikmati melihatnya runtuh" },
-        "d10": { "scenario": "Kamu di komite anggaran kota. Bisa mengarahkan lebih banyak dana ke distrikmu, tapi distrik lebih miskin akan menderita.", "left": "Distribusikan secara adil berdasarkan kebutuhan terbesar", "right": "Manipulasi anggaran untuk keuntunganmu dan nikmati pengaruhnya" }
+  "meta": {
+    "title": "Tes Kepribadian Dark Core | DopaBrain",
+    "description": "Hadapi dilema moral untuk menemukan dark core-mu. Ukur Narsisisme, Machiavellianisme, Psikopati, dan Sadisme."
+  },
+  "a11y": {
+    "skip": "Lewati ke konten"
+  },
+  "app": {
+    "title": "Tes Dark Core",
+    "subtitle": "Seberapa gelap kepribadianmu?",
+    "description": "Hadapi 10 dilema moral dan saksikan timbangan kegelapan bergerak. Setiap pilihan mengungkap Narsisisme, Machiavellianisme, Psikopati, dan Sadisme-mu.",
+    "start": "Ungkap Dark Core Saya"
+  },
+  "traits": {
+    "narcissism": "Narsisisme",
+    "machiavellianism": "Machiavellianisme",
+    "psychopathy": "Psikopati",
+    "sadism": "Sadisme",
+    "narcissism_short": "N",
+    "machiavellianism_short": "M",
+    "psychopathy_short": "P",
+    "sadism_short": "S"
+  },
+  "dilemma": {
+    "number": "DILEMA",
+    "lightSide": "Bajik",
+    "darkSide": "Gelap"
+  },
+  "dilemmas": {
+    "d1": {
+      "scenario": "Kamu di komite perekrutan. Seorang kandidat lebih berbakat dari kamu, tapi merekrutnya bisa mengancam posisimu.",
+      "left": "Evaluasi secara adil dan rekomendasikan kandidat berbakat",
+      "right": "Besarkan kekurangan kecil untuk menolaknya dan lindungi statusmu"
     },
-    "tiers": {
-        "light": { "name": "Cahaya Murni", "badge": "CAHAYA MURNI", "desc": "Jiwamu sangat murni. Bahkan menghadapi dilema moral, kamu selalu memilih jalan etis." },
-        "grey": { "name": "Zona Abu-abu", "badge": "ZONA ABU-ABU", "desc": "Keseimbangan sehat antara terang dan gelap. Dorongan gelap terkendali." },
-        "shadow": { "name": "Pejalan Bayangan", "badge": "PEJALAN BAYANGAN", "desc": "Kamu berjalan antara terang dan gelap. Tahu kapan menggunakan sisi gelapmu." },
-        "dark": { "name": "Arsitek Gelap", "badge": "ARSITEK GELAP", "desc": "Dark core yang kuat mendorong keputusanmu. Dunia adalah papan catur." },
-        "abyss": { "name": "Penghuni Jurang", "badge": "PENGHUNI JURANG", "desc": "Dark core-mu sepenuhnya terbangun. Kamu memeluk kekosongan dan kekosongan memelukmu." }
+    "d2": {
+      "scenario": "Teman dekat menceritakan rahasia besar. Informasi ini bisa membantumu naik jabatan.",
+      "left": "Jaga rahasianya dan hormati kepercayaan",
+      "right": "Manfaatkan informasi secara halus untuk menciptakan peluang"
     },
-    "result": { "title": "Dark Core-mu", "breakdown": "Analisis Sifat", "retake": "Ulangi Tes", "moreTests": "Jelajahi lagi", "percentileStat": "Hanya <strong>{percent}%</strong> memiliki profil gelap yang sama" },
-    "related": { "villainType": "Tipe Penjahat", "toxicTrait": "Sifat Toksik", "emotionIceberg": "Gunung Es Emosi", "eqTest": "Tes EQ" },
-    "share": { "title": "Bagikan Dark Core-mu", "text": "Skor Dark Core saya {score}%! Saya '{tier}' Cari tahu punyamu:", "twitter": "Bagikan di X", "copyUrl": "Salin Link", "copied": "Tersalin!" },
-    "nav": { "back": "Beranda DopaBrain" }
+    "d3": {
+      "scenario": "Mobil otonom tak terkendali menuju 5 orang. Menekan tombol mengalihkannya, tapi 1 orang akan tertabrak.",
+      "left": "Tidak melakukan apa-apa. Tidak mengotori tangan langsung",
+      "right": "Tekan tombol. Korbankan 1 untuk menyelamatkan 5"
+    },
+    "d4": {
+      "scenario": "Timmu berhasil menyelesaikan proyek besar. Bos bertanya siapa yang paling berkontribusi.",
+      "left": "Dengan jujur mengakui kontribusi semua orang",
+      "right": "Bingkai sebagai kepemimpinanmu dan ambil kemuliaan"
+    },
+    "d5": {
+      "scenario": "Dalam game online, lawanmu tak sengaja mengungkap kelemahan. Memanfaatkannya menjamin kemenangan mudah.",
+      "left": "Bersaing secara adil dan abaikan kesalahannya",
+      "right": "Eksploitasi kelemahan tanpa ampun dan nikmati frustrasinya"
+    },
+    "d6": {
+      "scenario": "Postingan media sosialmu sepi. Postingan temanmu viral bersamaan.",
+      "left": "Ucapkan selamat pada temanmu dan lupakan postinganmu",
+      "right": "Buat konten untuk mengalahkan temanmu dan rebut kembali perhatian"
+    },
+    "d7": {
+      "scenario": "Dalam audit, kamu menemukan penipuan keuangan rekan kerja. Melaporkan berarti dia dipecat; diam membawa risiko.",
+      "left": "Laporkan segera. Aturan yang utama",
+      "right": "Diam sebagai imbalan dari rekan kerja"
+    },
+    "d8": {
+      "scenario": "Kebisingan tetangga membuatmu tak bisa tidur berminggu-minggu. Dia tidak kooperatif dan manajemen tidak membantu.",
+      "left": "Dengan sabar coba dialog lagi atau pertimbangkan pindah",
+      "right": "Balas dengan kebisingan lebih keras di jam paling tidak nyaman"
+    },
+    "d9": {
+      "scenario": "Kamu hampir memenangkan final turnamen. Lawanmu tampak tidak stabil secara mental karena masalah pribadi.",
+      "left": "Tunjukkan empati dan bersaing dengan sportif",
+      "right": "Provokasi kelemahan emosionalnya dan nikmati melihatnya runtuh"
+    },
+    "d10": {
+      "scenario": "Kamu di komite anggaran kota. Bisa mengarahkan lebih banyak dana ke distrikmu, tapi distrik lebih miskin akan menderita.",
+      "left": "Distribusikan secara adil berdasarkan kebutuhan terbesar",
+      "right": "Manipulasi anggaran untuk keuntunganmu dan nikmati pengaruhnya"
+    }
+  },
+  "tiers": {
+    "light": {
+      "name": "Cahaya Murni",
+      "badge": "CAHAYA MURNI",
+      "desc": "Jiwamu sangat murni. Bahkan menghadapi dilema moral, kamu selalu memilih jalan etis."
+    },
+    "grey": {
+      "name": "Zona Abu-abu",
+      "badge": "ZONA ABU-ABU",
+      "desc": "Keseimbangan sehat antara terang dan gelap. Dorongan gelap terkendali."
+    },
+    "shadow": {
+      "name": "Pejalan Bayangan",
+      "badge": "PEJALAN BAYANGAN",
+      "desc": "Kamu berjalan antara terang dan gelap. Tahu kapan menggunakan sisi gelapmu."
+    },
+    "dark": {
+      "name": "Arsitek Gelap",
+      "badge": "ARSITEK GELAP",
+      "desc": "Dark core yang kuat mendorong keputusanmu. Dunia adalah papan catur."
+    },
+    "abyss": {
+      "name": "Penghuni Jurang",
+      "badge": "PENGHUNI JURANG",
+      "desc": "Dark core-mu sepenuhnya terbangun. Kamu memeluk kekosongan dan kekosongan memelukmu."
+    }
+  },
+  "result": {
+    "title": "Dark Core-mu",
+    "breakdown": "Analisis Sifat",
+    "retake": "Ulangi Tes",
+    "moreTests": "Jelajahi lagi",
+    "percentileStat": "Hanya <strong>{percent}%</strong> memiliki profil gelap yang sama"
+  },
+  "related": {
+    "villainType": "Tipe Penjahat",
+    "toxicTrait": "Sifat Toksik",
+    "emotionIceberg": "Gunung Es Emosi",
+    "eqTest": "Tes EQ"
+  },
+  "share": {
+    "title": "Bagikan Dark Core-mu",
+    "text": "Skor Dark Core saya {score}%! Saya '{tier}' Cari tahu punyamu:",
+    "twitter": "Bagikan di X",
+    "copyUrl": "Salin Link",
+    "copied": "Tersalin!"
+  },
+  "nav": {
+    "back": "Beranda DopaBrain"
+  },
+  "engage": {
+    "cta": "Hadapi sisi gelapmu",
+    "proof": "jiwa telah diuji",
+    "result1": "Machiavellian -- Strategis & Kalkulatif",
+    "result2": "Narsisis -- Karismatik & Percaya Diri",
+    "result3": "Pejalan Bayangan -- Seimbang & Sadar Diri",
+    "result4": "Empati Gelap -- Perseptif & Kompleks"
+  }
 }

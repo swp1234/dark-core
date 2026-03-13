@@ -1,30 +1,140 @@
 {
-    "meta": { "title": "Test de Personnalit\u00e9 Dark Core | DopaBrain", "description": "Affrontez des dilemmes moraux pour d\u00e9couvrir votre noyau sombre. Mesurez Narcissisme, Machiav\u00e9lisme, Psychopathie et Sadisme." },
-    "a11y": { "skip": "Aller au contenu" },
-    "app": { "title": "Test du Noyau Sombre", "subtitle": "\u00c0 quel point votre personnalit\u00e9 est-elle sombre ?", "description": "Affrontez 10 dilemmes moraux et regardez la balance de l'obscurit\u00e9 pencher. Chaque choix r\u00e9v\u00e8le votre Narcissisme, Machiav\u00e9lisme, Psychopathie et Sadisme.", "start": "R\u00e9v\u00e9ler Mon Noyau Sombre" },
-    "traits": { "narcissism": "Narcissisme", "machiavellianism": "Machiav\u00e9lisme", "psychopathy": "Psychopathie", "sadism": "Sadisme", "narcissism_short": "N", "machiavellianism_short": "M", "psychopathy_short": "P", "sadism_short": "S" },
-    "dilemma": { "number": "DILEMME", "lightSide": "Vertueux", "darkSide": "Sombre" },
-    "dilemmas": {
-        "d1": { "scenario": "Vous \u00eates au comit\u00e9 de recrutement. Un candidat est plus talentueux que vous, mais l'embaucher pourrait menacer votre poste.", "left": "\u00c9valuer \u00e9quitablement et recommander le candidat talentueux", "right": "Exag\u00e9rer des d\u00e9fauts mineurs pour le rejeter et prot\u00e9ger votre statut" },
-        "d2": { "scenario": "Un ami proche vous confie un grand secret. Cette information pourrait vous aider \u00e0 obtenir une promotion.", "left": "Garder le secret et honorer la confiance", "right": "Utiliser subtilement l'information pour cr\u00e9er une opportunit\u00e9" },
-        "d3": { "scenario": "Une voiture autonome hors de contr\u00f4le fonce vers 5 personnes. Appuyer sur un bouton la d\u00e9vie, mais 1 personne sera touch\u00e9e.", "left": "Ne rien faire. Ne pas se salir les mains directement", "right": "Appuyer sur le bouton. Sacrifier 1 pour sauver 5" },
-        "d4": { "scenario": "Votre \u00e9quipe a r\u00e9ussi un grand projet. Votre patron demande qui a le plus contribu\u00e9.", "left": "Reconna\u00eetre honn\u00eatement les contributions de tous", "right": "Pr\u00e9senter comme votre leadership et prendre la gloire" },
-        "d5": { "scenario": "Dans un jeu en ligne, votre adversaire r\u00e9v\u00e8le accidentellement une faiblesse. L'exploiter garantit une victoire facile.", "left": "Concourir loyalement et ignorer l'erreur", "right": "Exploiter la faiblesse sans piti\u00e9 et savourer sa frustration" },
-        "d6": { "scenario": "Votre post sur les r\u00e9seaux re\u00e7oit peu d'attention. Celui de votre ami devient viral en m\u00eame temps.", "left": "F\u00e9liciter votre ami et oublier votre post", "right": "Cr\u00e9er du contenu pour surpasser votre ami et r\u00e9cup\u00e9rer l'attention" },
-        "d7": { "scenario": "Lors d'un audit, vous d\u00e9couvrez la fraude financi\u00e8re d'un coll\u00e8gue. Le signaler signifie son licenciement ; se taire comporte des risques.", "left": "Signaler imm\u00e9diatement. Les r\u00e8gles d'abord", "right": "Se taire en \u00e9change de faveurs du coll\u00e8gue" },
-        "d8": { "scenario": "Le bruit de votre voisin vous emp\u00eache de dormir depuis des semaines. Il est non coop\u00e9ratif et la gestion n'aide pas.", "left": "Essayer patiemment le dialogue ou envisager un d\u00e9m\u00e9nagement", "right": "Se venger avec du bruit plus fort aux heures les plus g\u00eanantes" },
-        "d9": { "scenario": "Vous \u00eates sur le point de gagner une finale. Votre adversaire semble mentalement instable \u00e0 cause de probl\u00e8mes personnels.", "left": "Montrer de l'empathie et concourir sportivement", "right": "Provoquer sa faiblesse \u00e9motionnelle et savourer le voir craquer" },
-        "d10": { "scenario": "Vous \u00eates dans un comit\u00e9 budg\u00e9taire municipal. Vous pouvez orienter plus de fonds vers votre quartier, mais un quartier plus pauvre en souffrira.", "left": "Distribuer \u00e9quitablement selon le plus grand besoin", "right": "Manipuler le budget en votre faveur et profiter de l'influence" }
+  "meta": {
+    "title": "Test de Personnalité Dark Core | DopaBrain",
+    "description": "Affrontez des dilemmes moraux pour découvrir votre noyau sombre. Mesurez Narcissisme, Machiavélisme, Psychopathie et Sadisme."
+  },
+  "a11y": {
+    "skip": "Aller au contenu"
+  },
+  "app": {
+    "title": "Test du Noyau Sombre",
+    "subtitle": "À quel point votre personnalité est-elle sombre ?",
+    "description": "Affrontez 10 dilemmes moraux et regardez la balance de l'obscurité pencher. Chaque choix révèle votre Narcissisme, Machiavélisme, Psychopathie et Sadisme.",
+    "start": "Révéler Mon Noyau Sombre"
+  },
+  "traits": {
+    "narcissism": "Narcissisme",
+    "machiavellianism": "Machiavélisme",
+    "psychopathy": "Psychopathie",
+    "sadism": "Sadisme",
+    "narcissism_short": "N",
+    "machiavellianism_short": "M",
+    "psychopathy_short": "P",
+    "sadism_short": "S"
+  },
+  "dilemma": {
+    "number": "DILEMME",
+    "lightSide": "Vertueux",
+    "darkSide": "Sombre"
+  },
+  "dilemmas": {
+    "d1": {
+      "scenario": "Vous êtes au comité de recrutement. Un candidat est plus talentueux que vous, mais l'embaucher pourrait menacer votre poste.",
+      "left": "Évaluer équitablement et recommander le candidat talentueux",
+      "right": "Exagérer des défauts mineurs pour le rejeter et protéger votre statut"
     },
-    "tiers": {
-        "light": { "name": "Lumi\u00e8re Pure", "badge": "LUMI\u00c8RE PURE", "desc": "Votre \u00e2me est remarquablement pure. M\u00eame face aux dilemmes moraux, vous choisissez toujours le chemin \u00e9thique." },
-        "grey": { "name": "Zone Grise", "badge": "ZONE GRISE", "desc": "\u00c9quilibre sain de lumi\u00e8re et d'ombre. Impulsions sombres ma\u00eetris\u00e9es." },
-        "shadow": { "name": "Marcheur d'Ombres", "badge": "MARCHEUR D'OMBRES", "desc": "Vous marchez entre lumi\u00e8re et obscurit\u00e9. Vous savez utiliser votre c\u00f4t\u00e9 sombre quand n\u00e9cessaire." },
-        "dark": { "name": "Architecte Sombre", "badge": "ARCHITECTE SOMBRE", "desc": "Un puissant noyau sombre guide vos d\u00e9cisions. Le monde est un \u00e9chiquier." },
-        "abyss": { "name": "Habitant de l'Ab\u00eeme", "badge": "HABITANT DE L'AB\u00ceME", "desc": "Votre noyau sombre est compl\u00e8tement \u00e9veill\u00e9. Vous embrassez le vide et le vide vous embrasse." }
+    "d2": {
+      "scenario": "Un ami proche vous confie un grand secret. Cette information pourrait vous aider à obtenir une promotion.",
+      "left": "Garder le secret et honorer la confiance",
+      "right": "Utiliser subtilement l'information pour créer une opportunité"
     },
-    "result": { "title": "Votre Noyau Sombre", "breakdown": "Analyse des Traits", "retake": "Refaire le Test", "moreTests": "Explorer plus", "percentileStat": "Seulement <strong>{percent}%</strong> partagent votre profil sombre" },
-    "related": { "villainType": "Type de Méchant", "toxicTrait": "Trait Toxique", "emotionIceberg": "Iceberg Émotionnel", "eqTest": "Test QE" },
-    "share": { "title": "Partagez Votre Noyau Sombre", "text": "Mon score Dark Core est de {score}% ! Je suis \u00ab {tier} \u00bb D\u00e9couvrez le v\u00f4tre :", "twitter": "Partager sur X", "copyUrl": "Copier le Lien", "copied": "Copi\u00e9 !" },
-    "nav": { "back": "Accueil DopaBrain" }
+    "d3": {
+      "scenario": "Une voiture autonome hors de contrôle fonce vers 5 personnes. Appuyer sur un bouton la dévie, mais 1 personne sera touchée.",
+      "left": "Ne rien faire. Ne pas se salir les mains directement",
+      "right": "Appuyer sur le bouton. Sacrifier 1 pour sauver 5"
+    },
+    "d4": {
+      "scenario": "Votre équipe a réussi un grand projet. Votre patron demande qui a le plus contribué.",
+      "left": "Reconnaître honnêtement les contributions de tous",
+      "right": "Présenter comme votre leadership et prendre la gloire"
+    },
+    "d5": {
+      "scenario": "Dans un jeu en ligne, votre adversaire révèle accidentellement une faiblesse. L'exploiter garantit une victoire facile.",
+      "left": "Concourir loyalement et ignorer l'erreur",
+      "right": "Exploiter la faiblesse sans pitié et savourer sa frustration"
+    },
+    "d6": {
+      "scenario": "Votre post sur les réseaux reçoit peu d'attention. Celui de votre ami devient viral en même temps.",
+      "left": "Féliciter votre ami et oublier votre post",
+      "right": "Créer du contenu pour surpasser votre ami et récupérer l'attention"
+    },
+    "d7": {
+      "scenario": "Lors d'un audit, vous découvrez la fraude financière d'un collègue. Le signaler signifie son licenciement ; se taire comporte des risques.",
+      "left": "Signaler immédiatement. Les règles d'abord",
+      "right": "Se taire en échange de faveurs du collègue"
+    },
+    "d8": {
+      "scenario": "Le bruit de votre voisin vous empêche de dormir depuis des semaines. Il est non coopératif et la gestion n'aide pas.",
+      "left": "Essayer patiemment le dialogue ou envisager un déménagement",
+      "right": "Se venger avec du bruit plus fort aux heures les plus gênantes"
+    },
+    "d9": {
+      "scenario": "Vous êtes sur le point de gagner une finale. Votre adversaire semble mentalement instable à cause de problèmes personnels.",
+      "left": "Montrer de l'empathie et concourir sportivement",
+      "right": "Provoquer sa faiblesse émotionnelle et savourer le voir craquer"
+    },
+    "d10": {
+      "scenario": "Vous êtes dans un comité budgétaire municipal. Vous pouvez orienter plus de fonds vers votre quartier, mais un quartier plus pauvre en souffrira.",
+      "left": "Distribuer équitablement selon le plus grand besoin",
+      "right": "Manipuler le budget en votre faveur et profiter de l'influence"
+    }
+  },
+  "tiers": {
+    "light": {
+      "name": "Lumière Pure",
+      "badge": "LUMIÈRE PURE",
+      "desc": "Votre âme est remarquablement pure. Même face aux dilemmes moraux, vous choisissez toujours le chemin éthique."
+    },
+    "grey": {
+      "name": "Zone Grise",
+      "badge": "ZONE GRISE",
+      "desc": "Équilibre sain de lumière et d'ombre. Impulsions sombres maîtrisées."
+    },
+    "shadow": {
+      "name": "Marcheur d'Ombres",
+      "badge": "MARCHEUR D'OMBRES",
+      "desc": "Vous marchez entre lumière et obscurité. Vous savez utiliser votre côté sombre quand nécessaire."
+    },
+    "dark": {
+      "name": "Architecte Sombre",
+      "badge": "ARCHITECTE SOMBRE",
+      "desc": "Un puissant noyau sombre guide vos décisions. Le monde est un échiquier."
+    },
+    "abyss": {
+      "name": "Habitant de l'Abîme",
+      "badge": "HABITANT DE L'ABÎME",
+      "desc": "Votre noyau sombre est complètement éveillé. Vous embrassez le vide et le vide vous embrasse."
+    }
+  },
+  "result": {
+    "title": "Votre Noyau Sombre",
+    "breakdown": "Analyse des Traits",
+    "retake": "Refaire le Test",
+    "moreTests": "Explorer plus",
+    "percentileStat": "Seulement <strong>{percent}%</strong> partagent votre profil sombre"
+  },
+  "related": {
+    "villainType": "Type de Méchant",
+    "toxicTrait": "Trait Toxique",
+    "emotionIceberg": "Iceberg Émotionnel",
+    "eqTest": "Test QE"
+  },
+  "share": {
+    "title": "Partagez Votre Noyau Sombre",
+    "text": "Mon score Dark Core est de {score}% ! Je suis « {tier} » Découvrez le vôtre :",
+    "twitter": "Partager sur X",
+    "copyUrl": "Copier le Lien",
+    "copied": "Copié !"
+  },
+  "nav": {
+    "back": "Accueil DopaBrain"
+  },
+  "engage": {
+    "cta": "Affrontez votre côté sombre",
+    "proof": "âmes ont été testées",
+    "result1": "Machiavélique -- Stratégique et Calculateur",
+    "result2": "Narcissique -- Charismatique et Sûr de soi",
+    "result3": "Marcheur de l'Ombre -- Équilibré et Conscient",
+    "result4": "Empathe Sombre -- Perceptif et Complexe"
+  }
 }

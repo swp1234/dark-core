@@ -1,132 +1,140 @@
 {
-    "meta": {
-        "title": "Dark Core Personality Test | DopaBrain",
-        "description": "Face moral dilemmas to discover your dark core personality. Measure Narcissism, Machiavellianism, Psychopathy, and Sadism."
+  "meta": {
+    "title": "Dark Core Personality Test | DopaBrain",
+    "description": "Face moral dilemmas to discover your dark core personality. Measure Narcissism, Machiavellianism, Psychopathy, and Sadism."
+  },
+  "a11y": {
+    "skip": "Skip to content"
+  },
+  "app": {
+    "title": "Dark Core Test",
+    "subtitle": "How dark is your personality?",
+    "description": "Face 10 moral dilemmas and watch the scales of darkness tip. Each choice reveals your Narcissism, Machiavellianism, Psychopathy, and Sadism.",
+    "start": "Reveal My Dark Core"
+  },
+  "traits": {
+    "narcissism": "Narcissism",
+    "machiavellianism": "Machiavellianism",
+    "psychopathy": "Psychopathy",
+    "sadism": "Sadism",
+    "narcissism_short": "N",
+    "machiavellianism_short": "M",
+    "psychopathy_short": "P",
+    "sadism_short": "S"
+  },
+  "dilemma": {
+    "number": "DILEMMA",
+    "lightSide": "Virtuous",
+    "darkSide": "Dark"
+  },
+  "dilemmas": {
+    "d1": {
+      "scenario": "You're on the hiring committee. A candidate is more talented than you, but hiring them could threaten your position.",
+      "left": "Evaluate fairly and recommend the talented candidate",
+      "right": "Exaggerate minor flaws to reject them and protect your status"
     },
-    "a11y": {
-        "skip": "Skip to content"
+    "d2": {
+      "scenario": "A close friend confides a major secret. You realize this information could help you get a promotion at work.",
+      "left": "Keep the secret and honor your friend's trust",
+      "right": "Subtly leverage the information to create an opportunity"
     },
-    "app": {
-        "title": "Dark Core Test",
-        "subtitle": "How dark is your personality?",
-        "description": "Face 10 moral dilemmas and watch the scales of darkness tip. Each choice reveals your Narcissism, Machiavellianism, Psychopathy, and Sadism.",
-        "start": "Reveal My Dark Core"
+    "d3": {
+      "scenario": "A runaway autonomous car is heading toward 5 people. Pressing a button will divert it, but 1 person in the new path will be hit.",
+      "left": "Do nothing. Don't dirty your hands directly",
+      "right": "Press the button. Sacrifice 1 to save 5"
     },
-    "traits": {
-        "narcissism": "Narcissism",
-        "machiavellianism": "Machiavellianism",
-        "psychopathy": "Psychopathy",
-        "sadism": "Sadism",
-        "narcissism_short": "N",
-        "machiavellianism_short": "M",
-        "psychopathy_short": "P",
-        "sadism_short": "S"
+    "d4": {
+      "scenario": "Your team just completed a major project successfully. Your boss asks who contributed the most.",
+      "left": "Honestly credit everyone's contributions",
+      "right": "Frame it as your leadership and take the glory"
     },
-    "dilemma": {
-        "number": "DILEMMA",
-        "lightSide": "Virtuous",
-        "darkSide": "Dark"
+    "d5": {
+      "scenario": "In an online game, your opponent accidentally reveals a weakness. Exploiting it guarantees an easy win.",
+      "left": "Compete fairly and ignore their mistake",
+      "right": "Relentlessly exploit the weakness and enjoy their frustration"
     },
-    "dilemmas": {
-        "d1": {
-            "scenario": "You're on the hiring committee. A candidate is more talented than you, but hiring them could threaten your position.",
-            "left": "Evaluate fairly and recommend the talented candidate",
-            "right": "Exaggerate minor flaws to reject them and protect your status"
-        },
-        "d2": {
-            "scenario": "A close friend confides a major secret. You realize this information could help you get a promotion at work.",
-            "left": "Keep the secret and honor your friend's trust",
-            "right": "Subtly leverage the information to create an opportunity"
-        },
-        "d3": {
-            "scenario": "A runaway autonomous car is heading toward 5 people. Pressing a button will divert it, but 1 person in the new path will be hit.",
-            "left": "Do nothing. Don't dirty your hands directly",
-            "right": "Press the button. Sacrifice 1 to save 5"
-        },
-        "d4": {
-            "scenario": "Your team just completed a major project successfully. Your boss asks who contributed the most.",
-            "left": "Honestly credit everyone's contributions",
-            "right": "Frame it as your leadership and take the glory"
-        },
-        "d5": {
-            "scenario": "In an online game, your opponent accidentally reveals a weakness. Exploiting it guarantees an easy win.",
-            "left": "Compete fairly and ignore their mistake",
-            "right": "Relentlessly exploit the weakness and enjoy their frustration"
-        },
-        "d6": {
-            "scenario": "Your social media post gets far less attention than expected. Your friend's post goes viral at the same time.",
-            "left": "Congratulate your friend and forget about your post",
-            "right": "Create content specifically to outshine your friend and reclaim attention"
-        },
-        "d7": {
-            "scenario": "During an audit, you discover a colleague's financial fraud. Reporting them means they lose their job; staying silent carries risk for you.",
-            "left": "Report immediately. Rules come first",
-            "right": "Stay silent in exchange for favors from the colleague"
-        },
-        "d8": {
-            "scenario": "Your neighbor's noise has kept you awake for weeks. They're uncooperative, and management won't help.",
-            "left": "Patiently try more dialogue or consider moving",
-            "right": "Retaliate with louder noise at their most inconvenient hours"
-        },
-        "d9": {
-            "scenario": "You're about to win a tournament final. Your opponent seems mentally unstable due to personal issues.",
-            "left": "Show empathy and compete with sportsmanship",
-            "right": "Provoke their emotional weakness and enjoy watching them crumble"
-        },
-        "d10": {
-            "scenario": "You're on a city budget committee. You can funnel more funds to your district, but a poorer district will suffer.",
-            "left": "Distribute fairly based on greatest need",
-            "right": "Manipulate the budget in your favor and enjoy the influence"
-        }
+    "d6": {
+      "scenario": "Your social media post gets far less attention than expected. Your friend's post goes viral at the same time.",
+      "left": "Congratulate your friend and forget about your post",
+      "right": "Create content specifically to outshine your friend and reclaim attention"
     },
-    "tiers": {
-        "light": {
-            "name": "Pure Light",
-            "badge": "PURE LIGHT",
-            "desc": "Your soul is remarkably pure. Even faced with moral dilemmas, you consistently choose the ethical path."
-        },
-        "grey": {
-            "name": "Grey Zone",
-            "badge": "GREY ZONE",
-            "desc": "A healthy balance of light and shadow. You have darker impulses but keep them in check. Most humans live here."
-        },
-        "shadow": {
-            "name": "Shadow Walker",
-            "badge": "SHADOW WALKER",
-            "desc": "You walk the line between light and dark. You know how to use your shadow side when needed, and its influence is considerable."
-        },
-        "dark": {
-            "name": "Dark Architect",
-            "badge": "DARK ARCHITECT",
-            "desc": "A powerful dark core drives your decisions. You see the world as a chessboard and people as pieces."
-        },
-        "abyss": {
-            "name": "Abyss Dweller",
-            "badge": "ABYSS DWELLER",
-            "desc": "Your dark core is fully awakened. You embrace the void and the void embraces you back."
-        }
+    "d7": {
+      "scenario": "During an audit, you discover a colleague's financial fraud. Reporting them means they lose their job; staying silent carries risk for you.",
+      "left": "Report immediately. Rules come first",
+      "right": "Stay silent in exchange for favors from the colleague"
     },
-    "result": {
-        "title": "Your Dark Core",
-        "breakdown": "Trait Breakdown",
-        "retake": "Retake Test",
-        "moreTests": "Explore More",
-        "percentileStat": "Only <strong>{percent}%</strong> share your dark profile"
+    "d8": {
+      "scenario": "Your neighbor's noise has kept you awake for weeks. They're uncooperative, and management won't help.",
+      "left": "Patiently try more dialogue or consider moving",
+      "right": "Retaliate with louder noise at their most inconvenient hours"
     },
-    "related": {
-        "villainType": "Villain Type",
-        "toxicTrait": "Toxic Trait",
-        "emotionIceberg": "Emotion Iceberg",
-        "eqTest": "EQ Test"
+    "d9": {
+      "scenario": "You're about to win a tournament final. Your opponent seems mentally unstable due to personal issues.",
+      "left": "Show empathy and compete with sportsmanship",
+      "right": "Provoke their emotional weakness and enjoy watching them crumble"
     },
-    "share": {
-        "title": "Share Your Dark Core",
-        "text": "My Dark Core score is {score}%! I'm a '{tier}' Find out yours:",
-        "twitter": "Share on X",
-        "copyUrl": "Copy Link",
-        "copied": "Copied!"
-    },
-    "nav": {
-        "back": "DopaBrain Home"
+    "d10": {
+      "scenario": "You're on a city budget committee. You can funnel more funds to your district, but a poorer district will suffer.",
+      "left": "Distribute fairly based on greatest need",
+      "right": "Manipulate the budget in your favor and enjoy the influence"
     }
+  },
+  "tiers": {
+    "light": {
+      "name": "Pure Light",
+      "badge": "PURE LIGHT",
+      "desc": "Your soul is remarkably pure. Even faced with moral dilemmas, you consistently choose the ethical path."
+    },
+    "grey": {
+      "name": "Grey Zone",
+      "badge": "GREY ZONE",
+      "desc": "A healthy balance of light and shadow. You have darker impulses but keep them in check. Most humans live here."
+    },
+    "shadow": {
+      "name": "Shadow Walker",
+      "badge": "SHADOW WALKER",
+      "desc": "You walk the line between light and dark. You know how to use your shadow side when needed, and its influence is considerable."
+    },
+    "dark": {
+      "name": "Dark Architect",
+      "badge": "DARK ARCHITECT",
+      "desc": "A powerful dark core drives your decisions. You see the world as a chessboard and people as pieces."
+    },
+    "abyss": {
+      "name": "Abyss Dweller",
+      "badge": "ABYSS DWELLER",
+      "desc": "Your dark core is fully awakened. You embrace the void and the void embraces you back."
+    }
+  },
+  "result": {
+    "title": "Your Dark Core",
+    "breakdown": "Trait Breakdown",
+    "retake": "Retake Test",
+    "moreTests": "Explore More",
+    "percentileStat": "Only <strong>{percent}%</strong> share your dark profile"
+  },
+  "related": {
+    "villainType": "Villain Type",
+    "toxicTrait": "Toxic Trait",
+    "emotionIceberg": "Emotion Iceberg",
+    "eqTest": "EQ Test"
+  },
+  "share": {
+    "title": "Share Your Dark Core",
+    "text": "My Dark Core score is {score}%! I'm a '{tier}' Find out yours:",
+    "twitter": "Share on X",
+    "copyUrl": "Copy Link",
+    "copied": "Copied!"
+  },
+  "nav": {
+    "back": "DopaBrain Home"
+  },
+  "engage": {
+    "cta": "Face Your Dark Side",
+    "proof": "souls have been tested",
+    "result1": "Machiavellian -- Strategic & Calculating",
+    "result2": "Narcissist -- Charismatic & Self-Assured",
+    "result3": "Shadow Walker -- Balanced & Self-Aware",
+    "result4": "Dark Empath -- Perceptive & Complex"
+  }
 }

@@ -1,30 +1,140 @@
 {
-    "meta": { "title": "Dark Core Pers\u00f6nlichkeitstest | DopaBrain", "description": "Stelle dich moralischen Dilemmata und entdecke deinen Dark Core. Miss Narzissmus, Machiavellismus, Psychopathie und Sadismus." },
-    "a11y": { "skip": "Zum Inhalt springen" },
-    "app": { "title": "Dark Core Test", "subtitle": "Wie dunkel ist deine Pers\u00f6nlichkeit?", "description": "Stelle dich 10 moralischen Dilemmata und beobachte, wie die Waage der Dunkelheit kippt. Jede Wahl enth\u00fcllt deinen Narzissmus, Machiavellismus, Psychopathie und Sadismus.", "start": "Meinen Dark Core enth\u00fcllen" },
-    "traits": { "narcissism": "Narzissmus", "machiavellianism": "Machiavellismus", "psychopathy": "Psychopathie", "sadism": "Sadismus", "narcissism_short": "N", "machiavellianism_short": "M", "psychopathy_short": "P", "sadism_short": "S" },
-    "dilemma": { "number": "DILEMMA", "lightSide": "Tugendhaft", "darkSide": "Dunkel" },
-    "dilemmas": {
-        "d1": { "scenario": "Du bist im Einstellungskomitee. Ein Kandidat ist talentierter als du, aber seine Einstellung k\u00f6nnte deine Position bedrohen.", "left": "Fair bewerten und den talentierten Kandidaten empfehlen", "right": "Kleine Fehler \u00fcbertreiben, um ihn abzulehnen und deinen Status zu sch\u00fctzen" },
-        "d2": { "scenario": "Ein enger Freund vertraut dir ein gro\u00dfes Geheimnis an. Diese Information k\u00f6nnte dir bei einer Bef\u00f6rderung helfen.", "left": "Das Geheimnis bewahren und das Vertrauen ehren", "right": "Die Information subtil nutzen, um eine Gelegenheit zu schaffen" },
-        "d3": { "scenario": "Ein au\u00dfer Kontrolle geratenes autonomes Auto rast auf 5 Personen zu. Ein Knopfdruck lenkt es um, aber 1 Person wird getroffen.", "left": "Nichts tun. Sich nicht direkt die H\u00e4nde schmutzig machen", "right": "Den Knopf dr\u00fccken. 1 opfern, um 5 zu retten" },
-        "d4": { "scenario": "Dein Team hat ein gro\u00dfes Projekt erfolgreich abgeschlossen. Dein Chef fragt, wer am meisten beigetragen hat.", "left": "Ehrlich die Beitr\u00e4ge aller anerkennen", "right": "Es als deine F\u00fchrung darstellen und den Ruhm einheimsen" },
-        "d5": { "scenario": "In einem Online-Spiel enth\u00fcllt dein Gegner versehentlich eine Schw\u00e4che. Sie auszunutzen garantiert einen einfachen Sieg.", "left": "Fair konkurrieren und den Fehler ignorieren", "right": "Die Schw\u00e4che gnadenlos ausnutzen und ihre Frustration genie\u00dfen" },
-        "d6": { "scenario": "Dein Social-Media-Post bekommt weniger Aufmerksamkeit als erwartet. Der Post deines Freundes geht gleichzeitig viral.", "left": "Deinen Freund begl\u00fcckw\u00fcnschen und deinen Post vergessen", "right": "Inhalte erstellen, um deinen Freund zu \u00fcbertreffen und Aufmerksamkeit zur\u00fcckzugewinnen" },
-        "d7": { "scenario": "Bei einer Pr\u00fcfung entdeckst du den Finanzbetrug eines Kollegen. Melden bedeutet K\u00fcndigung; Schweigen birgt Risiken.", "left": "Sofort melden. Regeln gehen vor", "right": "Schweigen im Tausch gegen Gef\u00e4lligkeiten des Kollegen" },
-        "d8": { "scenario": "Der L\u00e4rm deines Nachbarn raubt dir seit Wochen den Schlaf. Er ist unkooperativ und die Verwaltung hilft nicht.", "left": "Geduldig weiter reden oder einen Umzug erw\u00e4gen", "right": "Mit lauterem L\u00e4rm zu den ung\u00fcnstigsten Zeiten zur\u00fcckschlagen" },
-        "d9": { "scenario": "Du stehst kurz vor dem Turnierfinale. Dein Gegner scheint wegen pers\u00f6nlicher Probleme mental instabil.", "left": "Empathie zeigen und sportlich konkurrieren", "right": "Seine emotionale Schw\u00e4che provozieren und sein Zusammenbrechen genie\u00dfen" },
-        "d10": { "scenario": "Du bist im st\u00e4dtischen Haushaltsausschuss. Du kannst mehr Mittel in deinen Bezirk lenken, aber ein \u00e4rmerer Bezirk leidet.", "left": "Fair nach gr\u00f6\u00dftem Bedarf verteilen", "right": "Das Budget zu deinen Gunsten manipulieren und den Einfluss genie\u00dfen" }
+  "meta": {
+    "title": "Dark Core Persönlichkeitstest | DopaBrain",
+    "description": "Stelle dich moralischen Dilemmata und entdecke deinen Dark Core. Miss Narzissmus, Machiavellismus, Psychopathie und Sadismus."
+  },
+  "a11y": {
+    "skip": "Zum Inhalt springen"
+  },
+  "app": {
+    "title": "Dark Core Test",
+    "subtitle": "Wie dunkel ist deine Persönlichkeit?",
+    "description": "Stelle dich 10 moralischen Dilemmata und beobachte, wie die Waage der Dunkelheit kippt. Jede Wahl enthüllt deinen Narzissmus, Machiavellismus, Psychopathie und Sadismus.",
+    "start": "Meinen Dark Core enthüllen"
+  },
+  "traits": {
+    "narcissism": "Narzissmus",
+    "machiavellianism": "Machiavellismus",
+    "psychopathy": "Psychopathie",
+    "sadism": "Sadismus",
+    "narcissism_short": "N",
+    "machiavellianism_short": "M",
+    "psychopathy_short": "P",
+    "sadism_short": "S"
+  },
+  "dilemma": {
+    "number": "DILEMMA",
+    "lightSide": "Tugendhaft",
+    "darkSide": "Dunkel"
+  },
+  "dilemmas": {
+    "d1": {
+      "scenario": "Du bist im Einstellungskomitee. Ein Kandidat ist talentierter als du, aber seine Einstellung könnte deine Position bedrohen.",
+      "left": "Fair bewerten und den talentierten Kandidaten empfehlen",
+      "right": "Kleine Fehler übertreiben, um ihn abzulehnen und deinen Status zu schützen"
     },
-    "tiers": {
-        "light": { "name": "Reines Licht", "badge": "REINES LICHT", "desc": "Deine Seele ist bemerkenswert rein. Auch bei moralischen Dilemmata w\u00e4hlst du immer den ethischen Weg." },
-        "grey": { "name": "Grauzone", "badge": "GRAUZONE", "desc": "Gesundes Gleichgewicht aus Licht und Schatten. Dunkle Impulse unter Kontrolle." },
-        "shadow": { "name": "Schattenw\u00e4nderer", "badge": "SCHATTENW\u00c4NDERER", "desc": "Du wandelst zwischen Licht und Dunkelheit. Du wei\u00dft, wann du deine Schattenseite einsetzen musst." },
-        "dark": { "name": "Dunkler Architekt", "badge": "DUNKLER ARCHITEKT", "desc": "Ein m\u00e4chtiger dunkler Kern steuert deine Entscheidungen. Die Welt ist ein Schachbrett." },
-        "abyss": { "name": "Abgrundbewohner", "badge": "ABGRUNDBEWOHNER", "desc": "Dein dunkler Kern ist vollst\u00e4ndig erwacht. Du umarmst die Leere und die Leere umarmt dich." }
+    "d2": {
+      "scenario": "Ein enger Freund vertraut dir ein großes Geheimnis an. Diese Information könnte dir bei einer Beförderung helfen.",
+      "left": "Das Geheimnis bewahren und das Vertrauen ehren",
+      "right": "Die Information subtil nutzen, um eine Gelegenheit zu schaffen"
     },
-    "result": { "title": "Dein Dark Core", "breakdown": "Eigenschaftsanalyse", "retake": "Nochmal testen", "moreTests": "Mehr entdecken", "percentileStat": "Nur <strong>{percent}%</strong> teilen dein dunkles Profil" },
-    "related": { "villainType": "Bösewicht-Typ", "toxicTrait": "Toxischer Zug", "emotionIceberg": "Emotions-Eisberg", "eqTest": "EQ-Test" },
-    "share": { "title": "Teile deinen Dark Core", "text": "Mein Dark Core Score ist {score}%! Ich bin '{tier}' Finde deinen heraus:", "twitter": "Auf X teilen", "copyUrl": "Link kopieren", "copied": "Kopiert!" },
-    "nav": { "back": "DopaBrain Startseite" }
+    "d3": {
+      "scenario": "Ein außer Kontrolle geratenes autonomes Auto rast auf 5 Personen zu. Ein Knopfdruck lenkt es um, aber 1 Person wird getroffen.",
+      "left": "Nichts tun. Sich nicht direkt die Hände schmutzig machen",
+      "right": "Den Knopf drücken. 1 opfern, um 5 zu retten"
+    },
+    "d4": {
+      "scenario": "Dein Team hat ein großes Projekt erfolgreich abgeschlossen. Dein Chef fragt, wer am meisten beigetragen hat.",
+      "left": "Ehrlich die Beiträge aller anerkennen",
+      "right": "Es als deine Führung darstellen und den Ruhm einheimsen"
+    },
+    "d5": {
+      "scenario": "In einem Online-Spiel enthüllt dein Gegner versehentlich eine Schwäche. Sie auszunutzen garantiert einen einfachen Sieg.",
+      "left": "Fair konkurrieren und den Fehler ignorieren",
+      "right": "Die Schwäche gnadenlos ausnutzen und ihre Frustration genießen"
+    },
+    "d6": {
+      "scenario": "Dein Social-Media-Post bekommt weniger Aufmerksamkeit als erwartet. Der Post deines Freundes geht gleichzeitig viral.",
+      "left": "Deinen Freund beglückwünschen und deinen Post vergessen",
+      "right": "Inhalte erstellen, um deinen Freund zu übertreffen und Aufmerksamkeit zurückzugewinnen"
+    },
+    "d7": {
+      "scenario": "Bei einer Prüfung entdeckst du den Finanzbetrug eines Kollegen. Melden bedeutet Kündigung; Schweigen birgt Risiken.",
+      "left": "Sofort melden. Regeln gehen vor",
+      "right": "Schweigen im Tausch gegen Gefälligkeiten des Kollegen"
+    },
+    "d8": {
+      "scenario": "Der Lärm deines Nachbarn raubt dir seit Wochen den Schlaf. Er ist unkooperativ und die Verwaltung hilft nicht.",
+      "left": "Geduldig weiter reden oder einen Umzug erwägen",
+      "right": "Mit lauterem Lärm zu den ungünstigsten Zeiten zurückschlagen"
+    },
+    "d9": {
+      "scenario": "Du stehst kurz vor dem Turnierfinale. Dein Gegner scheint wegen persönlicher Probleme mental instabil.",
+      "left": "Empathie zeigen und sportlich konkurrieren",
+      "right": "Seine emotionale Schwäche provozieren und sein Zusammenbrechen genießen"
+    },
+    "d10": {
+      "scenario": "Du bist im städtischen Haushaltsausschuss. Du kannst mehr Mittel in deinen Bezirk lenken, aber ein ärmerer Bezirk leidet.",
+      "left": "Fair nach größtem Bedarf verteilen",
+      "right": "Das Budget zu deinen Gunsten manipulieren und den Einfluss genießen"
+    }
+  },
+  "tiers": {
+    "light": {
+      "name": "Reines Licht",
+      "badge": "REINES LICHT",
+      "desc": "Deine Seele ist bemerkenswert rein. Auch bei moralischen Dilemmata wählst du immer den ethischen Weg."
+    },
+    "grey": {
+      "name": "Grauzone",
+      "badge": "GRAUZONE",
+      "desc": "Gesundes Gleichgewicht aus Licht und Schatten. Dunkle Impulse unter Kontrolle."
+    },
+    "shadow": {
+      "name": "Schattenwänderer",
+      "badge": "SCHATTENWÄNDERER",
+      "desc": "Du wandelst zwischen Licht und Dunkelheit. Du weißt, wann du deine Schattenseite einsetzen musst."
+    },
+    "dark": {
+      "name": "Dunkler Architekt",
+      "badge": "DUNKLER ARCHITEKT",
+      "desc": "Ein mächtiger dunkler Kern steuert deine Entscheidungen. Die Welt ist ein Schachbrett."
+    },
+    "abyss": {
+      "name": "Abgrundbewohner",
+      "badge": "ABGRUNDBEWOHNER",
+      "desc": "Dein dunkler Kern ist vollständig erwacht. Du umarmst die Leere und die Leere umarmt dich."
+    }
+  },
+  "result": {
+    "title": "Dein Dark Core",
+    "breakdown": "Eigenschaftsanalyse",
+    "retake": "Nochmal testen",
+    "moreTests": "Mehr entdecken",
+    "percentileStat": "Nur <strong>{percent}%</strong> teilen dein dunkles Profil"
+  },
+  "related": {
+    "villainType": "Bösewicht-Typ",
+    "toxicTrait": "Toxischer Zug",
+    "emotionIceberg": "Emotions-Eisberg",
+    "eqTest": "EQ-Test"
+  },
+  "share": {
+    "title": "Teile deinen Dark Core",
+    "text": "Mein Dark Core Score ist {score}%! Ich bin '{tier}' Finde deinen heraus:",
+    "twitter": "Auf X teilen",
+    "copyUrl": "Link kopieren",
+    "copied": "Kopiert!"
+  },
+  "nav": {
+    "back": "DopaBrain Startseite"
+  },
+  "engage": {
+    "cta": "Stelle dich deiner dunklen Seite",
+    "proof": "Seelen wurden getestet",
+    "result1": "Machiavellist -- Strategisch & Berechnend",
+    "result2": "Narzisst -- Charismatisch & Selbstsicher",
+    "result3": "Schattenläufer -- Ausgeglichen & Selbstbewusst",
+    "result4": "Dunkler Empath -- Wahrnehmend & Komplex"
+  }
 }

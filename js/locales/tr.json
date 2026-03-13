@@ -1,30 +1,140 @@
 {
-    "meta": { "title": "Karanlik Cekirdek Kisilik Testi | DopaBrain", "description": "Ahlaki ikilemlere gogus gererek karanlik cekirdeginizi kesfedin. Narsisizm, Makyavelizm, Psikopati ve Sadizm olcun." },
-    "a11y": { "skip": "Icerige atla" },
-    "app": { "title": "Karanlik Cekirdek Testi", "subtitle": "Kisiliginiz ne kadar karanlik?", "description": "10 ahlaki ikilemle yuzlesin ve karanlik terazisinin nasil egrildigini izleyin. Her secim Narsisizm, Makyavelizm, Psikopati ve Sadizm'inizi ortaya cikarir.", "start": "Karanlik Cekirde\u011fimi Goster" },
-    "traits": { "narcissism": "Narsisizm", "machiavellianism": "Makyavelizm", "psychopathy": "Psikopati", "sadism": "Sadizm", "narcissism_short": "N", "machiavellianism_short": "M", "psychopathy_short": "P", "sadism_short": "S" },
-    "dilemma": { "number": "IKILEM", "lightSide": "Erdemli", "darkSide": "Karanlik" },
-    "dilemmas": {
-        "d1": { "scenario": "Ise alim komitesindesiniz. Bir aday sizden daha yetenekli, ama onu ise almak pozisyonunuzu tehdit edebilir.", "left": "Adil degerlendirip yetenekli adayi onermek", "right": "Kucuk kusurlari abartarak reddetmek ve statunuzu korumak" },
-        "d2": { "scenario": "Yakin bir arkadasiniz buyuk bir sir paylasti. Bu bilgi terfi etmenize yardimci olabilir.", "left": "Sirri saklamak ve guveni onurlandirmak", "right": "Bilgiyi ustaca kullanarak firsat yaratmak" },
-        "d3": { "scenario": "Kontrolden cikan otonom bir araba 5 kisiye dogru gidiyor. Bir dugmeye basmak yonunu degistirir ama 1 kisi carpilir.", "left": "Hicbir sey yapmamak. Elleri dogrudan kirletmemek", "right": "Dugmeye basmak. 5'i kurtarmak icin 1'i feda etmek" },
-        "d4": { "scenario": "Takiminiz buyuk bir projeyi basariyla tamamladi. Patronunuz en cok kimin katki sagladigini soruyor.", "left": "Durstce herkesin katkilarini kabul etmek", "right": "Kendi liderliginiz olarak cerceveleyip ovguyu almak" },
-        "d5": { "scenario": "Bir cevrimici oyunda rakibiniz yanlislikla bir zayifligini aciga cikariyor. Bunu kullanmak kolay zafer garantiler.", "left": "Adil rekabet edip hatayi gormezden gelmek", "right": "Zayifligi acimaszca kullanip hayal kiriklgini keyfini cikarmak" },
-        "d6": { "scenario": "Sosyal medya paylsiminiz az ilgi goruyor. Arkadasinizin paylasimi ayni anda viral oluyor.", "left": "Arkadasinizi tebrik edip paylasminizi unutmak", "right": "Arkadasinizi gecmek icin icerik uretip dikkati geri kazanmak" },
-        "d7": { "scenario": "Bir denetimde is arkadasinizin mali dolandiriciligini kesfediyorsunuz. Bildirmek kovulmasina neden olur; susmak risk tasir.", "left": "Hemen bildirmek. Kurallar oncelikli", "right": "Is arkadasindan iyilik karsiliginda susmak" },
-        "d8": { "scenario": "Komsnuzun gurultusu haftalardur uyumanizi engelliyor. Isbirligi yapmiyor ve yonetim yardimci olmuyor.", "left": "Sabrrla diyalogu tekrar denemek veya tasinmayi dusunmek", "right": "En uygunsuz saatlerde daha yuksek gurultuyle karsilik vermek" },
-        "d9": { "scenario": "Bir turnuva finalini kazanmak uzeresiniz. Rakibiniz kisisel sorunlardan dolayi zihinsel olarak istikrarsiz gorunuyor.", "left": "Empati gostermek ve sportmence rekabet etmek", "right": "Duygusal zayifligini provoke edip cokuunu izlemekten keyif almak" },
-        "d10": { "scenario": "Belediye butce komitesindesiniz. Daha fazla kaynak kendi bolgenize yonlendirebilirsiniz ama daha yoksul bir bolge zarar gorur.", "left": "En buyuk ihtiyaca gore adil dagitmak", "right": "Butceyi kendi lehinize manipule edip etkinin tadini cikarmak" }
+  "meta": {
+    "title": "Karanlik Cekirdek Kisilik Testi | DopaBrain",
+    "description": "Ahlaki ikilemlere gogus gererek karanlik cekirdeginizi kesfedin. Narsisizm, Makyavelizm, Psikopati ve Sadizm olcun."
+  },
+  "a11y": {
+    "skip": "Icerige atla"
+  },
+  "app": {
+    "title": "Karanlik Cekirdek Testi",
+    "subtitle": "Kisiliginiz ne kadar karanlik?",
+    "description": "10 ahlaki ikilemle yuzlesin ve karanlik terazisinin nasil egrildigini izleyin. Her secim Narsisizm, Makyavelizm, Psikopati ve Sadizm'inizi ortaya cikarir.",
+    "start": "Karanlik Cekirdeğimi Goster"
+  },
+  "traits": {
+    "narcissism": "Narsisizm",
+    "machiavellianism": "Makyavelizm",
+    "psychopathy": "Psikopati",
+    "sadism": "Sadizm",
+    "narcissism_short": "N",
+    "machiavellianism_short": "M",
+    "psychopathy_short": "P",
+    "sadism_short": "S"
+  },
+  "dilemma": {
+    "number": "IKILEM",
+    "lightSide": "Erdemli",
+    "darkSide": "Karanlik"
+  },
+  "dilemmas": {
+    "d1": {
+      "scenario": "Ise alim komitesindesiniz. Bir aday sizden daha yetenekli, ama onu ise almak pozisyonunuzu tehdit edebilir.",
+      "left": "Adil degerlendirip yetenekli adayi onermek",
+      "right": "Kucuk kusurlari abartarak reddetmek ve statunuzu korumak"
     },
-    "tiers": {
-        "light": { "name": "Saf Isik", "badge": "SAF ISIK", "desc": "Ruhunuz olaganustu derecede saf. Ahlaki ikilemlerde bile her zaman etik yolu seciyorsunuz." },
-        "grey": { "name": "Gri Bolge", "badge": "GRI BOLGE", "desc": "Isik ve golgenin saglikli dengesi. Karanlik durtuleriniz kontrol altinda." },
-        "shadow": { "name": "Golge Yuruyucusu", "badge": "GOLGE YURUYUCUSU", "desc": "Isik ve karanlik arasinda yuruyorsunuz. Golge tarafinizi ne zaman kullanacaginizi biliyorsunuz." },
-        "dark": { "name": "Karanlik Mimar", "badge": "KARANLIK MIMAR", "desc": "Guclu bir karanlik cekirdek kararlarinizi yonlendiriyor. Dunya bir satranc tahtasi." },
-        "abyss": { "name": "Ucurum Sakini", "badge": "UCURUM SAKINI", "desc": "Karanlik cekirdeginiz tamamen uyandi. Boslugu kucakliyorsunuz ve bosluk sizi kucakliyor." }
+    "d2": {
+      "scenario": "Yakin bir arkadasiniz buyuk bir sir paylasti. Bu bilgi terfi etmenize yardimci olabilir.",
+      "left": "Sirri saklamak ve guveni onurlandirmak",
+      "right": "Bilgiyi ustaca kullanarak firsat yaratmak"
     },
-    "result": { "title": "Karanlik Cekirdeginiz", "breakdown": "Ozellik Analizi", "retake": "Tekrar Test Et", "moreTests": "Daha fazla keşfet", "percentileStat": "Sadece <strong>{percent}%</strong>'i senin karanlık profiline sahip" },
-    "related": { "villainType": "Kötü Adam Tipi", "toxicTrait": "Toksik Özellik", "emotionIceberg": "Duygu Buzdağı", "eqTest": "EQ Testi" },
-    "share": { "title": "Karanlik Cekirdeginizi Paylasin", "text": "Karanlik Cekirdek puanim {score}%! Ben '{tier}' Seninkini ogren:", "twitter": "X'te Paylas", "copyUrl": "Linki Kopyala", "copied": "Kopyalandi!" },
-    "nav": { "back": "DopaBrain Ana Sayfa" }
+    "d3": {
+      "scenario": "Kontrolden cikan otonom bir araba 5 kisiye dogru gidiyor. Bir dugmeye basmak yonunu degistirir ama 1 kisi carpilir.",
+      "left": "Hicbir sey yapmamak. Elleri dogrudan kirletmemek",
+      "right": "Dugmeye basmak. 5'i kurtarmak icin 1'i feda etmek"
+    },
+    "d4": {
+      "scenario": "Takiminiz buyuk bir projeyi basariyla tamamladi. Patronunuz en cok kimin katki sagladigini soruyor.",
+      "left": "Durstce herkesin katkilarini kabul etmek",
+      "right": "Kendi liderliginiz olarak cerceveleyip ovguyu almak"
+    },
+    "d5": {
+      "scenario": "Bir cevrimici oyunda rakibiniz yanlislikla bir zayifligini aciga cikariyor. Bunu kullanmak kolay zafer garantiler.",
+      "left": "Adil rekabet edip hatayi gormezden gelmek",
+      "right": "Zayifligi acimaszca kullanip hayal kiriklgini keyfini cikarmak"
+    },
+    "d6": {
+      "scenario": "Sosyal medya paylsiminiz az ilgi goruyor. Arkadasinizin paylasimi ayni anda viral oluyor.",
+      "left": "Arkadasinizi tebrik edip paylasminizi unutmak",
+      "right": "Arkadasinizi gecmek icin icerik uretip dikkati geri kazanmak"
+    },
+    "d7": {
+      "scenario": "Bir denetimde is arkadasinizin mali dolandiriciligini kesfediyorsunuz. Bildirmek kovulmasina neden olur; susmak risk tasir.",
+      "left": "Hemen bildirmek. Kurallar oncelikli",
+      "right": "Is arkadasindan iyilik karsiliginda susmak"
+    },
+    "d8": {
+      "scenario": "Komsnuzun gurultusu haftalardur uyumanizi engelliyor. Isbirligi yapmiyor ve yonetim yardimci olmuyor.",
+      "left": "Sabrrla diyalogu tekrar denemek veya tasinmayi dusunmek",
+      "right": "En uygunsuz saatlerde daha yuksek gurultuyle karsilik vermek"
+    },
+    "d9": {
+      "scenario": "Bir turnuva finalini kazanmak uzeresiniz. Rakibiniz kisisel sorunlardan dolayi zihinsel olarak istikrarsiz gorunuyor.",
+      "left": "Empati gostermek ve sportmence rekabet etmek",
+      "right": "Duygusal zayifligini provoke edip cokuunu izlemekten keyif almak"
+    },
+    "d10": {
+      "scenario": "Belediye butce komitesindesiniz. Daha fazla kaynak kendi bolgenize yonlendirebilirsiniz ama daha yoksul bir bolge zarar gorur.",
+      "left": "En buyuk ihtiyaca gore adil dagitmak",
+      "right": "Butceyi kendi lehinize manipule edip etkinin tadini cikarmak"
+    }
+  },
+  "tiers": {
+    "light": {
+      "name": "Saf Isik",
+      "badge": "SAF ISIK",
+      "desc": "Ruhunuz olaganustu derecede saf. Ahlaki ikilemlerde bile her zaman etik yolu seciyorsunuz."
+    },
+    "grey": {
+      "name": "Gri Bolge",
+      "badge": "GRI BOLGE",
+      "desc": "Isik ve golgenin saglikli dengesi. Karanlik durtuleriniz kontrol altinda."
+    },
+    "shadow": {
+      "name": "Golge Yuruyucusu",
+      "badge": "GOLGE YURUYUCUSU",
+      "desc": "Isik ve karanlik arasinda yuruyorsunuz. Golge tarafinizi ne zaman kullanacaginizi biliyorsunuz."
+    },
+    "dark": {
+      "name": "Karanlik Mimar",
+      "badge": "KARANLIK MIMAR",
+      "desc": "Guclu bir karanlik cekirdek kararlarinizi yonlendiriyor. Dunya bir satranc tahtasi."
+    },
+    "abyss": {
+      "name": "Ucurum Sakini",
+      "badge": "UCURUM SAKINI",
+      "desc": "Karanlik cekirdeginiz tamamen uyandi. Boslugu kucakliyorsunuz ve bosluk sizi kucakliyor."
+    }
+  },
+  "result": {
+    "title": "Karanlik Cekirdeginiz",
+    "breakdown": "Ozellik Analizi",
+    "retake": "Tekrar Test Et",
+    "moreTests": "Daha fazla keşfet",
+    "percentileStat": "Sadece <strong>{percent}%</strong>'i senin karanlık profiline sahip"
+  },
+  "related": {
+    "villainType": "Kötü Adam Tipi",
+    "toxicTrait": "Toksik Özellik",
+    "emotionIceberg": "Duygu Buzdağı",
+    "eqTest": "EQ Testi"
+  },
+  "share": {
+    "title": "Karanlik Cekirdeginizi Paylasin",
+    "text": "Karanlik Cekirdek puanim {score}%! Ben '{tier}' Seninkini ogren:",
+    "twitter": "X'te Paylas",
+    "copyUrl": "Linki Kopyala",
+    "copied": "Kopyalandi!"
+  },
+  "nav": {
+    "back": "DopaBrain Ana Sayfa"
+  },
+  "engage": {
+    "cta": "Karanlık tarafınla yüzleş",
+    "proof": "ruh test edildi",
+    "result1": "Makyavelist -- Stratejik ve Hesapçı",
+    "result2": "Narsist -- Karizmatik ve Kendinden Emin",
+    "result3": "Gölge Yürüyücüsü -- Dengeli ve Öz Farkındalık",
+    "result4": "Karanlık Empat -- Algılayıcı ve Karmaşık"
+  }
 }

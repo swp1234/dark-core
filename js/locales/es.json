@@ -23,7 +23,8 @@
         "dark": { "name": "Arquitecto Oscuro", "badge": "ARQUITECTO OSCURO", "desc": "Un poderoso n\u00facleo oscuro impulsa tus decisiones. Ves el mundo como un tablero de ajedrez." },
         "abyss": { "name": "Habitante del Abismo", "badge": "HABITANTE DEL ABISMO", "desc": "Tu n\u00facleo oscuro est\u00e1 completamente despierto. Abrazas el vac\u00edo y el vac\u00edo te abraza." }
     },
-    "result": { "title": "Tu N\u00facleo Oscuro", "breakdown": "An\u00e1lisis de Rasgos", "retake": "Repetir Test" },
+    "result": { "title": "Tu N\u00facleo Oscuro", "breakdown": "An\u00e1lisis de Rasgos", "retake": "Repetir Test", "moreTests": "Explorar más", "percentileStat": "Solo el <strong>{percent}%</strong> comparten tu perfil oscuro" },
+    "related": { "villainType": "Tipo de Villano", "toxicTrait": "Rasgo Tóxico", "emotionIceberg": "Iceberg Emocional", "eqTest": "Test de EQ" },
     "share": { "title": "Comparte Tu N\u00facleo Oscuro", "text": "\u00a1Mi puntuaci\u00f3n de N\u00facleo Oscuro es {score}%! Soy '{tier}' Descubre la tuya:", "twitter": "Compartir en X", "copyUrl": "Copiar Enlace", "copied": "\u00a1Copiado!" },
     "nav": { "back": "Inicio DopaBrain" }
 }

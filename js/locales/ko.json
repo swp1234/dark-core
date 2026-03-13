@@ -109,7 +109,15 @@
     "result": {
         "title": "\ub098\uc758 \ub2e4\ud06c\ucf54\uc5b4",
         "breakdown": "\ud2b9\uc131 \ubd84\uc11d",
-        "retake": "\ub2e4\uc2dc \ud558\uae30"
+        "retake": "\ub2e4\uc2dc \ud558\uae30",
+        "moreTests": "더 많은 테스트",
+        "percentileStat": "<strong>{percent}%</strong>만이 당신과 같은 다크 프로필입니다"
+    },
+    "related": {
+        "villainType": "빌런 유형",
+        "toxicTrait": "독성 특성",
+        "emotionIceberg": "감정 빙산",
+        "eqTest": "EQ 테스트"
     },
     "share": {
         "title": "\ub2e4\ud06c\ucf54\uc5b4 \uacf5\uc720\ud558\uae30",

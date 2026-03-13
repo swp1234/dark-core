@@ -23,7 +23,8 @@
         "dark": { "name": "\u9ed1\u6697\u5efa\u7b51\u5e08", "badge": "\u9ed1\u6697\u5efa\u7b51\u5e08", "desc": "\u5f3a\u5927\u7684\u6697\u9ed1\u6838\u5fc3\u9a71\u52a8\u4f60\u7684\u51b3\u7b56\u3002\u4f60\u628a\u4e16\u754c\u770b\u4f5c\u68cb\u76d8\u3002" },
         "abyss": { "name": "\u6df1\u6e0a\u5c45\u6c11", "badge": "\u6df1\u6e0a\u5c45\u6c11", "desc": "\u6697\u9ed1\u6838\u5fc3\u5df2\u5b8c\u5168\u89c9\u9192\u3002\u4f60\u62e5\u62b1\u6df1\u6e0a\uff0c\u6df1\u6e0a\u4e5f\u62e5\u62b1\u4f60\u3002" }
     },
-    "result": { "title": "\u4f60\u7684\u6697\u9ed1\u6838\u5fc3", "breakdown": "\u7279\u8d28\u5206\u6790", "retake": "\u91cd\u65b0\u6d4b\u8bd5" },
+    "result": { "title": "\u4f60\u7684\u6697\u9ed1\u6838\u5fc3", "breakdown": "\u7279\u8d28\u5206\u6790", "retake": "\u91cd\u65b0\u6d4b\u8bd5", "moreTests": "探索更多", "percentileStat": "仅 <strong>{percent}%</strong> 拥有与你相同的暗黑档案" },
+    "related": { "villainType": "反派类型", "toxicTrait": "毒性特征", "emotionIceberg": "情感冰山", "eqTest": "情商测试" },
     "share": { "title": "\u5206\u4eab\u4f60\u7684\u6697\u9ed1\u6838\u5fc3", "text": "\u6211\u7684\u6697\u9ed1\u6838\u5fc3\u5206\u6570\u662f{score}%\uff01\u6211\u662f\u300e{tier}\u300f\u4f60\u4e5f\u6765\u8bd5\u8bd5:", "twitter": "\u5206\u4eab\u5230X", "copyUrl": "\u590d\u5236\u94fe\u63a5", "copied": "\u5df2\u590d\u5236\uff01" },
     "nav": { "back": "DopaBrain \u9996\u9875" }
 }

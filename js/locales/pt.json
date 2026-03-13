@@ -23,7 +23,8 @@
         "dark": { "name": "Arquiteto Sombrio", "badge": "ARQUITETO SOMBRIO", "desc": "Um n\u00facleo sombrio poderoso guia suas decis\u00f5es. O mundo \u00e9 um tabuleiro de xadrez." },
         "abyss": { "name": "Habitante do Abismo", "badge": "HABITANTE DO ABISMO", "desc": "Seu n\u00facleo sombrio est\u00e1 completamente desperto. Voc\u00ea abra\u00e7a o vazio e o vazio abra\u00e7a voc\u00ea." }
     },
-    "result": { "title": "Seu N\u00facleo Sombrio", "breakdown": "An\u00e1lise de Tra\u00e7os", "retake": "Refazer Teste" },
+    "result": { "title": "Seu N\u00facleo Sombrio", "breakdown": "An\u00e1lise de Tra\u00e7os", "retake": "Refazer Teste", "moreTests": "Explorar mais", "percentileStat": "Apenas <strong>{percent}%</strong> compartilham seu perfil sombrio" },
+    "related": { "villainType": "Tipo de Vilão", "toxicTrait": "Traço Tóxico", "emotionIceberg": "Iceberg Emocional", "eqTest": "Teste de QE" },
     "share": { "title": "Compartilhe Seu N\u00facleo Sombrio", "text": "Minha pontua\u00e7\u00e3o de N\u00facleo Sombrio \u00e9 {score}%! Sou '{tier}' Descubra a sua:", "twitter": "Compartilhar no X", "copyUrl": "Copiar Link", "copied": "Copiado!" },
     "nav": { "back": "In\u00edcio DopaBrain" }
 }

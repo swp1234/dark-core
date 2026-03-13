@@ -109,7 +109,15 @@
     "result": {
         "title": "Your Dark Core",
         "breakdown": "Trait Breakdown",
-        "retake": "Retake Test"
+        "retake": "Retake Test",
+        "moreTests": "Explore More",
+        "percentileStat": "Only <strong>{percent}%</strong> share your dark profile"
+    },
+    "related": {
+        "villainType": "Villain Type",
+        "toxicTrait": "Toxic Trait",
+        "emotionIceberg": "Emotion Iceberg",
+        "eqTest": "EQ Test"
     },
     "share": {
         "title": "Share Your Dark Core",

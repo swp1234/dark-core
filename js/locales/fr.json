@@ -23,7 +23,8 @@
         "dark": { "name": "Architecte Sombre", "badge": "ARCHITECTE SOMBRE", "desc": "Un puissant noyau sombre guide vos d\u00e9cisions. Le monde est un \u00e9chiquier." },
         "abyss": { "name": "Habitant de l'Ab\u00eeme", "badge": "HABITANT DE L'AB\u00ceME", "desc": "Votre noyau sombre est compl\u00e8tement \u00e9veill\u00e9. Vous embrassez le vide et le vide vous embrasse." }
     },
-    "result": { "title": "Votre Noyau Sombre", "breakdown": "Analyse des Traits", "retake": "Refaire le Test" },
+    "result": { "title": "Votre Noyau Sombre", "breakdown": "Analyse des Traits", "retake": "Refaire le Test", "moreTests": "Explorer plus", "percentileStat": "Seulement <strong>{percent}%</strong> partagent votre profil sombre" },
+    "related": { "villainType": "Type de Méchant", "toxicTrait": "Trait Toxique", "emotionIceberg": "Iceberg Émotionnel", "eqTest": "Test QE" },
     "share": { "title": "Partagez Votre Noyau Sombre", "text": "Mon score Dark Core est de {score}% ! Je suis \u00ab {tier} \u00bb D\u00e9couvrez le v\u00f4tre :", "twitter": "Partager sur X", "copyUrl": "Copier le Lien", "copied": "Copi\u00e9 !" },
     "nav": { "back": "Accueil DopaBrain" }
 }

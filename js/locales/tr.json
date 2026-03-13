@@ -23,7 +23,8 @@
         "dark": { "name": "Karanlik Mimar", "badge": "KARANLIK MIMAR", "desc": "Guclu bir karanlik cekirdek kararlarinizi yonlendiriyor. Dunya bir satranc tahtasi." },
         "abyss": { "name": "Ucurum Sakini", "badge": "UCURUM SAKINI", "desc": "Karanlik cekirdeginiz tamamen uyandi. Boslugu kucakliyorsunuz ve bosluk sizi kucakliyor." }
     },
-    "result": { "title": "Karanlik Cekirdeginiz", "breakdown": "Ozellik Analizi", "retake": "Tekrar Test Et" },
+    "result": { "title": "Karanlik Cekirdeginiz", "breakdown": "Ozellik Analizi", "retake": "Tekrar Test Et", "moreTests": "Daha fazla keşfet", "percentileStat": "Sadece <strong>{percent}%</strong>'i senin karanlık profiline sahip" },
+    "related": { "villainType": "Kötü Adam Tipi", "toxicTrait": "Toksik Özellik", "emotionIceberg": "Duygu Buzdağı", "eqTest": "EQ Testi" },
     "share": { "title": "Karanlik Cekirdeginizi Paylasin", "text": "Karanlik Cekirdek puanim {score}%! Ben '{tier}' Seninkini ogren:", "twitter": "X'te Paylas", "copyUrl": "Linki Kopyala", "copied": "Kopyalandi!" },
     "nav": { "back": "DopaBrain Ana Sayfa" }
 }

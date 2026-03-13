@@ -23,7 +23,8 @@
         "dark": { "name": "Arsitek Gelap", "badge": "ARSITEK GELAP", "desc": "Dark core yang kuat mendorong keputusanmu. Dunia adalah papan catur." },
         "abyss": { "name": "Penghuni Jurang", "badge": "PENGHUNI JURANG", "desc": "Dark core-mu sepenuhnya terbangun. Kamu memeluk kekosongan dan kekosongan memelukmu." }
     },
-    "result": { "title": "Dark Core-mu", "breakdown": "Analisis Sifat", "retake": "Ulangi Tes" },
+    "result": { "title": "Dark Core-mu", "breakdown": "Analisis Sifat", "retake": "Ulangi Tes", "moreTests": "Jelajahi lagi", "percentileStat": "Hanya <strong>{percent}%</strong> memiliki profil gelap yang sama" },
+    "related": { "villainType": "Tipe Penjahat", "toxicTrait": "Sifat Toksik", "emotionIceberg": "Gunung Es Emosi", "eqTest": "Tes EQ" },
     "share": { "title": "Bagikan Dark Core-mu", "text": "Skor Dark Core saya {score}%! Saya '{tier}' Cari tahu punyamu:", "twitter": "Bagikan di X", "copyUrl": "Salin Link", "copied": "Tersalin!" },
     "nav": { "back": "Beranda DopaBrain" }
 }

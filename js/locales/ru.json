@@ -117,7 +117,10 @@
     "villainType": "Тип злодея",
     "toxicTrait": "Токсичная черта",
     "emotionIceberg": "Айсберг эмоций",
-    "eqTest": "Тест EQ"
+    "eqTest": "Тест EQ",
+    "villainOrigin": "История злодея",
+    "shadowWork": "Работа с тенью",
+    "redGreenFlag": "Красный или зелёный флаг"
   },
   "share": {
     "title": "Поделиться Тёмным Ядром",

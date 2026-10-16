@@ -117,7 +117,10 @@
     "villainType": "Type de Méchant",
     "toxicTrait": "Trait Toxique",
     "emotionIceberg": "Iceberg Émotionnel",
-    "eqTest": "Test QE"
+    "eqTest": "Test QE",
+    "villainOrigin": "Origine de Vilain",
+    "shadowWork": "Travail de l’Ombre",
+    "redGreenFlag": "Red & Green Flags"
   },
   "share": {
     "title": "Partagez Votre Noyau Sombre",

@@ -117,7 +117,10 @@
     "villainType": "Tipo de Vilão",
     "toxicTrait": "Traço Tóxico",
     "emotionIceberg": "Iceberg Emocional",
-    "eqTest": "Teste de QE"
+    "eqTest": "Teste de QE",
+    "villainOrigin": "Origem de Vilão",
+    "shadowWork": "Trabalho de Sombra",
+    "redGreenFlag": "Red & Green Flags"
   },
   "share": {
     "title": "Compartilhe Seu Núcleo Sombrio",

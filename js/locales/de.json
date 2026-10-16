@@ -117,7 +117,10 @@
     "villainType": "Bösewicht-Typ",
     "toxicTrait": "Toxischer Zug",
     "emotionIceberg": "Emotions-Eisberg",
-    "eqTest": "EQ-Test"
+    "eqTest": "EQ-Test",
+    "villainOrigin": "Schurken-Ursprung",
+    "shadowWork": "Schattenarbeit",
+    "redGreenFlag": "Red & Green Flags"
   },
   "share": {
     "title": "Teile deinen Dark Core",

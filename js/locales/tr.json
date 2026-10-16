@@ -117,7 +117,10 @@
     "villainType": "Kötü Adam Tipi",
     "toxicTrait": "Toksik Özellik",
     "emotionIceberg": "Duygu Buzdağı",
-    "eqTest": "EQ Testi"
+    "eqTest": "EQ Testi",
+    "villainOrigin": "Kötü Karakter Kökeni",
+    "shadowWork": "Gölge Çalışması",
+    "redGreenFlag": "Kırmızı & Yeşil Bayrak"
   },
   "share": {
     "title": "Karanlik Cekirdeginizi Paylasin",

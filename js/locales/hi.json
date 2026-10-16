@@ -117,7 +117,10 @@
     "villainType": "खलनायक प्रकार",
     "toxicTrait": "विषाक्त गुण",
     "emotionIceberg": "भावना हिमशैल",
-    "eqTest": "EQ परीक्षण"
+    "eqTest": "EQ परीक्षण",
+    "villainOrigin": "विलेन ओरिजिन",
+    "shadowWork": "शैडो वर्क क्विज़",
+    "redGreenFlag": "रेड और ग्रीन फ़्लैग"
   },
   "share": {
     "title": "अपना डार्क कोर शेयर करें",

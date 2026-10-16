@@ -117,7 +117,10 @@
     "villainType": "빌런 유형",
     "toxicTrait": "독성 특성",
     "emotionIceberg": "감정 빙산",
-    "eqTest": "EQ 테스트"
+    "eqTest": "EQ 테스트",
+    "villainOrigin": "빌런 오리진 테스트",
+    "shadowWork": "섀도우 워크 퀴즈",
+    "redGreenFlag": "레드 & 그린 플래그"
   },
   "share": {
     "title": "다크코어 공유하기",

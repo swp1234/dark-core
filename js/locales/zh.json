@@ -117,7 +117,10 @@
     "villainType": "反派类型",
     "toxicTrait": "毒性特征",
     "emotionIceberg": "情感冰山",
-    "eqTest": "情商测试"
+    "eqTest": "情商测试",
+    "villainOrigin": "反派起源测试",
+    "shadowWork": "阴影工作测验",
+    "redGreenFlag": "红旗与绿旗测试"
   },
   "share": {
     "title": "分享你的暗黑核心",

@@ -117,7 +117,10 @@
     "villainType": "Tipo de Villano",
     "toxicTrait": "Rasgo Tóxico",
     "emotionIceberg": "Iceberg Emocional",
-    "eqTest": "Test de EQ"
+    "eqTest": "Test de EQ",
+    "villainOrigin": "Origen de Villano",
+    "shadowWork": "Trabajo de Sombra",
+    "redGreenFlag": "Banderas Rojas y Verdes"
   },
   "share": {
     "title": "Comparte Tu Núcleo Oscuro",

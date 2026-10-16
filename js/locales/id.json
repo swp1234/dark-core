@@ -117,7 +117,10 @@
     "villainType": "Tipe Penjahat",
     "toxicTrait": "Sifat Toksik",
     "emotionIceberg": "Gunung Es Emosi",
-    "eqTest": "Tes EQ"
+    "eqTest": "Tes EQ",
+    "villainOrigin": "Asal-usul Villain",
+    "shadowWork": "Shadow Work",
+    "redGreenFlag": "Red & Green Flag"
   },
   "share": {
     "title": "Bagikan Dark Core-mu",

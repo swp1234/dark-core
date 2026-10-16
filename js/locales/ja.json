@@ -117,7 +117,10 @@
     "villainType": "ヴィランタイプ",
     "toxicTrait": "毒性特性",
     "emotionIceberg": "感情の氷山",
-    "eqTest": "EQテスト"
+    "eqTest": "EQテスト",
+    "villainOrigin": "ヴィランの起源診断",
+    "shadowWork": "シャドウワーク診断",
+    "redGreenFlag": "レッド＆グリーンフラッグ"
   },
   "share": {
     "title": "ダークコアをシェア",

@@ -117,7 +117,10 @@
     "villainType": "Villain Type",
     "toxicTrait": "Toxic Trait",
     "emotionIceberg": "Emotion Iceberg",
-    "eqTest": "EQ Test"
+    "eqTest": "EQ Test",
+    "villainOrigin": "Villain Origin",
+    "shadowWork": "Shadow Work",
+    "redGreenFlag": "Red & Green Flag"
   },
   "share": {
     "title": "Share Your Dark Core",

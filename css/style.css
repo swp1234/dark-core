@@ -181,6 +181,9 @@ body::before {
 }
 .lang-btn {
   min-height: 44px;
+  min-width: 44px;
+  justify-content: center;
+  box-sizing: border-box;
   padding: 8px 14px;
   border-radius: var(--radius-sm);
   border: 1px solid var(--border);
@@ -866,7 +869,11 @@ footer a {
   padding: 10px 20px;
   border-radius: var(--radius-sm);
   transition: all var(--transition);
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  box-sizing: border-box;
 }
 footer a:hover { color: var(--primary-light); background: var(--primary-dim); }
 

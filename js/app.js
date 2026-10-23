@@ -361,14 +361,6 @@
         // Trait breakdown
         renderTraitBreakdown();
 
-        // Percentile stat
-        var pStat = $('percentile-stat');
-        if (pStat) {
-            var pctVal = 5 + Math.floor(Math.random() * 18);
-            var tmpl = t('result.percentileStat', 'Only <strong>{percent}%</strong> share your dark profile');
-            pStat.innerHTML = tmpl.replace('{percent}', pctVal);
-        }
-
         // GA4
         if (typeof gtag === 'function') {
             gtag('event', 'quiz_complete', {

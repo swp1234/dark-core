@@ -111,7 +111,8 @@
     "breakdown": "Análisis de Rasgos",
     "retake": "Repetir Test",
     "moreTests": "Explorar más",
-    "percentileStat": "Solo el <strong>{percent}%</strong> comparten tu perfil oscuro"
+    "percentileStat": "Solo el <strong>{percent}%</strong> comparten tu perfil oscuro",
+    "recommendedNext": "Siguiente paso recomendado"
   },
   "related": {
     "villainType": "Tipo de Villano",
@@ -120,7 +121,11 @@
     "eqTest": "Test de EQ",
     "villainOrigin": "Origen de Villano",
     "shadowWork": "Trabajo de Sombra",
-    "redGreenFlag": "Banderas Rojas y Verdes"
+    "redGreenFlag": "Banderas Rojas y Verdes",
+    "stressCheck": "Test de estrés",
+    "hspTest": "Test HSP",
+    "futureSelf": "Yo Futuro",
+    "attachmentStyle": "Estilo de apego"
   },
   "share": {
     "title": "Comparte Tu Núcleo Oscuro",

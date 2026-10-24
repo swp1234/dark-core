@@ -111,7 +111,8 @@
     "breakdown": "Trait Breakdown",
     "retake": "Retake Test",
     "moreTests": "Explore More",
-    "percentileStat": "Only <strong>{percent}%</strong> share your dark profile"
+    "percentileStat": "Only <strong>{percent}%</strong> share your dark profile",
+    "recommendedNext": "Recommended Next Step"
   },
   "related": {
     "villainType": "Villain Type",
@@ -120,7 +121,11 @@
     "eqTest": "EQ Test",
     "villainOrigin": "Villain Origin",
     "shadowWork": "Shadow Work",
-    "redGreenFlag": "Red & Green Flag"
+    "redGreenFlag": "Red & Green Flag",
+    "stressCheck": "Stress Check",
+    "hspTest": "HSP Test",
+    "futureSelf": "Future Self",
+    "attachmentStyle": "Attachment Style"
   },
   "share": {
     "title": "Share Your Dark Core",

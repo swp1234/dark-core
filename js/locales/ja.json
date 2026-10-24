@@ -111,7 +111,8 @@
     "breakdown": "特性分析",
     "retake": "もう一度",
     "moreTests": "もっと見る",
-    "percentileStat": "<strong>{percent}%</strong>だけがあなたと同じダークプロフィールです"
+    "percentileStat": "<strong>{percent}%</strong>だけがあなたと同じダークプロフィールです",
+    "recommendedNext": "おすすめの次のステップ"
   },
   "related": {
     "villainType": "ヴィランタイプ",
@@ -120,7 +121,11 @@
     "eqTest": "EQテスト",
     "villainOrigin": "ヴィランの起源診断",
     "shadowWork": "シャドウワーク診断",
-    "redGreenFlag": "レッド＆グリーンフラッグ"
+    "redGreenFlag": "レッド＆グリーンフラッグ",
+    "stressCheck": "ストレス診断",
+    "hspTest": "HSP診断",
+    "futureSelf": "未来の自分診断",
+    "attachmentStyle": "愛着スタイル診断"
   },
   "share": {
     "title": "ダークコアをシェア",

@@ -111,7 +111,8 @@
     "breakdown": "特质分析",
     "retake": "重新测试",
     "moreTests": "探索更多",
-    "percentileStat": "仅 <strong>{percent}%</strong> 拥有与你相同的暗黑档案"
+    "percentileStat": "仅 <strong>{percent}%</strong> 拥有与你相同的暗黑档案",
+    "recommendedNext": "推荐下一步"
   },
   "related": {
     "villainType": "反派类型",
@@ -120,7 +121,11 @@
     "eqTest": "情商测试",
     "villainOrigin": "反派起源测试",
     "shadowWork": "阴影工作测验",
-    "redGreenFlag": "红旗与绿旗测试"
+    "redGreenFlag": "红旗与绿旗测试",
+    "stressCheck": "压力自测",
+    "hspTest": "HSP高敏感测试",
+    "futureSelf": "未来自画像测试",
+    "attachmentStyle": "依恋风格测试"
   },
   "share": {
     "title": "分享你的暗黑核心",

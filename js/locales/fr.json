@@ -111,7 +111,8 @@
     "breakdown": "Analyse des Traits",
     "retake": "Refaire le Test",
     "moreTests": "Explorer plus",
-    "percentileStat": "Seulement <strong>{percent}%</strong> partagent votre profil sombre"
+    "percentileStat": "Seulement <strong>{percent}%</strong> partagent votre profil sombre",
+    "recommendedNext": "Étape suivante recommandée"
   },
   "related": {
     "villainType": "Type de Méchant",
@@ -120,7 +121,11 @@
     "eqTest": "Test QE",
     "villainOrigin": "Origine de Vilain",
     "shadowWork": "Travail de l’Ombre",
-    "redGreenFlag": "Red & Green Flags"
+    "redGreenFlag": "Red & Green Flags",
+    "stressCheck": "Test de stress",
+    "hspTest": "Test HSP",
+    "futureSelf": "Moi Futur",
+    "attachmentStyle": "Style d'attachement"
   },
   "share": {
     "title": "Partagez Votre Noyau Sombre",

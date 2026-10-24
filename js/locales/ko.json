@@ -111,7 +111,8 @@
     "breakdown": "특성 분석",
     "retake": "다시 하기",
     "moreTests": "더 많은 테스트",
-    "percentileStat": "<strong>{percent}%</strong>만이 당신과 같은 다크 프로필입니다"
+    "percentileStat": "<strong>{percent}%</strong>만이 당신과 같은 다크 프로필입니다",
+    "recommendedNext": "추천 다음 단계"
   },
   "related": {
     "villainType": "빌런 유형",
@@ -120,7 +121,11 @@
     "eqTest": "EQ 테스트",
     "villainOrigin": "빌런 오리진 테스트",
     "shadowWork": "섀도우 워크 퀴즈",
-    "redGreenFlag": "레드 & 그린 플래그"
+    "redGreenFlag": "레드 & 그린 플래그",
+    "stressCheck": "스트레스 체크",
+    "hspTest": "HSP 민감도 테스트",
+    "futureSelf": "미래의 나 테스트",
+    "attachmentStyle": "애착유형 테스트"
   },
   "share": {
     "title": "다크코어 공유하기",

@@ -111,7 +111,8 @@
     "breakdown": "Eigenschaftsanalyse",
     "retake": "Nochmal testen",
     "moreTests": "Mehr entdecken",
-    "percentileStat": "Nur <strong>{percent}%</strong> teilen dein dunkles Profil"
+    "percentileStat": "Nur <strong>{percent}%</strong> teilen dein dunkles Profil",
+    "recommendedNext": "Empfohlener nächster Schritt"
   },
   "related": {
     "villainType": "Bösewicht-Typ",
@@ -120,7 +121,11 @@
     "eqTest": "EQ-Test",
     "villainOrigin": "Schurken-Ursprung",
     "shadowWork": "Schattenarbeit",
-    "redGreenFlag": "Red & Green Flags"
+    "redGreenFlag": "Red & Green Flags",
+    "stressCheck": "Stresstest",
+    "hspTest": "HSP-Test",
+    "futureSelf": "Zukunfts-Ich Test",
+    "attachmentStyle": "Bindungsstil-Test"
   },
   "share": {
     "title": "Teile deinen Dark Core",

@@ -111,7 +111,8 @@
     "breakdown": "Анализ Черт",
     "retake": "Пройти Снова",
     "moreTests": "Ещё тесты",
-    "percentileStat": "Только <strong>{percent}%</strong> имеют такой же тёмный профиль"
+    "percentileStat": "Только <strong>{percent}%</strong> имеют такой же тёмный профиль",
+    "recommendedNext": "Рекомендуемый следующий шаг"
   },
   "related": {
     "villainType": "Тип злодея",
@@ -120,7 +121,11 @@
     "eqTest": "Тест EQ",
     "villainOrigin": "История злодея",
     "shadowWork": "Работа с тенью",
-    "redGreenFlag": "Красный или зелёный флаг"
+    "redGreenFlag": "Красный или зелёный флаг",
+    "stressCheck": "Тест на стресс",
+    "hspTest": "Тест HSP",
+    "futureSelf": "Будущее Я",
+    "attachmentStyle": "Тип привязанности"
   },
   "share": {
     "title": "Поделиться Тёмным Ядром",

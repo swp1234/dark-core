@@ -111,7 +111,8 @@
     "breakdown": "विशेषता विश्लेषण",
     "retake": "दोबारा टेस्ट करें",
     "moreTests": "और जानें",
-    "percentileStat": "केवल <strong>{percent}%</strong> का आपके जैसा डार्क प्रोफ़ाइल है"
+    "percentileStat": "केवल <strong>{percent}%</strong> का आपके जैसा डार्क प्रोफ़ाइल है",
+    "recommendedNext": "अनुशंसित अगला कदम"
   },
   "related": {
     "villainType": "खलनायक प्रकार",
@@ -120,7 +121,11 @@
     "eqTest": "EQ परीक्षण",
     "villainOrigin": "विलेन ओरिजिन",
     "shadowWork": "शैडो वर्क क्विज़",
-    "redGreenFlag": "रेड और ग्रीन फ़्लैग"
+    "redGreenFlag": "रेड और ग्रीन फ़्लैग",
+    "stressCheck": "तनाव जांच",
+    "hspTest": "HSP परीक्षण",
+    "futureSelf": "भविष्य का आत्म",
+    "attachmentStyle": "लगाव शैली"
   },
   "share": {
     "title": "अपना डार्क कोर शेयर करें",

@@ -111,7 +111,8 @@
     "breakdown": "Ozellik Analizi",
     "retake": "Tekrar Test Et",
     "moreTests": "Daha fazla keşfet",
-    "percentileStat": "Sadece <strong>{percent}%</strong>'i senin karanlık profiline sahip"
+    "percentileStat": "Sadece <strong>{percent}%</strong>'i senin karanlık profiline sahip",
+    "recommendedNext": "Önerilen Sonraki Adım"
   },
   "related": {
     "villainType": "Kötü Adam Tipi",
@@ -120,7 +121,11 @@
     "eqTest": "EQ Testi",
     "villainOrigin": "Kötü Karakter Kökeni",
     "shadowWork": "Gölge Çalışması",
-    "redGreenFlag": "Kırmızı & Yeşil Bayrak"
+    "redGreenFlag": "Kırmızı & Yeşil Bayrak",
+    "stressCheck": "Stres Testi",
+    "hspTest": "HSP Testi",
+    "futureSelf": "Gelecekteki Ben",
+    "attachmentStyle": "Bağlanma Stili"
   },
   "share": {
     "title": "Karanlik Cekirdeginizi Paylasin",

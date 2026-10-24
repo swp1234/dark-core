@@ -111,7 +111,8 @@
     "breakdown": "Analisis Sifat",
     "retake": "Ulangi Tes",
     "moreTests": "Jelajahi lagi",
-    "percentileStat": "Hanya <strong>{percent}%</strong> memiliki profil gelap yang sama"
+    "percentileStat": "Hanya <strong>{percent}%</strong> memiliki profil gelap yang sama",
+    "recommendedNext": "Langkah Selanjutnya yang Disarankan"
   },
   "related": {
     "villainType": "Tipe Penjahat",
@@ -120,7 +121,11 @@
     "eqTest": "Tes EQ",
     "villainOrigin": "Asal-usul Villain",
     "shadowWork": "Shadow Work",
-    "redGreenFlag": "Red & Green Flag"
+    "redGreenFlag": "Red & Green Flag",
+    "stressCheck": "Tes Stres",
+    "hspTest": "Tes HSP",
+    "futureSelf": "Diri Masa Depan",
+    "attachmentStyle": "Gaya Kelekatan"
   },
   "share": {
     "title": "Bagikan Dark Core-mu",

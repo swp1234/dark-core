@@ -361,6 +361,9 @@
         // Trait breakdown
         renderTraitBreakdown();
 
+        // Next Step Hero Card & Related Links
+        updateNextStepCard(pct, tier.key);
+
         // GA4
         if (typeof gtag === 'function') {
             gtag('event', 'quiz_complete', {
@@ -567,4 +570,92 @@
     } else {
         init();
     }
+
+    // --- Recommendation Hero Card & Related Links ---
+    function getRecommendedNextStep(pct, tierKey) {
+        var currentLang = (typeof i18n !== 'undefined' && i18n.getCurrentLanguage) ? i18n.getCurrentLanguage() : 'en';
+        if (pct >= 50) {
+            var descs = {
+                ko: '높은 어둠 성향은 방어적 긴장과 만성 스트레스를 동반하기 쉽습니다. 신체·정서 스트레스 지수를 측정해보세요.',
+                ja: '強いダーク特性は防御的な緊張や慢性ストレスを伴う傾向があります。心身のストレス負荷を測定しましょう。',
+                zh: '较高的暗黑特质常伴随防御性心理紧绷与慢性压力。测试您当前的整体身心压力负荷。',
+                es: 'Una alta intensidad de rasgos suele enmascarar tensión defensiva. Mide tu nivel de estrés actual.',
+                fr: 'Une forte intensité de traits masque souvent une tension défensive. Mesurez votre charge de stress.',
+                de: 'Hohe dunkle Tendenzen gehen oft mit Abwehrspannung einher. Überprüfen Sie Ihre Stressbelastung.'
+            };
+            var ctas = {
+                ko: '스트레스 체크 시작하기 →',
+                ja: 'ストレス診断を始める →',
+                zh: '开始压力自测 →',
+                es: 'Realizar test de estrés →',
+                fr: 'Commencer le test de stress →',
+                de: 'Stresstest starten →'
+            };
+            return {
+                key: 'stress-check',
+                path: '/stress-check/',
+                source: 'dark_core_high',
+                emoji: '⚡',
+                title: t('related.stressCheck', 'Stress Check'),
+                desc: descs[currentLang] || 'High trait intensity often masks underlying tension and defensive stress. Measure your current stress load.',
+                ctaText: ctas[currentLang] || 'Take Stress Check →'
+            };
+        } else {
+            var descs = {
+                ko: '안정된 윤리적 균형을 바탕으로, 일상의 선택과 장기적 목표를 정렬하는 미래 자아 진단입니다.',
+                ja: '安定した倫理的バランスを活かし、日常の選択と長期目標を合わせる未来の自分診断です。',
+                zh: '基于稳定的道德与同理心基础，探索日常选择与长远目标对齐的未来自我诊断。',
+                es: 'Con un equilibrio ético saludable, alinea tus decisiones cotidianas con tu visión de futuro.',
+                fr: 'Avec un équilibre éthique sain, alignez vos choix quotidiens avec votre vision d’avenir.',
+                de: 'Richten Sie auf Basis stabiler Werte Ihre täglichen Entscheidungen zukunftssicher aus.'
+            };
+            var ctas = {
+                ko: '미래의 나 테스트 시작하기 →',
+                ja: '未来の自分診断を始める →',
+                zh: '开始未来自画像测试 →',
+                es: 'Explorar Yo Futuro →',
+                fr: 'Explorer mon Moi Futur →',
+                de: 'Zukunfts-Ich Test starten →'
+            };
+            return {
+                key: 'future-self',
+                path: '/future-self/',
+                source: 'dark_core_balanced',
+                emoji: '🔮',
+                title: t('related.futureSelf', 'Future Self'),
+                desc: descs[currentLang] || 'With a steady ethical baseline, align your daily decisions with your long-term future self.',
+                ctaText: ctas[currentLang] || 'Explore Future Self →'
+            };
+        }
+    }
+
+    function updateNextStepCard(pct, tierKey) {
+        var nextCard = $('next-step-card');
+        var nextTitle = $('next-step-title');
+        var nextDesc = $('next-step-desc');
+        var nextEmoji = $('next-step-emoji');
+        var nextCta = $('next-step-cta');
+        var nextCtaText = $('next-step-cta-text');
+        if (!nextCard || !nextTitle || !nextDesc || !nextEmoji || !nextCta || !nextCtaText) return;
+
+        var rec = getRecommendedNextStep(pct, tierKey);
+        var currentLang = (typeof i18n !== 'undefined' && i18n.getCurrentLanguage) ? i18n.getCurrentLanguage() : 'en';
+        nextTitle.textContent = rec.title;
+        nextDesc.textContent = rec.desc;
+        nextEmoji.textContent = rec.emoji;
+        nextCta.href = rec.path + '?lang=' + encodeURIComponent(currentLang) + '&source=' + rec.source;
+        nextCta.setAttribute('data-related-key', rec.key);
+        nextCtaText.textContent = rec.ctaText;
+
+        // Also update all .related-card links to preserve lang
+        document.querySelectorAll('.related-card').forEach(function(card) {
+            var rawHref = card.getAttribute('data-base-href') || card.getAttribute('href');
+            if (rawHref && !rawHref.startsWith('http')) {
+                var cleanBase = rawHref.split('?')[0];
+                card.setAttribute('data-base-href', cleanBase);
+                card.href = cleanBase + '?lang=' + encodeURIComponent(currentLang) + '&source=dark_core_related';
+            }
+        });
+    }
+
 })();

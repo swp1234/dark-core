@@ -111,7 +111,8 @@
     "breakdown": "Análise de Traços",
     "retake": "Refazer Teste",
     "moreTests": "Explorar mais",
-    "percentileStat": "Apenas <strong>{percent}%</strong> compartilham seu perfil sombrio"
+    "percentileStat": "Apenas <strong>{percent}%</strong> compartilham seu perfil sombrio",
+    "recommendedNext": "Próximo passo recomendado"
   },
   "related": {
     "villainType": "Tipo de Vilão",
@@ -120,7 +121,11 @@
     "eqTest": "Teste de QE",
     "villainOrigin": "Origem de Vilão",
     "shadowWork": "Trabalho de Sombra",
-    "redGreenFlag": "Red & Green Flags"
+    "redGreenFlag": "Red & Green Flags",
+    "stressCheck": "Teste de estresse",
+    "hspTest": "Teste HSP",
+    "futureSelf": "Eu do Futuro",
+    "attachmentStyle": "Estilo de apego"
   },
   "share": {
     "title": "Compartilhe Seu Núcleo Sombrio",

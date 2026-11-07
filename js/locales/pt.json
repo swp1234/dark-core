@@ -144,5 +144,30 @@
     "result2": "Narcisista -- Carismático e Autoconfiante",
     "result3": "Caminhante das Sombras -- Equilibrado e Autoconsciente",
     "result4": "Empata Sombrio -- Perceptivo e Complexo"
+  },
+  "about": {
+    "summaryTitle": "Guia do Núcleo Sombrio: Fator D, Traços e FAQ",
+    "scienceDesc": "O Núcleo Sombrio (Fator D) é a predisposição psicológica para buscar ganhos individuais às custas de outrem, justificada por convicções racionalizadas (Moshagen et al., 2018).",
+    "boundary": "Aviso Clínico: Trata-se de uma ferramenta educativa de reflexão moral; não substitui avaliação psicológica clínica.",
+    "traitsHeading": "Dimensões da Tétrade Sombria",
+    "traitNarc": "Narcisismo:",
+    "descNarc": "Grandiosidade, senso de merecimento especial e necessidade constante de validação.",
+    "traitMach": "Maquiavelismo:",
+    "descMach": "Cálculo estratégico, frieza emocional e manipulação calculada.",
+    "traitPsych": "Psicopatia:",
+    "descPsych": "Empatia reduzida, impulsividade com busca de risco e baixa culpa.",
+    "traitSad": "Sadismo:",
+    "descSad": "Prazer psicológico decorrente da dominação interpessoal.",
+    "faqTitle": "Perguntas Frequentes (FAQ)",
+    "faq1Q": "Q: O que é o Fator D?",
+    "faq1A": "A: A raiz comum que une os traços aversivos da personalidade humana.",
+    "faq2Q": "Q: O teste é um diagnóstico?",
+    "faq2A": "A: Não. É uma experiência reflexiva sobre tomadas de decisão sob dilemas éticos.",
+    "faq3Q": "Q: Há aspectos positivos nesses traços?",
+    "faq3A": "A: Sim, sob limites éticos, traços estratégicos impulsionam liderança em momentos de crise.",
+    "faq4Q": "Q: Meus dados são salvos?",
+    "faq4A": "A: Jamais. Todo processamento ocorre exclusivamente no seu navegador.",
+    "reviewDate": "Revisão editorial: novembro de 2026",
+    "reviewTeam": "Equipe de Psicologia da Personalidade DopaBrain"
   }
 }

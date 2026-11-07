@@ -144,5 +144,30 @@
     "result2": "Narcissist -- Charismatic & Self-Assured",
     "result3": "Shadow Walker -- Balanced & Self-Aware",
     "result4": "Dark Empath -- Perceptive & Complex"
+  },
+  "about": {
+    "summaryTitle": "About the Dark Core: D-Factor, Traits & FAQ",
+    "scienceDesc": "Psychologists define the Dark Core (the 'D-factor') as the underlying dispositional tendency to prioritize self-interest over collective welfare, often rationalized by beliefs that justify unethical behavior (Moshagen, Hilbig, & Zettler, 2018).",
+    "boundary": "Clinical Boundary: This test explores subclinical personality tendencies for self-awareness and philosophical reflection. It does not diagnose clinical DSM-5 personality disorders.",
+    "traitsHeading": "The Dark Tetrad Dimensions",
+    "traitNarc": "Narcissism:",
+    "descNarc": "Grandiosity, entitlement, and an unquenchable desire for social validation and superiority.",
+    "traitMach": "Machiavellianism:",
+    "descMach": "Strategic calculating, emotional detachment, and pragmatic manipulation to achieve long-term aims.",
+    "traitPsych": "Psychopathy:",
+    "descPsych": "Blunted empathy, thrill-seeking impulsivity, and diminished social guilt or anxiety.",
+    "traitSad": "Sadism:",
+    "descSad": "Everyday cruelty and deriving psychological satisfaction from asserting dominance over others.",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1Q": "Q: What is the D-factor and how does it relate to the Dark Triad?",
+    "faq1A": "A: The D-factor is the common psychological denominator unifying dark traits: pursuing personal benefit regardless of harm inflicted upon others.",
+    "faq2Q": "Q: Is this test a psychiatric evaluation?",
+    "faq2A": "A: No. It is an educational tool for exploring subclinical moral tendencies and does not constitute psychiatric or clinical screening.",
+    "faq3Q": "Q: Can someone possess dark traits without acting maliciously?",
+    "faq3A": "A: Yes. Many individuals channel traits like high Machiavellianism into strategic leadership or negotiation while maintaining ethical self-discipline.",
+    "faq4Q": "Q: Are my dilemma choices or scores collected?",
+    "faq4A": "A: Never. All calculations are executed completely inside your browser. No moral decisions, profile scores, or analytics are stored externally.",
+    "reviewDate": "Editorial Review: November 2026",
+    "reviewTeam": "DopaBrain Personality Psychology Team"
   }
 }

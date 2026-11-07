@@ -144,5 +144,30 @@
     "result2": "Narzisst -- Charismatisch & Selbstsicher",
     "result3": "Schattenläufer -- Ausgeglichen & Selbstbewusst",
     "result4": "Dunkler Empath -- Wahrnehmend & Komplex"
+  },
+  "about": {
+    "summaryTitle": "Leitfaden zum Dunklen Kern: D-Faktor, Merkmale & FAQ",
+    "scienceDesc": "Die Persönlichkeitspsychologie beschreibt den Dunklen Kern (D-Faktor) als grundlegende Tendenz, den eigenen Nutzen auf Kosten anderer zu maximieren, gestützt durch rechtfertigende Überzeugungen (Moshagen et al., 2018).",
+    "boundary": "Klinische Abgrenzung: Dieses Tool dient der philosophischen Selbstreflexion subklinischer Tendenzen und stellt keine psychiatrische Diagnose dar.",
+    "traitsHeading": "Die Dimensionen der Dunklen Tetrade",
+    "traitNarc": "Narzissmus:",
+    "descNarc": "Größenwahn, Anspruchsdenken und ständiges Verlangen nach Bewunderung.",
+    "traitMach": "Machiavellismus:",
+    "descMach": "Strategisches Kalkül, emotionale Distanz und pragmatische Verhaltensmanipulation.",
+    "traitPsych": "Psychopathie:",
+    "descPsych": "Geringe Empathie, risikofreudige Impulsivität und fehlende Schuldgefühle.",
+    "traitSad": "Sadismus:",
+    "descSad": "Freude an Dominanz und dem Zufügen von seelischem oder physischem Unbehagen.",
+    "faqTitle": "Häufig gestellte Fragen (FAQ)",
+    "faq1Q": "Q: Was beschreibt der D-Faktor?",
+    "faq1A": "A: Die gemeinsame Wurzel dunkler Persönlichkeitszüge: rücksichtsloser Eigennutz auf Kosten Dritter.",
+    "faq2Q": "Q: Handelt es sich um eine klinische Einstufung?",
+    "faq2A": "A: Nein. Es ist ein edukativer Selbsttest ohne diagnostischen Anspruch.",
+    "faq3Q": "Q: Können dunkle Züge konstruktiv genutzt werden?",
+    "faq3A": "A: Ja. Machiavellistische Weitsicht kann in Verhandlungen und Krisenmanagement wertvoll sein.",
+    "faq4Q": "Q: Werden meine Antworten gespeichert?",
+    "faq4A": "A: Niemals. Die Auswertung erfolgt vollkommen lokal im Browser.",
+    "reviewDate": "Redaktionelle Prüfung: November 2026",
+    "reviewTeam": "DopaBrain Persönlichkeitspsychologie-Team"
   }
 }

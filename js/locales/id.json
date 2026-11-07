@@ -144,5 +144,30 @@
     "result2": "Narsisis -- Karismatik & Percaya Diri",
     "result3": "Pejalan Bayangan -- Seimbang & Sadar Diri",
     "result4": "Empati Gelap -- Perseptif & Kompleks"
+  },
+  "about": {
+    "summaryTitle": "Panduan Dark Core: Faktor-D, Karakter & FAQ",
+    "scienceDesc": "Dark Core (Faktor-D) adalah kecenderungan dasar untuk mengutamakan kepentingan pribadi di atas kesejahteraan bersama, sering kali disertai pembenaran rasional (Moshagen et al., 2018).",
+    "boundary": "Batasan Klinis: Uji ini ditujukan untuk refleksi diri edukatif dan bukan diagnosis gangguan kepribadian medis.",
+    "traitsHeading": "Dimensi Dark Tetrad",
+    "traitNarc": "Narsisisme:",
+    "descNarc": "Kebutuhan besar akan kekaguman, rasa berhak istimewa, dan superioritas diri.",
+    "traitMach": "Machiavellianisme:",
+    "descMach": "Perhitungan strategis dingin dan manipulasi demi tujuan jangka panjang.",
+    "traitPsych": "Psikopati:",
+    "descPsych": "Kurangnya empati, impulsivitas mencari sensasi, dan tiadanya penyesalan.",
+    "traitSad": "Sadisme:",
+    "descSad": "Kepuasan psikologis yang diperoleh dari mendominasi atau menyakiti orang lain.",
+    "faqTitle": "Pertanyaan yang Sering Diajukan (FAQ)",
+    "faq1Q": "Q: Apa itu Faktor-D?",
+    "faq1A": "A: Inti psikologis bersama yang melandasi semua sifat aversif kepribadian manusia.",
+    "faq2Q": "Q: Apakah ini tes kejiwaan formal?",
+    "faq2A": "A: Tidak. Ini adalah eksplorasi moral non-klinis untuk peningkatan kesadaran diri.",
+    "faq3Q": "Q: Bisakah sifat gelap ini disalurkan secara positif?",
+    "faq3A": "A: Ya. Dengan kedisiplinan etika, sifat Machiavellian dapat menjadi kecakapan negosiasi yang tangguh.",
+    "faq4Q": "Q: Apakah jawaban dilema saya disimpan?",
+    "faq4A": "A: Tidak pernah. Seluruh kalkulasi berlangsung aman di peramban Anda.",
+    "reviewDate": "Tinjauan Editorial: November 2026",
+    "reviewTeam": "Tim Psikologi Kepribadian DopaBrain"
   }
 }

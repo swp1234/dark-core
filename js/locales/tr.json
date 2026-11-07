@@ -144,5 +144,30 @@
     "result2": "Narsist -- Karizmatik ve Kendinden Emin",
     "result3": "Gölge Yürüyücüsü -- Dengeli ve Öz Farkındalık",
     "result4": "Karanlık Empat -- Algılayıcı ve Karmaşık"
+  },
+  "about": {
+    "summaryTitle": "Karanlık Çekirdek Rehberi: D-Faktörü, Özellikler & SSS",
+    "scienceDesc": "Karanlık Çekirdek (D-Faktörü), başkalarının haklarını göz ardı ederek kendi çıkarını en üst düzeye çıkarma eğiliminin ortak psikolojik köküdür (Moshagen vd., 2018).",
+    "boundary": "Klinik Sınır: Bu test öz-farkındalık amaçlı eğitici bir araçtır, psikiyatrik kişilik bozukluğu tanısı koymaz.",
+    "traitsHeading": "Karanlık Dörtlü (Dark Tetrad) Boyutları",
+    "traitNarc": "Narsisizm:",
+    "descNarc": "Büyüklük hezeyanı, ayrıcalık hissi ve sürekli takdir görme arzusu.",
+    "traitMach": "Makyavelizm:",
+    "descMach": "Stratejik hesaplama, duygusal mesafe ve hedefe yönelik pragmatik manipülasyon.",
+    "traitPsych": "Psikopati:",
+    "descPsych": "Zayıf empati, heyecan arayan dürtüsellik ve suçluluk duygusunun yokluğu.",
+    "traitSad": "Sadizm:",
+    "descSad": "Başkaları üzerinde hakimiyet kurmaktan veya rahatsızlık vermekten haz duyma.",
+    "faqTitle": "Sıkça Sorulan Sorular (SSS)",
+    "faq1Q": "Q: D-Faktörü nedir?",
+    "faq1A": "A: Tüm karanlık kişilik özelliklerinin temelindeki ortak faydacı eğilimdir.",
+    "faq2Q": "Q: Bu tıbbi bir değerlendirme midir?",
+    "faq2A": "A: Hayır. Ahlaki ikilemlerdeki yaklaşımları keşfetmeye yönelik eğitici bir araçtır.",
+    "faq3Q": "Q: Bu özellikler olumlu şekilde kullanılabilir mi?",
+    "faq3A": "A: Evet. Etik sınırlar dahilinde stratejik Makyavelizm, başarılı kriz yönetimini destekleyebilir.",
+    "faq4Q": "Q: Seçimlerim kaydediliyor mu?",
+    "faq4A": "A: Asla. Tüm hesaplamalar yalnızca tarayıcınızda yerel olarak gerçekleşir.",
+    "reviewDate": "Editör İncelemesi: Kasım 2026",
+    "reviewTeam": "DopaBrain Kişilik Psikolojisi Ekibi"
   }
 }

@@ -144,5 +144,30 @@
     "result2": "Narcisista -- Carismático y Seguro",
     "result3": "Caminante de Sombras -- Equilibrado y Consciente",
     "result4": "Empático Oscuro -- Perceptivo y Complejo"
+  },
+  "about": {
+    "summaryTitle": "Guía del Núcleo Oscuro: Factor D, Rasgos y FAQ",
+    "scienceDesc": "La psicología define el Núcleo Oscuro (Factor D) como la tendencia disposicional a maximizar la utilidad personal a expensas de los demás, justificada mediante creencias racionales (Moshagen et al., 2018).",
+    "boundary": "Límite clínico: Esta prueba evalúa tendencias subclínicas con fines educativos y de autorreflexión; no constituye un diagnóstico psiquiátrico formal.",
+    "traitsHeading": "Dimensiones de la Tétrada Oscura",
+    "traitNarc": "Narcisismo:",
+    "descNarc": "Grandiosidad, derecho percibido y necesidad continua de validación externa.",
+    "traitMach": "Maquiavelismo:",
+    "descMach": "Cálculo estratégico, desapego emocional y manipulación orientada a metas.",
+    "traitPsych": "Psicopatía:",
+    "descPsych": "Baja empatía, impulsividad temeraria y escaso remordimiento moral.",
+    "traitSad": "Sadismo:",
+    "descSad": "Placer psicológico derivado del dominio o malestar ajeno en la vida cotidiana.",
+    "faqTitle": "Preguntas Frecuentes (FAQ)",
+    "faq1Q": "Q: ¿Qué es el Factor D en la personalidad oscura?",
+    "faq1A": "A: Es el denominador común que une los rasgos oscuros: priorizar el beneficio individual ignorando el daño a terceros.",
+    "faq2Q": "Q: ¿Es una evaluación clínica?",
+    "faq2A": "A: No. Es una herramienta educativa y reflexiva sobre dilemas morales.",
+    "faq3Q": "Q: ¿Se pueden canalizar estos rasgos positivamente?",
+    "faq3A": "A: Sí. Con autocontrol ético, el maquiavelismo se traduce en destreza táctica y liderazgo negociador.",
+    "faq4Q": "Q: ¿Se guardan mis respuestas o resultados?",
+    "faq4A": "A: Jamás. Todas las operaciones se ejecutan localmente en su navegador sin enviar datos.",
+    "reviewDate": "Revisión editorial: noviembre de 2026",
+    "reviewTeam": "Equipo de Psicología de la Personalidad DopaBrain"
   }
 }

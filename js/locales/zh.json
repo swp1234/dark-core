@@ -111,7 +111,6 @@
     "breakdown": "特质分析",
     "retake": "重新测试",
     "moreTests": "探索更多",
-    "percentileStat": "仅 <strong>{percent}%</strong> 拥有与你相同的暗黑档案",
     "recommendedNext": "推荐下一步"
   },
   "related": {
@@ -132,14 +131,14 @@
     "text": "我的暗黑核心分数是{score}%！我是『{tier}』你也来试试:",
     "twitter": "分享到X",
     "copyUrl": "复制链接",
-    "copied": "已复制！"
+    "copied": "已复制！",
+    "downloadCard": "保存分享图卡"
   },
   "nav": {
     "back": "DopaBrain 首页"
   },
   "engage": {
     "cta": "面对你的黑暗面",
-    "proof": "个灵魂已被测试",
     "result1": "马基雅维利 -- 战略与算计",
     "result2": "自恋者 -- 魅力与自信",
     "result3": "暗影行者 -- 平衡与自知",
@@ -169,5 +168,14 @@
     "faq4A": "A: 绝对不会。全部运算均在用户本地浏览器完成，绝不上载至外部服务器。",
     "reviewDate": "编辑审核：2026年11月",
     "reviewTeam": "DopaBrain人格心理学研究团队"
+  },
+  "curated": {
+    "badge": "人格与阴影心理学书单",
+    "title": "深入理解人性策略与心理阴影",
+    "book1Title": "人性法则 (The Laws of Human Nature)",
+    "book1Desc": "罗伯特·格林 • 深度剖析自恋、嫉妒与社会博弈策略。",
+    "book2Title": "与阴影同行 (Meeting the Shadow)",
+    "book2Desc": "康妮·茨威格 • 荣格阴影原型与自我整合经典读物。",
+    "readPill": "查看图书 ↗"
   }
 }

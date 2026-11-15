@@ -111,7 +111,6 @@
     "breakdown": "Analisis Sifat",
     "retake": "Ulangi Tes",
     "moreTests": "Jelajahi lagi",
-    "percentileStat": "Hanya <strong>{percent}%</strong> memiliki profil gelap yang sama",
     "recommendedNext": "Langkah Selanjutnya yang Disarankan"
   },
   "related": {
@@ -132,14 +131,14 @@
     "text": "Skor Dark Core saya {score}%! Saya '{tier}' Cari tahu punyamu:",
     "twitter": "Bagikan di X",
     "copyUrl": "Salin Link",
-    "copied": "Tersalin!"
+    "copied": "Tersalin!",
+    "downloadCard": "Simpan Kartu Cerita"
   },
   "nav": {
     "back": "Beranda DopaBrain"
   },
   "engage": {
     "cta": "Hadapi sisi gelapmu",
-    "proof": "jiwa telah diuji",
     "result1": "Machiavellian -- Strategis & Kalkulatif",
     "result2": "Narsisis -- Karismatik & Percaya Diri",
     "result3": "Pejalan Bayangan -- Seimbang & Sadar Diri",
@@ -169,5 +168,14 @@
     "faq4A": "A: Tidak pernah. Seluruh kalkulasi berlangsung aman di peramban Anda.",
     "reviewDate": "Tinjauan Editorial: November 2026",
     "reviewTeam": "Tim Psikologi Kepribadian DopaBrain"
+  },
+  "curated": {
+    "badge": "BACAAN PSIKOLOGI BAYANGAN",
+    "title": "Pahami Sifat Manusia & Sisi Gelap",
+    "book1Title": "The Laws of Human Nature",
+    "book1Desc": "Robert Greene • Analisis mendalam narsisme, ego, dan strategi sosial.",
+    "book2Title": "Meeting the Shadow",
+    "book2Desc": "Connie Zweig • Arketipe bayangan Carl Jung dan integrasi diri.",
+    "readPill": "Lihat Buku ↗"
   }
 }

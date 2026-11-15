@@ -111,7 +111,6 @@
     "breakdown": "Análisis de Rasgos",
     "retake": "Repetir Test",
     "moreTests": "Explorar más",
-    "percentileStat": "Solo el <strong>{percent}%</strong> comparten tu perfil oscuro",
     "recommendedNext": "Siguiente paso recomendado"
   },
   "related": {
@@ -132,14 +131,14 @@
     "text": "¡Mi puntuación de Núcleo Oscuro es {score}%! Soy '{tier}' Descubre la tuya:",
     "twitter": "Compartir en X",
     "copyUrl": "Copiar Enlace",
-    "copied": "¡Copiado!"
+    "copied": "¡Copiado!",
+    "downloadCard": "Guardar Tarjeta"
   },
   "nav": {
     "back": "Inicio DopaBrain"
   },
   "engage": {
     "cta": "Enfrenta tu lado oscuro",
-    "proof": "almas han sido probadas",
     "result1": "Maquiavélico -- Estratégico y Calculador",
     "result2": "Narcisista -- Carismático y Seguro",
     "result3": "Caminante de Sombras -- Equilibrado y Consciente",
@@ -169,5 +168,14 @@
     "faq4A": "A: Jamás. Todas las operaciones se ejecutan localmente en su navegador sin enviar datos.",
     "reviewDate": "Revisión editorial: noviembre de 2026",
     "reviewTeam": "Equipo de Psicología de la Personalidad DopaBrain"
+  },
+  "curated": {
+    "badge": "LECTURAS DE PSICOLOGÍA PROFUNDA",
+    "title": "Comprende la Naturaleza Humana y la Sombra",
+    "book1Title": "Las leyes de la naturaleza humana",
+    "book1Desc": "Robert Greene • Análisis profundo del narcisismo, la estrategia y el carácter.",
+    "book2Title": "Encuentro con la sombra",
+    "book2Desc": "Connie Zweig • El arquetipo de la sombra de Carl Jung e integración personal.",
+    "readPill": "Ver Libro ↗"
   }
 }

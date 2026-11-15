@@ -111,7 +111,6 @@
     "breakdown": "Eigenschaftsanalyse",
     "retake": "Nochmal testen",
     "moreTests": "Mehr entdecken",
-    "percentileStat": "Nur <strong>{percent}%</strong> teilen dein dunkles Profil",
     "recommendedNext": "Empfohlener nächster Schritt"
   },
   "related": {
@@ -132,14 +131,14 @@
     "text": "Mein Dark Core Score ist {score}%! Ich bin '{tier}' Finde deinen heraus:",
     "twitter": "Auf X teilen",
     "copyUrl": "Link kopieren",
-    "copied": "Kopiert!"
+    "copied": "Kopiert!",
+    "downloadCard": "Story-Karte speichern"
   },
   "nav": {
     "back": "DopaBrain Startseite"
   },
   "engage": {
     "cta": "Stelle dich deiner dunklen Seite",
-    "proof": "Seelen wurden getestet",
     "result1": "Machiavellist -- Strategisch & Berechnend",
     "result2": "Narzisst -- Charismatisch & Selbstsicher",
     "result3": "Schattenläufer -- Ausgeglichen & Selbstbewusst",
@@ -169,5 +168,14 @@
     "faq4A": "A: Niemals. Die Auswertung erfolgt vollkommen lokal im Browser.",
     "reviewDate": "Redaktionelle Prüfung: November 2026",
     "reviewTeam": "DopaBrain Persönlichkeitspsychologie-Team"
+  },
+  "curated": {
+    "badge": "SCHATTEN- & CHARAKTERPSYCHOLOGIE",
+    "title": "Menschliche Natur & Schattenanteile verstehen",
+    "book1Title": "Die Gesetze der menschlichen Natur",
+    "book1Desc": "Robert Greene • Tiefenanalyse von Narzissmus, Neid und sozialer Strategie.",
+    "book2Title": "Meeting the Shadow",
+    "book2Desc": "Connie Zweig • Carl Jungs Schatten-Archetyp und bewusste Selbstintegration.",
+    "readPill": "Buch ansehen ↗"
   }
 }

@@ -227,6 +227,7 @@
 
         if (typeof gtag === 'function') {
             gtag('event', 'quiz_start', { event_category: 'dark-core' });
+            gtag('event', 'test_start', { app_name: 'dark-core', content_type: 'dark_triad_dilemmas' });
         }
     }
 
@@ -361,17 +362,22 @@
         // Trait breakdown
         renderTraitBreakdown();
 
-        // Next Step Hero Card & Related Links
+        // Next Step Hero Card, Curated Reading & Related Links
         updateNextStepCard(pct, tier.key);
+        updateCuratedResources();
 
-        // GA4
+        // GA4 (category telemetry only — no raw score leakage)
         if (typeof gtag === 'function') {
             gtag('event', 'quiz_complete', {
                 event_category: 'dark-core',
-                event_label: tier.key,
-                value: pct
+                event_label: tier.key
+            });
+            gtag('event', 'test_complete', {
+                app_name: 'dark-core',
+                result_type: tier.key
             });
         }
+        window._darkCoreLast = { pct: pct, tier: tier };
     }
 
     // --- Count-up animation ---
@@ -462,7 +468,13 @@
         });
     }
 
-    // --- Share ---
+    // --- Share & Story Card ---
+    function getShareUrl() {
+        var inst = getI18n();
+        var lang = inst ? inst.currentLang : 'en';
+        return 'https://dopabrain.com/dark-core/?lang=' + encodeURIComponent(lang) + '&utm_source=share';
+    }
+
     function shareTwitter() {
         var totalMax = 0, totalScore = 0;
         for (var i = 0; i < 4; i++) { totalMax += maxTraitScores[i]; totalScore += traitScores[i]; }
@@ -472,18 +484,18 @@
         var text = fmt(t('share.text', 'My Dark Core score is {score}%! I\'m a \'{tier}\' Find out yours:'), {
             score: pct, tier: tierLabel
         });
-        var url = 'https://dopabrain.com/dark-core/';
+        var url = getShareUrl();
         window.open(
             'https://twitter.com/intent/tweet?text=' + encodeURIComponent(text) + '&url=' + encodeURIComponent(url),
             '_blank', 'noopener'
         );
         if (typeof gtag === 'function') {
-            gtag('event', 'share', { method: 'twitter', content_type: 'quiz_result' });
+            gtag('event', 'share', { method: 'twitter', content_type: 'quiz_result', app_name: 'dark-core' });
         }
     }
 
     function copyUrl() {
-        var url = 'https://dopabrain.com/dark-core/';
+        var url = getShareUrl();
         if (navigator.clipboard && navigator.clipboard.writeText) {
             navigator.clipboard.writeText(url).then(function() {
                 showCopiedFeedback();
@@ -492,8 +504,115 @@
             fallbackCopy(url);
         }
         if (typeof gtag === 'function') {
-            gtag('event', 'share', { method: 'copy', content_type: 'quiz_result' });
+            gtag('event', 'share', { method: 'copy', content_type: 'quiz_result', app_name: 'dark-core' });
         }
+    }
+
+    function downloadStoryCard() {
+        var state = window._darkCoreLast;
+        if (!state) return;
+        var tierLabel = t('tiers.' + state.tier.key + '.name', state.tier.key);
+        var tierDescText = t('tiers.' + state.tier.key + '.desc', '');
+        var canvas = document.createElement('canvas');
+        canvas.width = 1080;
+        canvas.height = 1920;
+        var ctx = canvas.getContext('2d');
+        var grad = ctx.createLinearGradient(0, 0, 1080, 1920);
+        grad.addColorStop(0, '#09090b');
+        grad.addColorStop(0.55, '#1f1024');
+        grad.addColorStop(1, '#180909');
+        ctx.fillStyle = grad;
+        ctx.fillRect(0, 0, 1080, 1920);
+
+        ctx.fillStyle = 'rgba(220, 38, 38, 0.16)';
+        ctx.beginPath();
+        ctx.arc(540, 520, 320, 0, Math.PI * 2);
+        ctx.fill();
+
+        ctx.fillStyle = '#c084fc';
+        ctx.font = 'bold 34px sans-serif';
+        ctx.textAlign = 'center';
+        ctx.fillText('DOPABRAIN · DARK CORE REPORT', 540, 210);
+
+        ctx.fillStyle = '#f87171';
+        ctx.font = 'bold 148px sans-serif';
+        ctx.fillText(state.pct + '%', 540, 560);
+
+        ctx.fillStyle = '#ffffff';
+        ctx.font = 'bold 56px sans-serif';
+        ctx.fillText(tierLabel, 540, 740);
+
+        ctx.fillStyle = '#cbd5e1';
+        ctx.font = '32px sans-serif';
+        var words = tierDescText.split(' ');
+        var line = '', y = 840;
+        words.forEach(function(word) {
+            var test = line ? (line + ' ' + word) : word;
+            if (ctx.measureText(test).width > 860) {
+                ctx.fillText(line, 540, y);
+                line = word;
+                y += 48;
+            } else {
+                line = test;
+            }
+        });
+        if (line) ctx.fillText(line, 540, y);
+
+        ctx.fillStyle = '#94a3b8';
+        ctx.font = 'bold 30px sans-serif';
+        ctx.fillText('dopabrain.com/dark-core/', 540, 1760);
+
+        try {
+            var link = document.createElement('a');
+            link.download = 'dark-core-' + state.tier.key + '.png';
+            link.href = canvas.toDataURL('image/png');
+            link.click();
+        } catch (e) {}
+
+        if (typeof gtag === 'function') {
+            gtag('event', 'save_image', {
+                app_name: 'dark-core',
+                result_type: state.tier.key,
+                save_surface: 'result_story_1080x1920'
+            });
+        }
+    }
+
+    function updateCuratedResources() {
+        var container = document.getElementById('curated-resources-card');
+        if (!container) return;
+        var inst = getI18n();
+        var lang = inst ? inst.currentLang : 'en';
+        var stores = { de: 'www.amazon.de', fr: 'www.amazon.fr', es: 'www.amazon.es', ja: 'www.amazon.co.jp', ko: 'www.amazon.com' };
+        var host = stores[lang] || 'www.amazon.com';
+        var urls = {
+            lawsOfHumanNature: 'https://' + host + '/dp/0525428143?tag=dopabrain-20',
+            meetingTheShadow: 'https://' + host + '/dp/087477618X?tag=dopabrain-20'
+        };
+        container.querySelectorAll('.curated-item').forEach(function(link) {
+            var key = link.getAttribute('data-curated-key');
+            if (urls[key]) link.setAttribute('href', urls[key]);
+            if (!link.dataset.trackedCurated) {
+                link.dataset.trackedCurated = 'true';
+                link.addEventListener('click', function() {
+                    var currentLang = (getI18n() && getI18n().currentLang) ? getI18n().currentLang : lang;
+                    var dest = link.getAttribute('href');
+                    if (typeof gtag === 'function') {
+                        gtag('event', 'curated_resource_click', {
+                            app_name: 'dark-core',
+                            resource_key: key,
+                            content_locale: currentLang,
+                            cta_surface: 'curated_resources'
+                        });
+                        gtag('event', 'content_cta_click', {
+                            cta_type: 'curated_book',
+                            destination: dest,
+                            source: 'dark_core'
+                        });
+                    }
+                });
+            }
+        });
     }
 
     function fallbackCopy(text) {
@@ -543,8 +662,34 @@
             });
         }
 
+        var downloadBtn = $('downloadCard');
+        if (downloadBtn) downloadBtn.addEventListener('click', downloadStoryCard);
         if (shareTwitterBtn) shareTwitterBtn.addEventListener('click', shareTwitter);
         if (shareCopyBtn) shareCopyBtn.addEventListener('click', copyUrl);
+
+        var nextStepCta = $('next-step-cta');
+        if (nextStepCta) {
+            nextStepCta.addEventListener('click', function() {
+                if (typeof gtag === 'function') {
+                    gtag('event', 'content_cta_click', {
+                        cta_type: 'recommended_next_step',
+                        destination: nextStepCta.getAttribute('href'),
+                        source: 'dark_core'
+                    });
+                }
+            });
+        }
+        document.querySelectorAll('.related-card').forEach(function(card) {
+            card.addEventListener('click', function() {
+                if (typeof gtag === 'function') {
+                    gtag('event', 'content_cta_click', {
+                        cta_type: 'related_test',
+                        destination: card.getAttribute('href'),
+                        source: 'dark_core'
+                    });
+                }
+            });
+        });
     }
 
     // --- Init ---

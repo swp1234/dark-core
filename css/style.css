@@ -956,8 +956,65 @@ header { text-align: center; margin-bottom: 24px; }
 .related-emoji { font-size: 28px; }
 .related-name { font-size: 12px; font-weight: 600; text-align: center; color: var(--text-secondary, #94a3b8); }
 [data-theme="light"] .related-card { background: rgba(0,0,0,0.04); border-color: rgba(0,0,0,0.1); }
-.percentile-stat { text-align: center; margin: 12px 0; font-size: 13px; color: var(--text-muted); }
-.percentile-stat strong { font-size: 15px; }
+.btn-share.btn-download {
+  background: linear-gradient(135deg, #b91c1c, #7c3aed);
+  color: #fff;
+  min-height: 44px;
+}
+.btn-share.btn-download:hover { filter: brightness(1.1); transform: translateY(-1px); }
+.curated-resources-card {
+  margin: 20px 0 18px;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(192, 132, 252, 0.25);
+  border-radius: 16px;
+  text-align: left;
+  box-sizing: border-box;
+}
+.curated-header { margin-bottom: 12px; }
+.curated-badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #c084fc;
+  margin-bottom: 4px;
+}
+.curated-title { margin: 0; font-size: 15px; font-weight: 700; color: var(--text); }
+.curated-grid { display: flex; flex-direction: column; gap: 10px; }
+.curated-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 48px;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s, border-color 0.2s;
+}
+.curated-item:hover { transform: translateY(-1px); border-color: #c084fc; }
+.curated-icon { font-size: 22px; flex-shrink: 0; }
+.curated-info { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.curated-info strong { font-size: 13px; color: var(--text); }
+.curated-info span { font-size: 12px; color: var(--text-muted); line-height: 1.4; }
+.curated-ext-pill {
+  flex-shrink: 0;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 5px 9px;
+  border-radius: 999px;
+  background: rgba(192, 132, 252, 0.18);
+  color: #d8b4fe;
+  white-space: nowrap;
+}
+[data-theme="light"] .curated-resources-card { background: rgba(248, 250, 252, 0.94); border-color: rgba(124, 58, 237, 0.25); }
+[data-theme="light"] .curated-item { background: #fff; border-color: rgba(15, 23, 42, 0.1); }
+[data-theme="light"] .curated-badge, [data-theme="light"] .curated-ext-pill { color: #6d28d9; }
+
 
 /* ===== Footer ===== */
 footer {

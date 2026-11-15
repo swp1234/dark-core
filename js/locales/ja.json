@@ -111,7 +111,6 @@
     "breakdown": "特性分析",
     "retake": "もう一度",
     "moreTests": "もっと見る",
-    "percentileStat": "<strong>{percent}%</strong>だけがあなたと同じダークプロフィールです",
     "recommendedNext": "おすすめの次のステップ"
   },
   "related": {
@@ -132,14 +131,14 @@
     "text": "私のダークコアスコアは{score}%！私は『{tier}』あなたも試してみて:",
     "twitter": "Xでシェア",
     "copyUrl": "リンクをコピー",
-    "copied": "コピーしました！"
+    "copied": "コピーしました！",
+    "downloadCard": "カードを保存"
   },
   "nav": {
     "back": "DopaBrain ホーム"
   },
   "engage": {
     "cta": "ダークサイドに向き合おう",
-    "proof": "人の魂がテストされました",
     "result1": "マキャベリスト -- 戦略的＆計算高い",
     "result2": "ナルシスト -- カリスマ＆自信家",
     "result3": "シャドウウォーカー -- バランス＆自己認識",
@@ -169,5 +168,14 @@
     "faq4A": "A: いいえ。計算はブラウザ内でローカルに完結し、外部サーバーには一切送信されません。",
     "reviewDate": "編集レビュー: 2026年11月",
     "reviewTeam": "DopaBrain性格心理学チーム"
+  },
+  "curated": {
+    "badge": "性格・シャドウ心理学書籍",
+    "title": "人間心理とシャドウ特性を深掘りする",
+    "book1Title": "人間本性の法則",
+    "book1Desc": "ロバート・グリーン • 自己愛や戦略的行動を読み解く行動心理学の名著。",
+    "book2Title": "シャドウと出会う (Meeting the Shadow)",
+    "book2Desc": "コニー・ツヴァイク • ユングの元型「影」と自己統合をめぐる古典的アンソロジー。",
+    "readPill": "書籍を見る ↗"
   }
 }

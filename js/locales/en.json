@@ -111,7 +111,6 @@
     "breakdown": "Trait Breakdown",
     "retake": "Retake Test",
     "moreTests": "Explore More",
-    "percentileStat": "Only <strong>{percent}%</strong> share your dark profile",
     "recommendedNext": "Recommended Next Step"
   },
   "related": {
@@ -132,14 +131,14 @@
     "text": "My Dark Core score is {score}%! I'm a '{tier}' Find out yours:",
     "twitter": "Share on X",
     "copyUrl": "Copy Link",
-    "copied": "Copied!"
+    "copied": "Copied!",
+    "downloadCard": "Save Story Card"
   },
   "nav": {
     "back": "DopaBrain Home"
   },
   "engage": {
     "cta": "Face Your Dark Side",
-    "proof": "souls have been tested",
     "result1": "Machiavellian -- Strategic & Calculating",
     "result2": "Narcissist -- Charismatic & Self-Assured",
     "result3": "Shadow Walker -- Balanced & Self-Aware",
@@ -169,5 +168,14 @@
     "faq4A": "A: Never. All calculations are executed completely inside your browser. No moral decisions, profile scores, or analytics are stored externally.",
     "reviewDate": "Editorial Review: November 2026",
     "reviewTeam": "DopaBrain Personality Psychology Team"
+  },
+  "curated": {
+    "badge": "SHADOW & PERSONALITY READING",
+    "title": "Understand Human Nature & Shadow Traits",
+    "book1Title": "The Laws of Human Nature",
+    "book1Desc": "Robert Greene • Deep behavioral analysis of narcissism, envy, and social strategy.",
+    "book2Title": "Meeting the Shadow",
+    "book2Desc": "Connie Zweig & Jeremiah Abrams • Carl Jung’s shadow archetype and self-integration.",
+    "readPill": "View Book ↗"
   }
 }

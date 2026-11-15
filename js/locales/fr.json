@@ -111,7 +111,6 @@
     "breakdown": "Analyse des Traits",
     "retake": "Refaire le Test",
     "moreTests": "Explorer plus",
-    "percentileStat": "Seulement <strong>{percent}%</strong> partagent votre profil sombre",
     "recommendedNext": "Étape suivante recommandée"
   },
   "related": {
@@ -132,14 +131,14 @@
     "text": "Mon score Dark Core est de {score}% ! Je suis « {tier} » Découvrez le vôtre :",
     "twitter": "Partager sur X",
     "copyUrl": "Copier le Lien",
-    "copied": "Copié !"
+    "copied": "Copié !",
+    "downloadCard": "Enregistrer la Carte"
   },
   "nav": {
     "back": "Accueil DopaBrain"
   },
   "engage": {
     "cta": "Affrontez votre côté sombre",
-    "proof": "âmes ont été testées",
     "result1": "Machiavélique -- Stratégique et Calculateur",
     "result2": "Narcissique -- Charismatique et Sûr de soi",
     "result3": "Marcheur de l'Ombre -- Équilibré et Conscient",
@@ -169,5 +168,14 @@
     "faq4A": "A: Jamais. Tout s'exécute localement dans votre navigateur.",
     "reviewDate": "Validation éditoriale: novembre 2026",
     "reviewTeam": "Équipe de Psychologie DopaBrain"
+  },
+  "curated": {
+    "badge": "LECTURES SUR LA PSYCHOLOGIE DE L’OMBRE",
+    "title": "Comprendre la Nature Humaine & l’Ombre",
+    "book1Title": "Les Lois de la nature humaine",
+    "book1Desc": "Robert Greene • Analyse approfondie du narcissisme, du pouvoir et des motivations.",
+    "book2Title": "Meeting the Shadow",
+    "book2Desc": "Connie Zweig • L’archétype de l’ombre selon Carl Jung et l’intégration de soi.",
+    "readPill": "Voir le Livre ↗"
   }
 }

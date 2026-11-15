@@ -111,7 +111,6 @@
     "breakdown": "Análise de Traços",
     "retake": "Refazer Teste",
     "moreTests": "Explorar mais",
-    "percentileStat": "Apenas <strong>{percent}%</strong> compartilham seu perfil sombrio",
     "recommendedNext": "Próximo passo recomendado"
   },
   "related": {
@@ -132,14 +131,14 @@
     "text": "Minha pontuação de Núcleo Sombrio é {score}%! Sou '{tier}' Descubra a sua:",
     "twitter": "Compartilhar no X",
     "copyUrl": "Copiar Link",
-    "copied": "Copiado!"
+    "copied": "Copiado!",
+    "downloadCard": "Salvar Card"
   },
   "nav": {
     "back": "Início DopaBrain"
   },
   "engage": {
     "cta": "Enfrente seu lado sombrio",
-    "proof": "almas foram testadas",
     "result1": "Maquiavélico -- Estratégico e Calculista",
     "result2": "Narcisista -- Carismático e Autoconfiante",
     "result3": "Caminhante das Sombras -- Equilibrado e Autoconsciente",
@@ -169,5 +168,14 @@
     "faq4A": "A: Jamais. Todo processamento ocorre exclusivamente no seu navegador.",
     "reviewDate": "Revisão editorial: novembro de 2026",
     "reviewTeam": "Equipe de Psicologia da Personalidade DopaBrain"
+  },
+  "curated": {
+    "badge": "LEITURAS SOBRE NATUREZA HUMANA",
+    "title": "Entenda Traços Sombrios e Comportamento",
+    "book1Title": "As Leis da Natureza Humana",
+    "book1Desc": "Robert Greene • Análise comportamental sobre narcisismo, estratégia e ego.",
+    "book2Title": "Ao Encontro da Sombra",
+    "book2Desc": "Connie Zweig • O arquétipo da sombra de Carl Jung e autoconhecimento.",
+    "readPill": "Ver Livro ↗"
   }
 }

@@ -111,7 +111,6 @@
     "breakdown": "Ozellik Analizi",
     "retake": "Tekrar Test Et",
     "moreTests": "Daha fazla keşfet",
-    "percentileStat": "Sadece <strong>{percent}%</strong>'i senin karanlık profiline sahip",
     "recommendedNext": "Önerilen Sonraki Adım"
   },
   "related": {
@@ -132,14 +131,14 @@
     "text": "Karanlik Cekirdek puanim {score}%! Ben '{tier}' Seninkini ogren:",
     "twitter": "X'te Paylas",
     "copyUrl": "Linki Kopyala",
-    "copied": "Kopyalandi!"
+    "copied": "Kopyalandi!",
+    "downloadCard": "Hikaye Kartını Kaydet"
   },
   "nav": {
     "back": "DopaBrain Ana Sayfa"
   },
   "engage": {
     "cta": "Karanlık tarafınla yüzleş",
-    "proof": "ruh test edildi",
     "result1": "Makyavelist -- Stratejik ve Hesapçı",
     "result2": "Narsist -- Karizmatik ve Kendinden Emin",
     "result3": "Gölge Yürüyücüsü -- Dengeli ve Öz Farkındalık",
@@ -169,5 +168,14 @@
     "faq4A": "A: Asla. Tüm hesaplamalar yalnızca tarayıcınızda yerel olarak gerçekleşir.",
     "reviewDate": "Editör İncelemesi: Kasım 2026",
     "reviewTeam": "DopaBrain Kişilik Psikolojisi Ekibi"
+  },
+  "curated": {
+    "badge": "GÖLGE PSİKOLOJİSİ OKUMALARI",
+    "title": "İnsan Doğasını ve Gölge Özellikleri Anlayın",
+    "book1Title": "İnsan Doğasının Yasaları",
+    "book1Desc": "Robert Greene • Narsisizm, strateji ve sosyal dürtüler üzerine kapsamlı analiz.",
+    "book2Title": "Gölgeyle Buluşma (Meeting the Shadow)",
+    "book2Desc": "Connie Zweig • Carl Jung’un gölge arketipi ve içsel bütünleşme rehberi.",
+    "readPill": "Kitabı Gör ↗"
   }
 }

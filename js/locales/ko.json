@@ -111,7 +111,6 @@
     "breakdown": "특성 분석",
     "retake": "다시 하기",
     "moreTests": "더 많은 테스트",
-    "percentileStat": "<strong>{percent}%</strong>만이 당신과 같은 다크 프로필입니다",
     "recommendedNext": "추천 다음 단계"
   },
   "related": {
@@ -132,14 +131,14 @@
     "text": "내 다크코어 점수는 {score}%! 나는 '{tier}' 너도 해봐:",
     "twitter": "X에 공유",
     "copyUrl": "링크 복사",
-    "copied": "복사됨!"
+    "copied": "복사됨!",
+    "downloadCard": "스토리 카드 저장"
   },
   "nav": {
     "back": "DopaBrain 홈"
   },
   "engage": {
     "cta": "어둠의 본성을 마주하세요",
-    "proof": "명의 영혼이 테스트되었습니다",
     "result1": "마키아벨리안 -- 전략적 & 계산적",
     "result2": "나르시시스트 -- 카리스마 & 자신감",
     "result3": "그림자 보행자 -- 균형 & 자기인식",
@@ -169,5 +168,14 @@
     "faq4A": "A: 절대 저장되지 않습니다. 모든 연산은 사용자의 브라우저 내에서만 로컬로 실행되며 외부 서버로 전송되지 않습니다.",
     "reviewDate": "편집 검토: 2026년 11월",
     "reviewTeam": "DopaBrain 성격심리학 연구팀"
+  },
+  "curated": {
+    "badge": "그림자 심리 추천 도서",
+    "title": "인간의 본성과 내면의 그림자 이해하기",
+    "book1Title": "인간 본성의 법칙 (The Laws of Human Nature)",
+    "book1Desc": "로버트 그린 • 나르시시즘·질투·사회적 전략을 꿰뚫는 행동 심리학 필독서.",
+    "book2Title": "내 안의 그림자 만나기 (Meeting the Shadow)",
+    "book2Desc": "코니 츠바이크 • 칼 융의 그림자 원형과 내면 통합을 다룬 깊이 있는 안내서.",
+    "readPill": "도서 보기 ↗"
   }
 }

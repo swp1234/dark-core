@@ -177,5 +177,11 @@
     "book2Title": "Meeting the Shadow",
     "book2Desc": "Connie Zweig • L’archétype de l’ombre selon Carl Jung et l’intégration de soi.",
     "readPill": "Voir le Livre ↗"
+  },
+  "nextStep": {
+    "label": "Prochaine étape recommandée",
+    "title": "Test de Niveau de Stress",
+    "desc": "Identifiez vos sources de tension et obtenez votre plan anti-stress 7 jours.",
+    "cta": "Tester mon stress →"
   }
 }

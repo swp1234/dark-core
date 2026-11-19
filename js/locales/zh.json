@@ -177,5 +177,11 @@
     "book2Title": "与阴影同行 (Meeting the Shadow)",
     "book2Desc": "康妮·茨威格 • 荣格阴影原型与自我整合经典读物。",
     "readPill": "查看图书 ↗"
+  },
+  "nextStep": {
+    "label": "推荐下一步",
+    "title": "压力水平自测",
+    "desc": "梳理潜在压力源，免费获取专属7天减压重置方案。",
+    "cta": "开始压力测试 →"
   }
 }

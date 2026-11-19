@@ -177,5 +177,11 @@
     "book2Title": "Encuentro con la sombra",
     "book2Desc": "Connie Zweig • El arquetipo de la sombra de Carl Jung e integración personal.",
     "readPill": "Ver Libro ↗"
+  },
+  "nextStep": {
+    "label": "Siguiente paso recomendado",
+    "title": "Test de Nivel de Estrés",
+    "desc": "Identifica tus factores de tensión y recibe un plan gratuito de 7 días.",
+    "cta": "Hacer Test de Estrés →"
   }
 }

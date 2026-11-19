@@ -177,5 +177,11 @@
     "book2Title": "Meeting the Shadow",
     "book2Desc": "Connie Zweig • Arketipe bayangan Carl Jung dan integrasi diri.",
     "readPill": "Lihat Buku ↗"
+  },
+  "nextStep": {
+    "label": "Langkah Berikutnya",
+    "title": "Tes Tingkat Stres",
+    "desc": "Petakan pemicu keteganganmu dan dapatkan rencana reset stres 7 hari gratis.",
+    "cta": "Mulai Tes Stres →"
   }
 }

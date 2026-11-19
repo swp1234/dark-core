@@ -177,5 +177,11 @@
     "book2Title": "Ao Encontro da Sombra",
     "book2Desc": "Connie Zweig • O arquétipo da sombra de Carl Jung e autoconhecimento.",
     "readPill": "Ver Livro ↗"
+  },
+  "nextStep": {
+    "label": "Próximo passo recomendado",
+    "title": "Teste de Nível de Estresse",
+    "desc": "Mapeie seus gatilhos de tensão e receba um plano gratuito de 7 dias.",
+    "cta": "Fazer Teste de Estresse →"
   }
 }

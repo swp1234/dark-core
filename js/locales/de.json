@@ -177,5 +177,11 @@
     "book2Title": "Meeting the Shadow",
     "book2Desc": "Connie Zweig • Carl Jungs Schatten-Archetyp und bewusste Selbstintegration.",
     "readPill": "Buch ansehen ↗"
+  },
+  "nextStep": {
+    "label": "Empfohlener nächster Schritt",
+    "title": "Stresslevel-Check",
+    "desc": "Erkenne versteckte Spannungstreiber und erstelle deinen 7-Tage-Reset-Plan.",
+    "cta": "Stresstest starten →"
   }
 }

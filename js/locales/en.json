@@ -177,5 +177,11 @@
     "book2Title": "Meeting the Shadow",
     "book2Desc": "Connie Zweig & Jeremiah Abrams • Carl Jung’s shadow archetype and self-integration.",
     "readPill": "View Book ↗"
+  },
+  "nextStep": {
+    "label": "Recommended Next Step",
+    "title": "Stress Level Check",
+    "desc": "Map your hidden tension drivers and get a private 7-day stress reset plan.",
+    "cta": "Take Stress Check →"
   }
 }

@@ -177,5 +177,11 @@
     "book2Title": "Gölgeyle Buluşma (Meeting the Shadow)",
     "book2Desc": "Connie Zweig • Carl Jung’un gölge arketipi ve içsel bütünleşme rehberi.",
     "readPill": "Kitabı Gör ↗"
+  },
+  "nextStep": {
+    "label": "Önerilen Sonraki Adım",
+    "title": "Stres Seviyesi Testi",
+    "desc": "Gizli gerginlik kaynaklarını gör ve 7 günlük ücretsiz sıfırlama planı al.",
+    "cta": "Stres Testini Başlat →"
   }
 }
